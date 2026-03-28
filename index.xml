@@ -169,6 +169,34 @@
     </item>
     
     <item>
+      <title>Пост по неделе 11-17 марта 2026 года</title>
+      <link>https://example.com/blog/week-summary/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/week-summary/</guid>
+      <description>&lt;h2 id=&#34;что-было-на-этой-неделе&#34;&gt;Что было на этой неделе&lt;/h2&gt;
+&lt;p&gt;На этой неделе я работала над своим индивидуальным проектом по операционным системам.&lt;/p&gt;
+&lt;h3 id=&#34;основные-события&#34;&gt;Основные события:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Настройка Hugo&lt;/strong&gt; — мне удалось запустить Hugo server после нескольких попыток и ошибок с TailwindCSS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Работа с контейнерами&lt;/strong&gt; — пробовала использовать Podman для изоляции окружения.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Настройка SSH-ключа&lt;/strong&gt; — добавила ключ на GitHub для удобной работы с репозиториями.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Заполнение сайта&lt;/strong&gt; — добавила информацию о себе на сайт.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;планы-на-следующую-неделю&#34;&gt;Планы на следующую неделю&lt;/h3&gt;
+&lt;p&gt;Продолжить работу над сайтом, добавить больше контента.&lt;/p&gt;
+&lt;p&gt;До новых встреч!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>⚡️ Turn Jupyter Notebooks into Blog Posts</title>
       <link>https://example.com/blog/notebook-onboarding/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
@@ -1791,7 +1819,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-612753948&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-194826753&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -1809,7 +1837,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-612753948&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-194826753&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2230,7 +2258,7 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;
+    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2019).
   &lt;a href=&#34;https://example.com/publications/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
@@ -2533,7 +2561,7 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
+    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
           &lt;button
             @mouseenter=&#34;tooltip = true&#34;
             @mouseleave=&#34;tooltip = false&#34;
@@ -2562,7 +2590,7 @@ Crash --&gt; [*]
             Equal contribution
             &lt;div class=&#34;absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700&#34;&gt;&lt;/div&gt;
           &lt;/div&gt;
-        &lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;&#34;&gt;Robert Ford&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
+        &lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://example.com/authors/robert-ford/&#34;&gt;Robert Ford&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
           &lt;button
             @mouseenter=&#34;tooltip = true&#34;
             @mouseleave=&#34;tooltip = false&#34;

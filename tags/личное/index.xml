@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Личное | </title>
+    <link>https://example.com/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</link>
+      <atom:link href="https://example.com/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    <description>Личное</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
+      <title>Личное</title>
+      <link>https://example.com/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</link>
+    </image>
+    
+    <item>
+      <title>Пост по неделе 11-17 марта 2026 года</title>
+      <link>https://example.com/blog/week-summary/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/week-summary/</guid>
+      <description>&lt;h2 id=&#34;что-было-на-этой-неделе&#34;&gt;Что было на этой неделе&lt;/h2&gt;
+&lt;p&gt;На этой неделе я работала над своим индивидуальным проектом по операционным системам.&lt;/p&gt;
+&lt;h3 id=&#34;основные-события&#34;&gt;Основные события:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Настройка Hugo&lt;/strong&gt; — мне удалось запустить Hugo server после нескольких попыток и ошибок с TailwindCSS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Работа с контейнерами&lt;/strong&gt; — пробовала использовать Podman для изоляции окружения.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Настройка SSH-ключа&lt;/strong&gt; — добавила ключ на GitHub для удобной работы с репозиториями.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Заполнение сайта&lt;/strong&gt; — добавила информацию о себе на сайт.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;планы-на-следующую-неделю&#34;&gt;Планы на следующую неделю&lt;/h3&gt;
+&lt;p&gt;Продолжить работу над сайтом, добавить больше контента.&lt;/p&gt;
+&lt;p&gt;До новых встреч!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
