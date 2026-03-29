@@ -5,7 +5,7 @@
     <link>https://example.com/</link>
       <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
       <title></title>
@@ -166,6 +166,46 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;toc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Что такое CI/CD</title>
+      <link>https://example.com/blog/ci-cd/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/ci-cd/</guid>
+      <description>&lt;h2 id=&#34;что-такое-cicd&#34;&gt;Что такое CI/CD?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CI/CD&lt;/strong&gt; — это методология разработки программного обеспечения, которая объединяет практики непрерывной интеграции (Continuous Integration) и непрерывного развертывания (Continuous Delivery/Deployment).&lt;/p&gt;
+&lt;h3 id=&#34;continuous-integration-ci&#34;&gt;Continuous Integration (CI)&lt;/h3&gt;
+&lt;p&gt;Это практика, при которой разработчики часто сливают свои изменения в центральный репозиторий. После каждого слияния автоматически запускаются сборка и тесты.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Преимущества CI:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Раннее обнаружение ошибок&lt;/li&gt;
+&lt;li&gt;Уменьшение сложности слияния кода&lt;/li&gt;
+&lt;li&gt;Быстрая обратная связь&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;continuous-delivery-cd&#34;&gt;Continuous Delivery (CD)&lt;/h3&gt;
+&lt;p&gt;Это расширение CI, при котором код автоматически готов к развертыванию в production.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Преимущества CD:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Автоматизированное развертывание&lt;/li&gt;
+&lt;li&gt;Минимизация ручных операций&lt;/li&gt;
+&lt;li&gt;Быстрая доставка новых функций&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;примеры-инструментов-cicd&#34;&gt;Примеры инструментов CI/CD&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitLab CI/CD&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;как-это-работает-в-моём-проекте&#34;&gt;Как это работает в моём проекте&lt;/h2&gt;
+&lt;p&gt;Я использую &lt;strong&gt;GitHub Pages&lt;/strong&gt; для хостинга сайта. GitHub Actions автоматически собирает сайт с помощью Hugo и публикует его после каждого пуша в репозиторий.&lt;/p&gt;
+&lt;p&gt;Это классический пример CI/CD:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Я пушаю изменения в репозиторий&lt;/li&gt;
+&lt;li&gt;GitHub Actions запускает сборку&lt;/li&gt;
+&lt;li&gt;Сайт обновляется на GitHub Pages&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -1819,7 +1859,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-251976834&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-726841953&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -1837,7 +1877,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-251976834&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-726841953&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2258,7 +2298,7 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;
+    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2019).
   &lt;a href=&#34;https://example.com/publications/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
@@ -2561,7 +2601,7 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Dr. Alex Johnson&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
+    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
           &lt;button
             @mouseenter=&#34;tooltip = true&#34;
             @mouseleave=&#34;tooltip = false&#34;
