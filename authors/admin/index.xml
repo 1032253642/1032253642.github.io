@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://example.com/authors/admin/</link>
-      <atom:link href="https://example.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/admin/</link>
+      <atom:link href="http://localhost:1313/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Что такое CI/CD</title>
-      <link>https://example.com/blog/ci-cd/</link>
+      <link>http://localhost:1313/blog/ci-cd/</link>
       <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/ci-cd/</guid>
+      <guid>http://localhost:1313/blog/ci-cd/</guid>
       <description>&lt;h2 id=&#34;что-такое-cicd&#34;&gt;Что такое CI/CD?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;CI/CD&lt;/strong&gt; — это методология разработки программного обеспечения, которая объединяет практики непрерывной интеграции (Continuous Integration) и непрерывного развертывания (Continuous Delivery/Deployment).&lt;/p&gt;
 &lt;h3 id=&#34;continuous-integration-ci&#34;&gt;Continuous Integration (CI)&lt;/h3&gt;
@@ -48,9 +48,9 @@
     
     <item>
       <title>Пост по неделе 11-17 марта 2026 года</title>
-      <link>https://example.com/blog/week-summary/</link>
+      <link>http://localhost:1313/blog/week-summary/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/week-summary/</guid>
+      <guid>http://localhost:1313/blog/week-summary/</guid>
       <description>&lt;h2 id=&#34;что-было-на-этой-неделе&#34;&gt;Что было на этой неделе&lt;/h2&gt;
 &lt;p&gt;На этой неделе я работала над своим индивидуальным проектом по операционным системам.&lt;/p&gt;
 &lt;h3 id=&#34;основные-события&#34;&gt;Основные события:&lt;/h3&gt;
