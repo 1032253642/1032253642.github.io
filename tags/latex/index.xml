@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LaTeX | </title>
-    <link>http://localhost:1313/tags/latex/</link>
-      <atom:link href="http://localhost:1313/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tags/latex/</link>
+      <atom:link href="https://example.com/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     <description>LaTeX</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>LaTeX</title>
-      <link>http://localhost:1313/tags/latex/</link>
+      <link>https://example.com/tags/latex/</link>
     </image>
     
     <item>
       <title>LaTeX: зачем программисту писать код вместо текста</title>
-      <link>http://localhost:1313/blog/week-2-latex/</link>
+      <link>https://example.com/blog/week-2-latex/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/week-2-latex/</guid>
+      <guid>https://example.com/blog/week-2-latex/</guid>
       <description>&lt;h2 id=&#34;первое-знакомство&#34;&gt;Первое знакомство&lt;/h2&gt;
 &lt;p&gt;Когда я впервые увидела LaTeX, он показался мне излишне сложным. Вместо того чтобы просто написать формулу, нужно было набирать странные команды вроде &lt;code&gt;\int_{0}^{\infty}&lt;/code&gt;. Но потом я поняла, что это вопрос привычки.&lt;/p&gt;
 &lt;h2 id=&#34;почему-latex&#34;&gt;Почему LaTeX&lt;/h2&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
       <title></title>
-      <link>http://localhost:1313/</link>
+      <link>https://example.com/</link>
     </image>
     
     <item>
       <title>Getting Started</title>
-      <link>http://localhost:1313/courses/hugo-blox/getting-started/</link>
+      <link>https://example.com/courses/hugo-blox/getting-started/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/getting-started/</guid>
+      <guid>https://example.com/courses/hugo-blox/getting-started/</guid>
       <description>&lt;h2 id=&#34;quick-start-from-template&#34;&gt;Quick Start from Template&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;
 &lt;h3 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h3&gt;
@@ -65,9 +65,9 @@
     
     <item>
       <title>Customizing Hugo</title>
-      <link>http://localhost:1313/courses/hugo-blox/reference/customization/</link>
+      <link>https://example.com/courses/hugo-blox/reference/customization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/reference/customization/</guid>
+      <guid>https://example.com/courses/hugo-blox/reference/customization/</guid>
       <description>&lt;p&gt;View the full docs at 
 &lt;/p&gt;
 </description>
@@ -75,9 +75,9 @@
     
     <item>
       <title>Project Structure</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/project-structure/</link>
+      <link>https://example.com/courses/hugo-blox/guide/project-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/project-structure/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/project-structure/</guid>
       <description>&lt;h2 id=&#34;folder-structure&#34;&gt;Folder Structure&lt;/h2&gt;
 &lt;p&gt;There are &lt;strong&gt;4 main folders for Hugo-based sites&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -131,9 +131,9 @@
     
     <item>
       <title>Configuration</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/configuration/</link>
+      <link>https://example.com/courses/hugo-blox/guide/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/configuration/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/configuration/</guid>
       <description>&lt;p&gt;The configuration of your site can be found in &lt;code&gt;config/_default/&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;full-documentation&#34;&gt;Full Documentation&lt;/h2&gt;
 &lt;p&gt;See 
@@ -169,10 +169,2931 @@
     </item>
     
     <item>
+      <title>Прохождение курса «Введение в Linux» на Stepik</title>
+      <link>https://example.com/blog/post_stepik/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/post_stepik/</guid>
+      <description>&lt;details&gt;
+&lt;summary&gt;📖 Оглавление&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;этап-1-введение-в-linux&#34;&gt;Этап 1: Введение в Linux&lt;/h2&gt;
+&lt;h3 id=&#34;11-общая-информация-о-курсе&#34;&gt;1.1 Общая информация о курсе&lt;/h3&gt;
+&lt;p&gt;Правильное название курса — «Введение в Linux», так как все последующие задания посвящены основам работы в этой операционной системе.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image1_hu_7e57fa0110d695c5.webp 320w, https://example.com/blog/post_stepik/image/image1_hu_3b1610eeceed0dc7.webp 480w, https://example.com/blog/post_stepik/image/image1_hu_2c6355ba7e1b16cd.webp 742w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image1_hu_7e57fa0110d695c5.webp&#34;
+               width=&#34;742&#34;
+               height=&#34;455&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Нужно отметить все верные утверждения: дедлайнов нет (курс можно проходить в своём темпе), задачи решаю самостоятельно (чтобы получить максимальную пользу), не выкладываю решения (чтобы другим было интересно).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image2_hu_77052756d9a814cf.webp 320w, https://example.com/blog/post_stepik/image/image2_hu_88cee20b1317b04e.webp 480w, https://example.com/blog/post_stepik/image/image2_hu_76384b4bf211fe0c.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image2_hu_77052756d9a814cf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;365&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;12-как-установить-linux&#34;&gt;1.2 Как установить Linux&lt;/h3&gt;
+&lt;p&gt;Любой вариант ответа верный — вопрос собирает статистику об используемых операционных системах.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image3_hu_dd82d979da324940.webp 320w, https://example.com/blog/post_stepik/image/image3_hu_dc467b0e675e5f87.webp 480w, https://example.com/blog/post_stepik/image/image3_hu_2ff37d16ea82083a.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image3_hu_dd82d979da324940.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;387&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Любой вариант ответа верный — вопрос собирает статистику о предпочтениях браузеров.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image4_hu_acb8c4a6b3e243af.webp 320w, https://example.com/blog/post_stepik/image/image4_hu_2b85e6babc4994e7.webp 480w, https://example.com/blog/post_stepik/image/image4_hu_e6c9c1bd2aa71a59.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image4_hu_acb8c4a6b3e243af.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;383&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Любой вариант ответа верный — вопрос собирает статистику о времени, которое слушатели готовы уделять курсу.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image5_hu_55e5faebe3c4240a.webp 320w, https://example.com/blog/post_stepik/image/image5_hu_6d621c0bf65bc138.webp 480w, https://example.com/blog/post_stepik/image/image5_hu_b8cbd269ce33754b.webp 747w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image5_hu_55e5faebe3c4240a.webp&#34;
+               width=&#34;747&#34;
+               height=&#34;328&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;13-осваиваем-linux&#34;&gt;1.3 Осваиваем Linux&lt;/h3&gt;
+&lt;p&gt;Нужно создать документ в LibreOffice Writer с текстом «Hello, Linux!», сохранить в формате XML (Microsoft Word 2003 XML) или FODT и загрузить.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image6_hu_b4d0b42be1ede523.webp 320w, https://example.com/blog/post_stepik/image/image6_hu_ea66ef1c5582ff77.webp 480w, https://example.com/blog/post_stepik/image/image6_hu_5bc2a1e76ad58a1.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image6_hu_b4d0b42be1ede523.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;115&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Сообщение подтверждает успешную загрузку файла — задание выполнено корректно.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image7_hu_79cad94bec9b7d5a.webp 320w, https://example.com/blog/post_stepik/image/image7_hu_947b9f5dacbda7bd.webp 480w, https://example.com/blog/post_stepik/image/image7_hu_44b81d6acab1bed0.webp 737w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image7_hu_79cad94bec9b7d5a.webp&#34;
+               width=&#34;737&#34;
+               height=&#34;398&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Команда &lt;code&gt;cal&lt;/code&gt; выводит календарь. Год виден в верхней строке.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image8_hu_c02c64d1318642a3.webp 320w, https://example.com/blog/post_stepik/image/image8_hu_6c09838137289489.webp 480w, https://example.com/blog/post_stepik/image/image8_hu_f53326ff92a681d6.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image8_hu_c02c64d1318642a3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;339&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;При вводе &lt;code&gt;cal&lt;/code&gt; отображается календарь с текущим годом (например, 2026).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image9_hu_3f48d6dcd54cbc72.webp 320w, https://example.com/blog/post_stepik/image/image9_hu_7ff6f93ae94bb387.webp 480w, https://example.com/blog/post_stepik/image/image9_hu_7784efc9046cd5ac.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image9_hu_3f48d6dcd54cbc72.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;346&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;14-terminal-основы&#34;&gt;1.4 Terminal: основы&lt;/h3&gt;
+&lt;p&gt;«Терминал», «консоль» и «tty» — синонимы командной строки в Linux.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image10_hu_5ef7927fe1f8186a.webp 320w, https://example.com/blog/post_stepik/image/image10_hu_a09bbe95a8fbb194.webp 480w, https://example.com/blog/post_stepik/image/image10_hu_73191575cf389594.webp 725w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image10_hu_5ef7927fe1f8186a.webp&#34;
+               width=&#34;725&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt; (print working directory) показывает полный путь к текущей папке.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image11_hu_78a0c1ecf2e7add7.webp 320w, https://example.com/blog/post_stepik/image/image11_hu_f099b4226c683aa7.webp 480w, https://example.com/blog/post_stepik/image/image11_hu_2259e7629b058349.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image11_hu_78a0c1ecf2e7add7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;351&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Эквивалентные команды: &lt;code&gt;ls -lAh /some/directory&lt;/code&gt; (те же опции: -A, -l, -h).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image12_hu_d4e290a4ac1b264f.webp 320w, https://example.com/blog/post_stepik/image/image12_hu_b2dee75ecbd3cdcc.webp 480w, https://example.com/blog/post_stepik/image/image12_hu_3f9fe087be76ce7.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image12_hu_d4e290a4ac1b264f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;266&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Символ &lt;code&gt;~&lt;/code&gt; означает домашнюю директорию. &lt;code&gt;ls ~/Downloads&lt;/code&gt; выведет содержимое &lt;code&gt;/home/bi/Downloads&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image13_hu_157ae0d1305a3279.webp 320w, https://example.com/blog/post_stepik/image/image13_hu_55884df5172bb88c.webp 480w, https://example.com/blog/post_stepik/image/image13_hu_b37026db00e55173.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image13_hu_157ae0d1305a3279.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;266&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ps&lt;/code&gt; показывает процессы текущего пользователя, &lt;code&gt;ps aux&lt;/code&gt; — все процессы в системе.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image14_hu_716739472db6c6d.webp 320w, https://example.com/blog/post_stepik/image/image14_hu_331ee5dbd9796502.webp 480w, https://example.com/blog/post_stepik/image/image14_hu_4785c8603b672634.webp 612w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image14_hu_716739472db6c6d.webp&#34;
+               width=&#34;612&#34;
+               height=&#34;285&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;15-запуск-исполняемых-файлов&#34;&gt;1.5 Запуск исполняемых файлов&lt;/h3&gt;
+&lt;p&gt;Firefox запускается в фоне, поэтому после &lt;code&gt;exit&lt;/code&gt; терминал закрывается, а браузер продолжает работу.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image15_hu_53099d14ea0d7a98.webp 320w, https://example.com/blog/post_stepik/image/image15_hu_ea87e03d78f1602b.webp 480w, https://example.com/blog/post_stepik/image/image15_hu_d597442641394fca.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image15_hu_53099d14ea0d7a98.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;473&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cat&lt;/code&gt; без аргументов ждёт ввод с клавиатуры. Ctrl+C (SIGINT) прерывает выполнение.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image16_hu_3c357eef9bdb357f.webp 320w, https://example.com/blog/post_stepik/image/image16_hu_905ddb5ebb49d5cf.webp 480w, https://example.com/blog/post_stepik/image/image16_hu_f249fc907309276a.webp 757w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image16_hu_3c357eef9bdb357f.webp&#34;
+               width=&#34;757&#34;
+               height=&#34;363&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Нужно сделать файл исполняемым (&lt;code&gt;chmod +x&lt;/code&gt;) и запустить его.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image17_hu_b2cf9816c1512fe8.webp 320w, https://example.com/blog/post_stepik/image/image17_hu_ff099c128a7ad31c.webp 480w, https://example.com/blog/post_stepik/image/image17_hu_23d118b71f9bd4bb.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image17_hu_b2cf9816c1512fe8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;379&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Программа выводит текущую дату, время и контрольную сумму.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image18_hu_73fed512c77fbd82.webp 320w, https://example.com/blog/post_stepik/image/image18_hu_ebed13c236635b4e.webp 480w, https://example.com/blog/post_stepik/image/image18_hu_dbc3fbc674ded54.webp 720w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image18_hu_73fed512c77fbd82.webp&#34;
+               width=&#34;720&#34;
+               height=&#34;382&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;16-вводвывод&#34;&gt;1.6 Ввод/вывод&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;2&amp;gt;&lt;/code&gt; перенаправляет stderr в файл с перезаписью, &lt;code&gt;2&amp;gt;&amp;gt;&lt;/code&gt; — с дозаписью.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image19_hu_75b4eed0185dc89f.webp 320w, https://example.com/blog/post_stepik/image/image19_hu_232885a259324a7f.webp 480w, https://example.com/blog/post_stepik/image/image19_hu_2bd97c1cf5b5ab5d.webp 757w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image19_hu_75b4eed0185dc89f.webp&#34;
+               width=&#34;757&#34;
+               height=&#34;455&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Pipe (&lt;code&gt;|&lt;/code&gt;) перенаправляет только stdout, stderr выводится на экран.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image20_hu_27d1c6693b12da8f.webp 320w, https://example.com/blog/post_stepik/image/image20_hu_5719be36b22499bb.webp 480w, https://example.com/blog/post_stepik/image/image20_hu_96ae79510e5ee371.webp 755w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image20_hu_27d1c6693b12da8f.webp&#34;
+               width=&#34;755&#34;
+               height=&#34;532&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;17-скачивание-файлов-из-интернета&#34;&gt;1.7 Скачивание файлов из интернета&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;fg&lt;/code&gt; (foreground) возвращает приостановленный процесс на передний план.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image21_hu_689a6b88406dcc2b.webp 320w, https://example.com/blog/post_stepik/image/image21_hu_76c45783a3aff64f.webp 480w, https://example.com/blog/post_stepik/image/image21_hu_edd7f801c33c4327.webp 731w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image21_hu_689a6b88406dcc2b.webp&#34;
+               width=&#34;731&#34;
+               height=&#34;467&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Опция &lt;code&gt;-P&lt;/code&gt; задаёт директорию для сохранения, &lt;code&gt;-O&lt;/code&gt; — имя файла. &lt;code&gt;-q&lt;/code&gt; (quiet) подавляет вывод сообщений wget.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image22_hu_86d347338e5acc92.webp 320w, https://example.com/blog/post_stepik/image/image22_hu_e5036d134f923c6c.webp 480w, https://example.com/blog/post_stepik/image/image22_hu_a63e25c88b0683c8.webp 756w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image22_hu_86d347338e5acc92.webp&#34;
+               width=&#34;756&#34;
+               height=&#34;373&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget -r -l 1 -A jpg&lt;/code&gt; скачивает только JPG с глубиной перехода 1 уровень.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image23_hu_6be6617180303245.webp 320w, https://example.com/blog/post_stepik/image/image23_hu_6830495b3440ca72.webp 480w, https://example.com/blog/post_stepik/image/image23_hu_4e42119c7a170308.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image23_hu_6be6617180303245.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;267&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;18-работа-с-архивами&#34;&gt;1.8 Работа с архивами&lt;/h3&gt;
+&lt;p&gt;Gzip удаляет архив после распаковки, Zip — сохраняет.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image24_hu_4f3a10f1eac8f5fd.webp 320w, https://example.com/blog/post_stepik/image/image24_hu_f2af86e6f0058d7f.webp 480w, https://example.com/blog/post_stepik/image/image24_hu_b8defbb932d653c4.webp 713w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image24_hu_4f3a10f1eac8f5fd.webp&#34;
+               width=&#34;713&#34;
+               height=&#34;407&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Tar и zip работают с директориями, gzip — только с одним файлом.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image25_hu_6ad722c24a81bdc3.webp 320w, https://example.com/blog/post_stepik/image/image25_hu_9fd78107206608f6.webp 480w, https://example.com/blog/post_stepik/image/image25_hu_fb0308bbdfbd4ee2.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image25_hu_6ad722c24a81bdc3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;286&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tar -czf&lt;/code&gt; создаёт архив, &lt;code&gt;tar -xzf&lt;/code&gt; распаковывает.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image26_hu_a21825a3b5df3fe8.webp 320w, https://example.com/blog/post_stepik/image/image26_hu_1936c2d9f2816cb4.webp 480w, https://example.com/blog/post_stepik/image/image26_hu_33003690bc382867.webp 725w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image26_hu_a21825a3b5df3fe8.webp&#34;
+               width=&#34;725&#34;
+               height=&#34;357&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;19-поиск-файлов-и-слов-в-файлах&#34;&gt;1.9 Поиск файлов и слов в файлах&lt;/h3&gt;
+&lt;p&gt;Маска &lt;code&gt;*.jpg&lt;/code&gt; не найдёт &lt;code&gt;Alexey.jpeg&lt;/code&gt;, так как расширение разное.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image27_hu_b61bf15dbced898a.webp 320w, https://example.com/blog/post_stepik/image/image27_hu_4a0fabbf51c4c067.webp 480w, https://example.com/blog/post_stepik/image/image27_hu_5c3cd93e720224a0.webp 737w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image27_hu_b61bf15dbced898a.webp&#34;
+               width=&#34;737&#34;
+               height=&#34;338&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;grep &amp;quot;world&amp;quot;&lt;/code&gt; ищет точное вхождение с учётом регистра.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image28_hu_62e8ff910fb12995.webp 320w, https://example.com/blog/post_stepik/image/image28_hu_3c1365293595e9f5.webp 480w, https://example.com/blog/post_stepik/image/image28_hu_a8fce59d00a86f75.webp 750w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image28_hu_62e8ff910fb12995.webp&#34;
+               width=&#34;750&#34;
+               height=&#34;251&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;grep &amp;quot;love&amp;quot; shakespeare.txt &amp;gt; love_lines.txt&lt;/code&gt; сохраняет строки с &amp;ldquo;love&amp;rdquo; в файл.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image29_hu_b2c5249276b84616.webp 320w, https://example.com/blog/post_stepik/image/image29_hu_8192fbf153d58228.webp 480w, https://example.com/blog/post_stepik/image/image29_hu_a42540ffd470a417.webp 733w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image29_hu_b2c5249276b84616.webp&#34;
+               width=&#34;733&#34;
+               height=&#34;331&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-2-удалённый-сервер-обмен-файлами-процессы-tmux&#34;&gt;Этап 2: Удалённый сервер, обмен файлами, процессы, tmux&lt;/h2&gt;
+&lt;h3 id=&#34;21-знакомство-с-сервером&#34;&gt;2.1 Знакомство с сервером&lt;/h3&gt;
+&lt;p&gt;Удалённый сервер можно использовать для выполнения сложных вычислений, хранения больших объёмов данных, хранения общедоступных и конфиденциальных данных.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image30_hu_f671997f3f049608.webp 320w, https://example.com/blog/post_stepik/image/image30_hu_bf93bf88166b19a7.webp 480w, https://example.com/blog/post_stepik/image/image30_hu_fed35b7ddd074bd0.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image30_hu_f671997f3f049608.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;331&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Публичный ключ id_rsa.pub можно без опаски пересылать по интернету, приватный ключ id_rsa необходимо хранить в секрете.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image31_hu_ea0804c5b283da2d.webp 320w, https://example.com/blog/post_stepik/image/image31_hu_2e20953d077895e6.webp 480w, https://example.com/blog/post_stepik/image/image31_hu_d90dff23c6a5c9d5.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image31_hu_ea0804c5b283da2d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;337&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;22-обмен-файлами&#34;&gt;2.2 Обмен файлами&lt;/h3&gt;
+&lt;p&gt;Папку stepic вместе с содержимым на сервер копирует команда &lt;code&gt;scp -r&lt;/code&gt;, так как scp копирует по SSH, а флаг &lt;code&gt;-r&lt;/code&gt; нужен для рекурсивного копирования папок.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image32_hu_9dae216558be9637.webp 320w, https://example.com/blog/post_stepik/image/image32_hu_5ef91a4bce1f82db.webp 480w, https://example.com/blog/post_stepik/image/image32_hu_f684e6872a0dda8e.webp 710w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image32_hu_9dae216558be9637.webp&#34;
+               width=&#34;710&#34;
+               height=&#34;352&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Если &lt;code&gt;sudo apt-get install&lt;/code&gt; не может найти пакет, нужно проверить интернет-соединение — чаще всего проблема именно в отсутствии соединения с репозиторием.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image33_hu_eee506cd432cb558.webp 320w, https://example.com/blog/post_stepik/image/image33_hu_2eabcca002ef2173.webp 480w, https://example.com/blog/post_stepik/image/image33_hu_8e702bae36a3a959.webp 737w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image33_hu_eee506cd432cb558.webp&#34;
+               width=&#34;737&#34;
+               height=&#34;437&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Filezilla используется для просмотра содержимого локальных и удалённых директорий, а также для копирования файлов между компьютерами.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image34_hu_ac2781d5bd2c77bd.webp 320w, https://example.com/blog/post_stepik/image/image34_hu_d632ddc3a04a32a4.webp 480w, https://example.com/blog/post_stepik/image/image34_hu_cd55eba5836eaeac.webp 626w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image34_hu_ac2781d5bd2c77bd.webp&#34;
+               width=&#34;626&#34;
+               height=&#34;273&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;23-запуск-приложений&#34;&gt;2.3 Запуск приложений&lt;/h3&gt;
+&lt;p&gt;Если программе нужен графический интерфейс, можно настроить сервер для вывода информации на экран или запустить программу на своём компьютере.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image35_hu_7e088b31edaa65ba.webp 320w, https://example.com/blog/post_stepik/image/image35_hu_bd086a37d627277d.webp 480w, https://example.com/blog/post_stepik/image/image35_hu_31c080bdd5c4d77c.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image35_hu_7e088b31edaa65ba.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;223&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Справочную информацию о программе можно вызвать командами &lt;code&gt;help&lt;/code&gt;, &lt;code&gt;--help&lt;/code&gt; или &lt;code&gt;man&lt;/code&gt; — это стандартные способы получения справки в Linux.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image36_hu_4a1b99c3af430833.webp 320w, https://example.com/blog/post_stepik/image/image36_hu_922a540aae428f7.webp 480w, https://example.com/blog/post_stepik/image/image36_hu_39bd602f63c34119.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image36_hu_4a1b99c3af430833.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;280&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;FastQC на вход принимает форматы bam, sam, fastq — это основные форматы для данных секвенирования.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image37_hu_791d748aa4309f45.webp 320w, https://example.com/blog/post_stepik/image/image37_hu_b3d93d3880139c4c.webp 480w, https://example.com/blog/post_stepik/image/image37_hu_17b5b90385e49863.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image37_hu_791d748aa4309f45.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;201&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;ClustalW с множественным выравниванием запускается командой с опцией &lt;code&gt;-align&lt;/code&gt;, которая явно указывает выполнить множественное выравнивание.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image38_hu_a61d13f4200efce2.webp 320w, https://example.com/blog/post_stepik/image/image38_hu_9a073cd3c0808636.webp 480w, https://example.com/blog/post_stepik/image/image38_hu_ed4e5ad383f4af7.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image38_hu_a61d13f4200efce2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;134&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;24-контроль-запускаемых-программ&#34;&gt;2.4 Контроль запускаемых программ&lt;/h3&gt;
+&lt;p&gt;После &lt;code&gt;fg&lt;/code&gt;, &lt;code&gt;Ctrl+C&lt;/code&gt;, &lt;code&gt;fg&lt;/code&gt;, &lt;code&gt;Ctrl+Z&lt;/code&gt; команда &lt;code&gt;jobs&lt;/code&gt; покажет только program2 и program3, так как program1 была завершена.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image39_hu_8a93a3d7efb97797.webp 320w, https://example.com/blog/post_stepik/image/image39_hu_82f3c20f54c2593b.webp 480w, https://example.com/blog/post_stepik/image/image39_hu_55739a601165d4e0.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image39_hu_8a93a3d7efb97797.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;360&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Одинаковые идентификаторы только у &lt;code&gt;ps&lt;/code&gt; и &lt;code&gt;top&lt;/code&gt;, потому что &lt;code&gt;jobs&lt;/code&gt; показывает внутренние ID оболочки, а &lt;code&gt;ps&lt;/code&gt; и &lt;code&gt;top&lt;/code&gt; — системные PID.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image40_hu_5402db7a9d379d7f.webp 320w, https://example.com/blog/post_stepik/image/image40_hu_73f82c03e6bc3eeb.webp 480w, https://example.com/blog/post_stepik/image/image40_hu_d26e48d349e54321.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image40_hu_5402db7a9d379d7f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;260&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Остановленный процесс можно мгновенно завершить командой &lt;code&gt;kill -9&lt;/code&gt;, так как сигнал SIGKILL завершает процесс немедленно.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image41_hu_6d37dc0b020f0be9.webp 320w, https://example.com/blog/post_stepik/image/image41_hu_30c62a1cdf09ec1d.webp 480w, https://example.com/blog/post_stepik/image/image41_hu_77eb6da15d475e7.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image41_hu_6d37dc0b020f0be9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;280&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Если использовать &lt;code&gt;kill&lt;/code&gt; без опций к приостановленному процессу, процесс будет завершён, так как &lt;code&gt;kill&lt;/code&gt; по умолчанию отправляет SIGTERM.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image42_hu_87a65f06b1fc7d45.webp 320w, https://example.com/blog/post_stepik/image/image42_hu_3c4560a63e2a106.webp 480w, https://example.com/blog/post_stepik/image/image42_hu_cf73195558e5cb01.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image42_hu_87a65f06b1fc7d45.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;226&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;25-многопоточные-приложения&#34;&gt;2.5 Многопоточные приложения&lt;/h3&gt;
+&lt;p&gt;Остановленное многопоточное приложение использует 0% CPU, так как остановленный процесс не выполняется и не потребляет процессорное время.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image43_hu_ef2237b9ad6f55ab.webp 320w, https://example.com/blog/post_stepik/image/image43_hu_f6685697d85bca2f.webp 480w, https://example.com/blog/post_stepik/image/image43_hu_1fb8843acc8463ed.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image43_hu_ef2237b9ad6f55ab.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;212&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Остановленное приложение занимает столько же памяти, сколько потребляло в момент остановки, потому что память остаётся зарезервированной для возобновления работы.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image44_hu_8edf65c0c485c3dd.webp 320w, https://example.com/blog/post_stepik/image/image44_hu_e045e7df4565de14.webp 480w, https://example.com/blog/post_stepik/image/image44_hu_9f762cb5e38fb4bf.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image44_hu_8edf65c0c485c3dd.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;194&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Принудительно завершить один из потоков запущенного многопоточного приложения нельзя.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image45_hu_34ba15ebefba599c.webp 320w, https://example.com/blog/post_stepik/image/image45_hu_a1b90fe6d92b07ae.webp 480w, https://example.com/blog/post_stepik/image/image45_hu_f06112fa3586d315.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image45_hu_34ba15ebefba599c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;209&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Перед запуском bowtie2 необходимо установить программу через &lt;code&gt;dnf&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image46_hu_12883b8f8b0e7c10.webp 320w, https://example.com/blog/post_stepik/image/image46_hu_141342c2f001dae9.webp 480w, https://example.com/blog/post_stepik/image/image46_hu_49c0726e6b664462.webp 530w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image46_hu_12883b8f8b0e7c10.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;168&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Из шагов bowtie2 в несколько потоков можно выполнить только bowtie2, так как индексация однопоточная, а выравнивание поддерживает многопоточность.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image47_hu_a9f855085f70ac75.webp 320w, https://example.com/blog/post_stepik/image/image47_hu_64919e4cd4e5033e.webp 480w, https://example.com/blog/post_stepik/image/image47_hu_2c471b82257ec28c.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image47_hu_a9f855085f70ac75.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;295&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;26-менеджер-терминалов-tmux&#34;&gt;2.6 Менеджер терминалов tmux&lt;/h3&gt;
+&lt;p&gt;При вводе &lt;code&gt;fg&lt;/code&gt; в другой вкладке терминал сообщит, что нет процесса для &lt;code&gt;fg&lt;/code&gt;, потому что приостановленный процесс существует только в своей вкладке.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image48_hu_1f62b8d3096db3bc.webp 320w, https://example.com/blog/post_stepik/image/image48_hu_14c930f593b1466e.webp 480w, https://example.com/blog/post_stepik/image/image48_hu_5b2947810db53373.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image48_hu_1f62b8d3096db3bc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;244&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;При вводе &lt;code&gt;exit&lt;/code&gt; в последней вкладке tmux завершит работу, так как закрытие последней вкладки завершает сессию.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image49_hu_4e06dfc9031f2360.webp 320w, https://example.com/blog/post_stepik/image/image49_hu_e86ad20120567b48.webp 480w, https://example.com/blog/post_stepik/image/image49_hu_98485ef29f8d7755.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image49_hu_4e06dfc9031f2360.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;212&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Если закрыть терминал с запущенным на сервере tmux, соединение прервётся, но tmux продолжит работу — он сохраняет сессию на сервере.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image50_hu_8153c14c3c29ae3e.webp 320w, https://example.com/blog/post_stepik/image/image50_hu_e320cab76f33e448.webp 480w, https://example.com/blog/post_stepik/image/image50_hu_831cb61eca75c0a9.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image50_hu_8153c14c3c29ae3e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;272&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;При закрытии вкладки с фоновым процессом вкладка закроется и процесс пропадёт, так как процессы внутри закрываемой вкладки завершаются.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image51_hu_8109a093d8ae22c3.webp 320w, https://example.com/blog/post_stepik/image/image51_hu_bdc1be1a43b08def.webp 480w, https://example.com/blog/post_stepik/image/image51_hu_344cc2d893f23c63.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image51_hu_8109a093d8ae22c3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;225&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Текущую вкладку tmux переименовывает команда &lt;code&gt;Ctrl+B&lt;/code&gt; и &lt;code&gt;,&lt;/code&gt; (запятая) — это стандартное сочетание для переименования окна.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image52_hu_81209fad61a67527.webp 320w, https://example.com/blog/post_stepik/image/image52_hu_ecd0b7f81b01fda1.webp 480w, https://example.com/blog/post_stepik/image/image52_hu_28802f95319b3af5.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image52_hu_81209fad61a67527.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;276&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Команды разделения действуют только в текущей вкладке. При горизонтальном и последующем вертикальном разделении получается 3 части: одна большая и две маленькие.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image53_hu_e75a402d1fa673f4.webp 320w, https://example.com/blog/post_stepik/image/image53_hu_2521ea0882bb88cd.webp 480w, https://example.com/blog/post_stepik/image/image53_hu_a6b8e83182b4a71c.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image53_hu_e75a402d1fa673f4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;304&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;этап-3-vim-bash-скрипты-регулярные-выражения-grep-sed-gnuplot-права-доступа&#34;&gt;Этап 3: Vim, bash-скрипты, регулярные выражения, grep, sed, gnuplot, права доступа&lt;/h2&gt;
+&lt;h3 id=&#34;31-редактор-vim&#34;&gt;3.1 Редактор vim&lt;/h3&gt;
+&lt;p&gt;Выйти из редактора vim сразу после открытия файла можно командой &lt;code&gt;:q&lt;/code&gt;. Команда &lt;code&gt;:q&lt;/code&gt; означает quit (выход). Если файл был изменён, потребуется &lt;code&gt;:q!&lt;/code&gt; для принудительного выхода без сохранения.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image54_hu_1f8332ecb696b6c9.webp 320w, https://example.com/blog/post_stepik/image/image54_hu_bcc9df58e5cf56dc.webp 480w, https://example.com/blog/post_stepik/image/image54_hu_9f9562f707426231.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image54_hu_1f8332ecb696b6c9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;299&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Разница между &lt;code&gt;w&lt;/code&gt; (word) и &lt;code&gt;W&lt;/code&gt; (WORD): &lt;code&gt;w&lt;/code&gt; перемещается по словам, разделённым пробелами и пунктуацией, а &lt;code&gt;W&lt;/code&gt; — только по пробелам.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image55_hu_f64966449e289c6f.webp 320w, https://example.com/blog/post_stepik/image/image55_hu_8cf0e62395cb3a8b.webp 480w, https://example.com/blog/post_stepik/image/image55_hu_882dac22d08cd347.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image55_hu_f64966449e289c6f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;256&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Преобразование строки &lt;code&gt;one two three four five&lt;/code&gt; в &lt;code&gt;three four four four five&lt;/code&gt; можно выполнить комбинациями &lt;code&gt;d2w$bifour &amp;lt;Esc&amp;gt;&lt;/code&gt; или &lt;code&gt;d2dwyyWp&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image56_hu_d08e47ad5ae99866.webp 320w, https://example.com/blog/post_stepik/image/image56_hu_dd0667f6842d7bf5.webp 480w, https://example.com/blog/post_stepik/image/image56_hu_db9fc2e3d79f23a4.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image56_hu_d08e47ad5ae99866.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;249&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Команда для замены первого вхождения &lt;code&gt;Windows&lt;/code&gt; на &lt;code&gt;Linux&lt;/code&gt; в каждой строке: &lt;code&gt;:%s/Windows/Linux/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image57_hu_33929168b968c950.webp 320w, https://example.com/blog/post_stepik/image/image57_hu_e02d1f746b51024e.webp 480w, https://example.com/blog/post_stepik/image/image57_hu_29c8fe060eedd509.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image57_hu_33929168b968c950.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;252&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Режим выделения (Visual) открывается клавишей &lt;code&gt;V&lt;/code&gt;. В нём доступны команды перемещения, удаления (&lt;code&gt;d&lt;/code&gt;), копирования (&lt;code&gt;y&lt;/code&gt;). Выход из режима — два нажатия &lt;code&gt;Esc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image58_hu_fe12a8d98b68c9de.webp 320w, https://example.com/blog/post_stepik/image/image58_hu_be6ef73c179d38ba.webp 480w, https://example.com/blog/post_stepik/image/image58_hu_81fa7df03a65e556.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image58_hu_fe12a8d98b68c9de.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;238&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;32-bash-история-команд-и-скрипты&#34;&gt;3.2 Bash: история команд и скрипты&lt;/h3&gt;
+&lt;p&gt;Каждая запущенная оболочка (bash, sh) имеет свою собственную историю команд. При выходе из дочерней оболочки её история не передаётся родительской.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image59_hu_35467902776ed8e3.webp 320w, https://example.com/blog/post_stepik/image/image59_hu_4435345ba8061e87.webp 480w, https://example.com/blog/post_stepik/image/image59_hu_90b390ba725f209c.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image59_hu_35467902776ed8e3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;307&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Команда &lt;code&gt;cd&lt;/code&gt; внутри скрипта меняет текущую директорию только для самого скрипта. Файл &lt;code&gt;file1.txt&lt;/code&gt; создаётся в &lt;code&gt;/home/bi/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image60_hu_47446a5296c2c80e.webp 320w, https://example.com/blog/post_stepik/image/image60_hu_8d04201d136f56db.webp 480w, https://example.com/blog/post_stepik/image/image60_hu_d8f33cc8d564d870.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image60_hu_47446a5296c2c80e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;355&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Имена переменных в bash могут состоять из букв, цифр и символа подчёркивания, но не могут начинаться с цифры.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image61_hu_7ecab34e215276cf.webp 320w, https://example.com/blog/post_stepik/image/image61_hu_17c8a51ddadace52.webp 480w, https://example.com/blog/post_stepik/image/image61_hu_5adf4a401144a92d.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image61_hu_7ecab34e215276cf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;426&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Скрипт принимает два аргумента и выводит их в формате &lt;code&gt;Arguments are: $1=первый $2=второй&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image62_hu_6c11880020222ff2.webp 320w, https://example.com/blog/post_stepik/image/image62_hu_44d9f40ec28597e7.webp 480w, https://example.com/blog/post_stepik/image/image62_hu_e74f0c0806fd9240.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image62_hu_6c11880020222ff2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;467&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Условия, которые всегда истинны: &lt;code&gt;$# -ge 0&lt;/code&gt;, &lt;code&gt;! (4 -le 3)&lt;/code&gt;, &lt;code&gt;-z &amp;quot;&amp;quot;&lt;/code&gt;, &lt;code&gt;$var1 == $var2 || $var1 != $var2&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image63_hu_474c589463086f4e.webp 320w, https://example.com/blog/post_stepik/image/image63_hu_7e6b99fa99c1d009.webp 480w, https://example.com/blog/post_stepik/image/image63_hu_98271430a3efba5b.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image63_hu_474c589463086f4e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;258&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Скрипт выводит &lt;code&gt;two&lt;/code&gt; при &lt;code&gt;var=3&lt;/code&gt; и &lt;code&gt;four&lt;/code&gt; при &lt;code&gt;var=5&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image64_hu_e781e243750a3b1b.webp 320w, https://example.com/blog/post_stepik/image/image64_hu_30abb2f0cf13e7a9.webp 480w, https://example.com/blog/post_stepik/image/image64_hu_698ea02c6e664982.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image64_hu_e781e243750a3b1b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;272&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Скрипт определяет количество студентов: &lt;code&gt;0 → No students&lt;/code&gt;, &lt;code&gt;1 → 1 student&lt;/code&gt;, &lt;code&gt;2–4 → N students&lt;/code&gt;, &lt;code&gt;≥5 → A lot of students&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image65_hu_11584bdde331c1a4.webp 320w, https://example.com/blog/post_stepik/image/image65_hu_aedabdb99feaf1ad.webp 480w, https://example.com/blog/post_stepik/image/image65_hu_27d4b6e5936dce71.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image65_hu_11584bdde331c1a4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;254&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Цикл &lt;code&gt;for str in a, b, c_d&lt;/code&gt; перебирает 5 элементов. Слово &lt;code&gt;start&lt;/code&gt; выводится 5 раз, &lt;code&gt;finish&lt;/code&gt; — 4 раза.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image66_hu_37391a59de0547a7.webp 320w, https://example.com/blog/post_stepik/image/image66_hu_bdfa1432820e43a5.webp 480w, https://example.com/blog/post_stepik/image/image66_hu_876f54718796e380.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image66_hu_37391a59de0547a7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Скрипт определяет возрастную группу: &lt;code&gt;child&lt;/code&gt; ≤16, &lt;code&gt;youth&lt;/code&gt; 17–25, &lt;code&gt;adult&lt;/code&gt; &amp;gt;25. При пустом имени или возрасте 0 выводит &lt;code&gt;bye&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image67_hu_9841966b7fa247c2.webp 320w, https://example.com/blog/post_stepik/image/image67_hu_4235563e5d11142e.webp 480w, https://example.com/blog/post_stepik/image/image67_hu_aaeed63e4118c758.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image67_hu_9841966b7fa247c2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;499&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для увеличения &lt;code&gt;a&lt;/code&gt; на значение &lt;code&gt;b&lt;/code&gt; подходят: &lt;code&gt;let &amp;quot;a+=b&amp;quot;&lt;/code&gt;, &lt;code&gt;let a=a+b&lt;/code&gt;, &lt;code&gt;let &amp;quot;a=$a+$b&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image68_hu_443b09bcb555134b.webp 320w, https://example.com/blog/post_stepik/image/image68_hu_342171a804a63cac.webp 480w, https://example.com/blog/post_stepik/image/image68_hu_9d403a8be97de6cb.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image68_hu_443b09bcb555134b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;231&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Обратные кавычки &lt;code&gt;`pwd`&lt;/code&gt; выполняют команду &lt;code&gt;pwd&lt;/code&gt;. Команда &lt;code&gt;echo &amp;quot;\&lt;/code&gt;pwd`&amp;quot;` выводит путь к текущей директории.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image69_hu_6b8cefb748b30daa.webp 320w, https://example.com/blog/post_stepik/image/image69_hu_49c5e2000d809ebf.webp 480w, https://example.com/blog/post_stepik/image/image69_hu_1b2704307f014922.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image69_hu_6b8cefb748b30daa.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Код возврата программы хранится в переменной &lt;code&gt;$?&lt;/code&gt;. Проверка: &lt;code&gt;if [[ $? -eq 0 ]]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image70_hu_35b8482115909a97.webp 320w, https://example.com/blog/post_stepik/image/image70_hu_524bd2e56cd31915.webp 480w, https://example.com/blog/post_stepik/image/image70_hu_93b03e389a9cb057.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image70_hu_35b8482115909a97.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;354&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;33-bash-функции-и-циклы&#34;&gt;3.3 Bash: функции и циклы&lt;/h3&gt;
+&lt;p&gt;В функции &lt;code&gt;counter&lt;/code&gt; переменная &lt;code&gt;c1&lt;/code&gt; — локальная, &lt;code&gt;c2&lt;/code&gt; — глобальная. После десяти вызовов: &lt;code&gt;c2 = 110&lt;/code&gt;, &lt;code&gt;c1&lt;/code&gt; пустая. Результат: &lt;code&gt;counters are and 110&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image71_hu_97068856fb467b2f.webp 320w, https://example.com/blog/post_stepik/image/image71_hu_6fd73d54765661f0.webp 480w, https://example.com/blog/post_stepik/image/image71_hu_eaf047850052d382.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image71_hu_97068856fb467b2f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;369&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Скрипт находит НОД двух чисел алгоритмом Евклида. При пустом вводе выводит &lt;code&gt;bye&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image72_hu_ff90524042ad3768.webp 320w, https://example.com/blog/post_stepik/image/image72_hu_e137d4ce35235897.webp 402w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image72_hu_ff90524042ad3768.webp&#34;
+               width=&#34;402&#34;
+               height=&#34;531&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Калькулятор поддерживает операции &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;%&lt;/code&gt;, &lt;code&gt;**&lt;/code&gt;. &lt;code&gt;exit&lt;/code&gt; → &lt;code&gt;bye&lt;/code&gt;, неверная команда → &lt;code&gt;error&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image73_hu_2560f6e82c2d06dd.webp 320w, https://example.com/blog/post_stepik/image/image73_hu_35899aea60e5da92.webp 480w, https://example.com/blog/post_stepik/image/image73_hu_7560cfe92b61d652.webp 645w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image73_hu_2560f6e82c2d06dd.webp&#34;
+               width=&#34;645&#34;
+               height=&#34;532&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;34-bash-find-и-опции-регистра&#34;&gt;3.4 Bash: find и опции регистра&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;-iname&lt;/code&gt; ищет без учёта регистра, &lt;code&gt;-name&lt;/code&gt; — с учётом.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image74_hu_c0b600a53dd0d856.webp 320w, https://example.com/blog/post_stepik/image/image74_hu_3a03a416d756995b.webp 480w, https://example.com/blog/post_stepik/image/image74_hu_22cb4af02809374d.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image74_hu_c0b600a53dd0d856.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;334&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-path&lt;/code&gt; ищет по полному пути, &lt;code&gt;-name&lt;/code&gt; — только по имени файла.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image75_hu_d01d0a013eb2fa72.webp 320w, https://example.com/blog/post_stepik/image/image75_hu_6d1e13e862b0f13e.webp 480w, https://example.com/blog/post_stepik/image/image75_hu_b291777c28ff0b1f.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image75_hu_d01d0a013eb2fa72.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;309&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find /home/bi -mindepth 2 -maxdepth 3 -name &amp;quot;file*&amp;quot;&lt;/code&gt; ищет на глубине 2–3 уровня.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image76_hu_42601278b0d083d1.webp 320w, https://example.com/blog/post_stepik/image/image76_hu_97e128dbd652ac15.webp 480w, https://example.com/blog/post_stepik/image/image76_hu_d7d32474c9abe2fe.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image76_hu_42601278b0d083d1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;35-регулярные-выражения-и-grep&#34;&gt;3.5 Регулярные выражения и grep&lt;/h3&gt;
+&lt;p&gt;Опции &lt;code&gt;-A 1&lt;/code&gt;, &lt;code&gt;-B 1&lt;/code&gt;, &lt;code&gt;-C 1&lt;/code&gt; добавляют контекстные строки. Размер &lt;code&gt;results.txt&lt;/code&gt; примерно одинаковый.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image77_hu_5046d7fc1dd0571f.webp 320w, https://example.com/blog/post_stepik/image/image77_hu_14199ba03eb5cff5.webp 480w, https://example.com/blog/post_stepik/image/image77_hu_12083cf443af56a2.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image77_hu_5046d7fc1dd0571f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Регулярное выражение &lt;code&gt;[xkXKL]?[uU]buntu$&lt;/code&gt; ищет &lt;code&gt;Ubuntu&lt;/code&gt; с возможным префиксом.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image78_hu_c0147272b500a187.webp 320w, https://example.com/blog/post_stepik/image/image78_hu_871f534d3ef59970.webp 480w, https://example.com/blog/post_stepik/image/image78_hu_15d084b015468d04.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image78_hu_c0147272b500a187.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;337&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;grep -E &amp;quot;[xkXKL]?[uU]buntu$&amp;quot; text.txt&lt;/code&gt; находит соответствующие строки.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image79_hu_9866912e5edf577c.webp 320w, https://example.com/blog/post_stepik/image/image79_hu_32a6fe8e3fcfa10b.webp 480w, https://example.com/blog/post_stepik/image/image79_hu_b1285f7c0f27ddea.webp 647w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image79_hu_9866912e5edf577c.webp&#34;
+               width=&#34;647&#34;
+               height=&#34;156&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;36-sed-и-gnuplot&#34;&gt;3.6 Sed и gnuplot&lt;/h3&gt;
+&lt;p&gt;Без &lt;code&gt;-n&lt;/code&gt; sed выводит каждую строку дважды.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image80_hu_f822093fbc23d07.webp 320w, https://example.com/blog/post_stepik/image/image80_hu_ad0047ff891d32e4.webp 480w, https://example.com/blog/post_stepik/image/image80_hu_bc47ab38c9d306d0.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image80_hu_f822093fbc23d07.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;230&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sed &amp;quot;/[a-z]*/p&amp;quot;&lt;/code&gt; выводит каждую строку дважды.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image81_hu_c460a15353763f05.webp 320w, https://example.com/blog/post_stepik/image/image81_hu_2cfbf564b333d454.webp 480w, https://example.com/blog/post_stepik/image/image81_hu_2ba3a2d2998719de.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image81_hu_c460a15353763f05.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;223&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sed &#39;s/[A-Z]\{2,\}/abbreviation/g&#39; input.txt &amp;gt; edited.txt&lt;/code&gt; заменяет аббревиатуры.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image82_hu_2fead09f133a5b1c.webp 320w, https://example.com/blog/post_stepik/image/image82_hu_52c5a11a63ec4e.webp 480w, https://example.com/blog/post_stepik/image/image82_hu_be96f615f59aa091.webp 605w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image82_hu_2fead09f133a5b1c.webp&#34;
+               width=&#34;605&#34;
+               height=&#34;152&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;37-gnuplot&#34;&gt;3.7 Gnuplot&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;-p&lt;/code&gt; или &lt;code&gt;--persist&lt;/code&gt; оставляет графики открытыми после закрытия gnuplot.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image83_hu_51c03ad85af0fd97.webp 320w, https://example.com/blog/post_stepik/image/image83_hu_dcb3fe16e3432783.webp 480w, https://example.com/blog/post_stepik/image/image83_hu_62d92435203ad7cd.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image83_hu_51c03ad85af0fd97.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;229&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;set key autotitle columnhead&lt;/code&gt; берёт название из первой строки первого столбца. Точек — 10.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image84_hu_db99e73f2b002b13.webp 320w, https://example.com/blog/post_stepik/image/image84_hu_caf8314c8e61f2b4.webp 480w, https://example.com/blog/post_stepik/image/image84_hu_b8de928b062ae49a.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image84_hu_db99e73f2b002b13.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;230&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;set xtics (&amp;quot;point 1, value &amp;quot;.x1, &amp;quot;point 2, value &amp;quot;.x2, &amp;quot;point 3, value &amp;quot;.x3)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image85_hu_51659718afe3a29d.webp 320w, https://example.com/blog/post_stepik/image/image85_hu_fb8834f19278d07c.webp 480w, https://example.com/blog/post_stepik/image/image85_hu_cb231d68986acf68.webp 661w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image85_hu_51659718afe3a29d.webp&#34;
+               width=&#34;661&#34;
+               height=&#34;167&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ошибка &lt;code&gt;invalid expression&lt;/code&gt; — неправильная конкатенация строк (пропущена точка &lt;code&gt;.&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image86_hu_6a20ea0477aa3181.webp 320w, https://example.com/blog/post_stepik/image/image86_hu_4a2c98caf280f8f6.webp 480w, https://example.com/blog/post_stepik/image/image86_hu_8bcd7b0e682c1206.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image86_hu_6a20ea0477aa3181.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;67&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для зеркального отражения и ускорения вращения нужно изменить знак Z и увеличить шаг в &lt;code&gt;move.rot&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image87_hu_3747a549b4928ee3.webp 320w, https://example.com/blog/post_stepik/image/image87_hu_a2f57ec0a698eb15.webp 453w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image87_hu_3747a549b4928ee3.webp&#34;
+               width=&#34;453&#34;
+               height=&#34;216&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;38-права-доступа&#34;&gt;3.8 Права доступа&lt;/h3&gt;
+&lt;p&gt;Права &lt;code&gt;rwxr-xr--&lt;/code&gt; (754): владелец — &lt;code&gt;rwx&lt;/code&gt;, группа — &lt;code&gt;r-x&lt;/code&gt;, остальные — &lt;code&gt;r--&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image88_hu_2e80b466dd018f9d.webp 320w, https://example.com/blog/post_stepik/image/image88_hu_137b637dfe0a5a45.webp 480w, https://example.com/blog/post_stepik/image/image88_hu_63fde27ebeda9ed4.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image88_hu_2e80b466dd018f9d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;385&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Чтобы пользователь из группы мог создавать файлы: &lt;code&gt;chown user:group dir&lt;/code&gt; или &lt;code&gt;chmod g+w dir&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image89_hu_b96e04d2936459d7.webp 320w, https://example.com/blog/post_stepik/image/image89_hu_f0169e4580c508b2.webp 480w, https://example.com/blog/post_stepik/image/image89_hu_eccb72fbf429d43d.webp 488w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image89_hu_b96e04d2936459d7.webp&#34;
+               width=&#34;488&#34;
+               height=&#34;317&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wc -l&lt;/code&gt; (строки), &lt;code&gt;-w&lt;/code&gt; (слова), &lt;code&gt;-m&lt;/code&gt; (символы), &lt;code&gt;-c&lt;/code&gt; (байты). Длину строки &lt;code&gt;wc&lt;/code&gt; не показывает.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image90_hu_2e25f06dc659e586.webp 320w, https://example.com/blog/post_stepik/image/image90_hu_e4d5d5d7cfb8b960.webp 480w, https://example.com/blog/post_stepik/image/image90_hu_278a7e1c987021d8.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image90_hu_2e25f06dc659e586.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;379&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;du -sh&lt;/code&gt; — размер текущей директории в человеко-читаемом формате.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image91_hu_140ea3ffc7bbae13.webp 320w, https://example.com/blog/post_stepik/image/image91_hu_6d5372467da364dd.webp 480w, https://example.com/blog/post_stepik/image/image91_hu_4e449923ec06e3f9.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image91_hu_140ea3ffc7bbae13.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;271&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mkdir dir{1..3}&lt;/code&gt; — три поддиректории за одну команду.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image92_hu_895413fdbc574275.webp 320w, https://example.com/blog/post_stepik/image/image92_hu_2dfdcd65d70e2e8e.webp 480w, https://example.com/blog/post_stepik/image/image92_hu_ee3096857af66f0.webp 760w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image92_hu_895413fdbc574275.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;233&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Курс «Введение в Linux» завершён. Сертификат с отличием (125 баллов из 125).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;
+          &lt;img alt=&#34;&#34; 
+               srcset=&#34;https://example.com/blog/post_stepik/image/image93_hu_15808c59645fcbcf.webp 320w, https://example.com/blog/post_stepik/image/image93_hu_d9acad6e1fa73278.webp 480w, https://example.com/blog/post_stepik/image/image93_hu_fe726b8a21bc5c1e.webp 632w&#34;
+               sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
+               src=&#34;https://example.com/blog/post_stepik/image/image93_hu_15808c59645fcbcf.webp&#34;
+               width=&#34;632&#34;
+               height=&#34;518&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;итоги&#34;&gt;Итоги&lt;/h2&gt;
+&lt;p&gt;В ходе прохождения курса «Введение в Linux» были освоены следующие навыки:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Основы Linux:&lt;/strong&gt; навигация по файловой системе, управление процессами, перенаправление ввода-вывода&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Удалённая работа:&lt;/strong&gt; подключение к серверу по SSH, копирование файлов (scp), работа с FTP-клиентом Filezilla&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Управление процессами:&lt;/strong&gt; фоновый и передний план, сигналы (kill, kill -9), мониторинг (jobs, ps, top)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Многопоточные приложения:&lt;/strong&gt; особенности работы bowtie2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Менеджер терминалов tmux:&lt;/strong&gt; сессии, окна, панели, работа с фоновыми процессами&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Редактор vim:&lt;/strong&gt; режимы, навигация, замена текста, визуальный режим&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bash-скрипты:&lt;/strong&gt; переменные, условия, циклы, функции, чтение ввода, калькулятор, НОД&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Регулярные выражения и grep:&lt;/strong&gt; поиск по шаблонам, опции -A/-B/-C&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sed:&lt;/strong&gt; замена текста по шаблону&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gnuplot:&lt;/strong&gt; построение графиков, настройка осей, анимация&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Права доступа:&lt;/strong&gt; chmod, chown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Курс завершён с максимальным результатом — 125 баллов из 125, получен сертификат с отличием.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Как работать с библиографией: советы и инструменты</title>
+      <link>https://example.com/blog/summary4/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/summary4/</guid>
+      <description>&lt;h2 id=&#34;почему-важно-правильно-оформлять-библиографию&#34;&gt;Почему важно правильно оформлять библиографию&lt;/h2&gt;
+&lt;p&gt;Каждый студент и исследователь сталкивался с ситуацией, когда список литературы занимает больше времени, чем сама работа. Ошибки в оформлении источников — одна из самых частых причин снижения оценки или возврата статьи рецензентом.&lt;/p&gt;
+&lt;p&gt;Хорошо оформленная библиография показывает:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Вашу академическую грамотность&lt;/strong&gt; — умение работать с источниками&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Уважение к чужим трудам&lt;/strong&gt; — правильное цитирование&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Надёжность работы&lt;/strong&gt; — читатель может легко найти все упомянутые источники&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;лучшие-инструменты-для-работы-с-библиографией&#34;&gt;Лучшие инструменты для работы с библиографией&lt;/h2&gt;
+&lt;h3 id=&#34;1-mendeley&#34;&gt;1. Mendeley&lt;/h3&gt;
+&lt;p&gt;Бесплатный менеджер библиографии от Elsevier. Позволяет:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Хранить все PDF-статьи в одном месте&lt;/li&gt;
+&lt;li&gt;Автоматически извлекать метаданные из файлов&lt;/li&gt;
+&lt;li&gt;Вставлять цитаты в Word и Google Docs&lt;/li&gt;
+&lt;li&gt;Синхронизировать между устройствами&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-zotero&#34;&gt;2. Zotero&lt;/h3&gt;
+&lt;p&gt;Мощный аналог с открытым исходным кодом. Отличается:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Отличным браузерным расширением — захват источников в один клик&lt;/li&gt;
+&lt;li&gt;Поддержкой тысяч стилей цитирования (ГОСТ, APA, MLA, Chicago)&lt;/li&gt;
+&lt;li&gt;Возможностью совместной работы над группами источников&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-bibtex-для-latex&#34;&gt;3. BibTeX (для LaTeX)&lt;/h3&gt;
+&lt;p&gt;Если вы работаете в LaTeX (как многие в технических дисциплинах), BibTeX — стандарт де-факто. Создаёте &lt;code&gt;.bib&lt;/code&gt;-файл с источниками и просто цитируете их командой &lt;code&gt;\cite{ключ}&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;как-не-запутаться-в-источниках&#34;&gt;Как не запутаться в источниках&lt;/h2&gt;
+&lt;h3 id=&#34;совет-1-записывай-сразу&#34;&gt;Совет 1: Записывай сразу&lt;/h3&gt;
+&lt;p&gt;Увидел полезную статью — сразу добавляй в свой менеджер библиографии. Не откладывай на потом!&lt;/p&gt;
+&lt;h3 id=&#34;совет-2-используй-уникальные-ключи&#34;&gt;Совет 2: Используй уникальные ключи&lt;/h3&gt;
+&lt;p&gt;В BibTeX или в заметках присваивай каждому источнику понятный ключ. Например: &lt;code&gt;Андрюшин2024_ДискретнаяМатематика&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;совет-3-проверяй-автоматически-сгенерированные-данные&#34;&gt;Совет 3: Проверяй автоматически сгенерированные данные&lt;/h3&gt;
+&lt;p&gt;Даже лучшие инструменты ошибаются. Всегда сверяй год, авторов и название с оригиналом.&lt;/p&gt;
+&lt;h3 id=&#34;совет-4-группируй-по-темам&#34;&gt;Совет 4: Группируй по темам&lt;/h3&gt;
+&lt;p&gt;В Mendeley или Zotero создавай папки по проектам или главам работы.&lt;/p&gt;
+&lt;h2 id=&#34;основные-поля-для-каждого-источника&#34;&gt;Основные поля для каждого источника&lt;/h2&gt;
+&lt;p&gt;Даже если вы используете автоматические инструменты, полезно знать, какие данные нужно указывать:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Для книги&lt;/strong&gt;: Автор(ы), Название, Год, Издательство, ISBN&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Для статьи&lt;/strong&gt;: Автор(ы), Название статьи, Название журнала, Том/Номер, Страницы, DOI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Для сайта&lt;/strong&gt;: Автор (если есть), Название страницы, Название сайта, URL, Дата обращения&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Для диссертации&lt;/strong&gt;: Автор, Название, Тип работы, Год, Университет&lt;/p&gt;
+&lt;h2 id=&#34;что-делать-если-нет-doi&#34;&gt;Что делать, если нет DOI&lt;/h2&gt;
+&lt;p&gt;DOI (Digital Object Identifier) — уникальный идентификатор научной статьи. Если его нет:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ищите на странице статьи или в PDF&lt;/li&gt;
+&lt;li&gt;Проверьте на сайте CrossRef&lt;/li&gt;
+&lt;li&gt;Если нет — используйте URL и дату обращения&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;Хорошая библиография — не магия, а просто система. Начните с выбора одного инструмента (Mendeley или Zotero), сохраняйте все источники сразу и проверяйте данные. Через пару недель это войдёт в привычку, и вы больше никогда не будете в панике переоформлять список литературы за час до сдачи работы.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Полезные ссылки, которые я добавила на сайт в рамках проекта:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+ — поиск научных статей на русском&lt;/li&gt;
+&lt;li&gt;
+ — поиск цитирований&lt;/li&gt;
+&lt;li&gt;
+ — учёный идентификатор&lt;/li&gt;
+&lt;li&gt;
+ — соцсеть для учёных&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;А как вы организуете свои источники? Делитесь в комментариях или пишите мне!&lt;/em&gt; 📚&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Четвёртый этап проекта: настройка научных ссылок на сайте</title>
+      <link>https://example.com/blog/summary3/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/summary3/</guid>
+      <description>&lt;h2 id=&#34;что-было-сделано-за-неделю&#34;&gt;Что было сделано за неделю&lt;/h2&gt;
+&lt;h3 id=&#34;регистрация-на-ресурсах&#34;&gt;Регистрация на ресурсах&lt;/h3&gt;
+&lt;p&gt;Согласно заданию четвёртого этапа, зарегистрировалась на всех нужных научных и библиометрических платформах:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;eLibrary.ru&lt;/strong&gt; — российская научная электронная библиотека&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Scholar&lt;/strong&gt; — профиль для отслеживания цитирований&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ORCID&lt;/strong&gt; — получила уникальный идентификатор &lt;code&gt;0009-0003-8124-9907&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mendeley&lt;/strong&gt; — менеджер библиографии&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ResearchGate&lt;/strong&gt; — социальная сеть для учёных&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academia.edu&lt;/strong&gt; — платформа для публикации научных работ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;arXiv.org&lt;/strong&gt; — архив препринтов&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — для хранения кода проекта&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;добавление-ссылок-на-сайт&#34;&gt;Добавление ссылок на сайт&lt;/h3&gt;
+&lt;p&gt;После регистрации нужно было разместить ссылки на эти ресурсы в файле &lt;code&gt;_index.md&lt;/code&gt; сайта, сделанного на Hugo.&lt;/p&gt;
+&lt;p&gt;Столкнулась с неожиданной проблемой: &lt;strong&gt;иконки не отображались&lt;/strong&gt; на локальном сервере. Оказалось, что дело в отступах в YAML-разметке и в том, что нужные иконки нужно положить в папку &lt;code&gt;assets/media/icons/custom/&lt;/code&gt; в формате SVG, а в файле указать &lt;code&gt;icon_pack: &amp;quot;custom&amp;quot;&lt;/code&gt; и путь к файлу.&lt;/p&gt;
+&lt;h3 id=&#34;итог&#34;&gt;Итог&lt;/h3&gt;
+&lt;p&gt;Ссылки успешно добавлены, иконки отображаются, сайт работает корректно. Перехожу к следующему этапу проекта.&lt;/p&gt;
+&lt;h2 id=&#34;отдых-на-природе&#34;&gt;Отдых на природе&lt;/h2&gt;
+&lt;p&gt;После нескольких дней напряжённой работы над проектом и учёбой я решила устроить небольшой перерыв. Вышла погулять в лес сразу после дождя.&lt;/p&gt;
+&lt;p&gt;Воздух был кристально чистым, пахло мокрой корой, прелыми листьями и свежестью. Солнце только начинало пробиваться сквозь тучи, и его лучи красиво подсвечивали капли на ветках. Тишина стояла невероятная — только редкие капли срывались с листьев и мягко шлёпались в лужи. Ни городского шума, ни спешки.&lt;/p&gt;
+&lt;p&gt;Я просто бродила по мокрым тропинкам, вдыхала этот лесной аромат и ни о чём не думала. Это было как маленькое лекарство от усталости. Иногда так важно остановиться и просто побыть в тишине. 🍃&lt;/p&gt;
+&lt;h2 id=&#34;планы&#34;&gt;Планы&lt;/h2&gt;
+&lt;p&gt;На следующей неделе — оформление отчёта по проекту и подготовка презентации. Также нужно написать ещё один пост на выбор по теме: оформление отчёта, создание презентаций или работа с библиографией.&lt;/p&gt;
+&lt;p&gt;Неделя была полезной — научилась работать с Hugo, YAML и кастомными иконками. А прогулка в лесу помогла восстановить силы для новых задач.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>LaTeX: зачем программисту писать код вместо текста</title>
-      <link>http://localhost:1313/blog/week-2-latex/</link>
+      <link>https://example.com/blog/week-2-latex/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/week-2-latex/</guid>
+      <guid>https://example.com/blog/week-2-latex/</guid>
       <description>&lt;h2 id=&#34;первое-знакомство&#34;&gt;Первое знакомство&lt;/h2&gt;
 &lt;p&gt;Когда я впервые увидела LaTeX, он показался мне излишне сложным. Вместо того чтобы просто написать формулу, нужно было набирать странные команды вроде &lt;code&gt;\int_{0}^{\infty}&lt;/code&gt;. Но потом я поняла, что это вопрос привычки.&lt;/p&gt;
 &lt;h2 id=&#34;почему-latex&#34;&gt;Почему LaTeX&lt;/h2&gt;
@@ -196,9 +3117,9 @@
     
     <item>
       <title>Контрольная по дискретной математике и посол Уганды</title>
-      <link>http://localhost:1313/blog/week-2-reflection/</link>
+      <link>https://example.com/blog/week-2-reflection/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/week-2-reflection/</guid>
+      <guid>https://example.com/blog/week-2-reflection/</guid>
       <description>&lt;h2 id=&#34;учебные-достижения&#34;&gt;Учебные достижения&lt;/h2&gt;
 &lt;p&gt;Неделя выдалась продуктивной в академическом плане.&lt;/p&gt;
 &lt;p&gt;Во-первых, я &lt;strong&gt;сдала контрольную по дискретной математике&lt;/strong&gt;. Этот предмет требует внимательности и логического мышления. Готовились мы вместе с другом, обсуждали сложные темы и помогали друг другу разобраться в материале. Надеюсь, наши усилия оправдались, и мы справились достойно.&lt;/p&gt;
@@ -215,9 +3136,9 @@
     
     <item>
       <title>Что такое CI/CD</title>
-      <link>http://localhost:1313/blog/ci-cd/</link>
+      <link>https://example.com/blog/ci-cd/</link>
       <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/ci-cd/</guid>
+      <guid>https://example.com/blog/ci-cd/</guid>
       <description>&lt;h2 id=&#34;что-такое-cicd&#34;&gt;Что такое CI/CD?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;CI/CD&lt;/strong&gt; — это методология разработки программного обеспечения, которая объединяет практики непрерывной интеграции (Continuous Integration) и непрерывного развертывания (Continuous Delivery/Deployment).&lt;/p&gt;
 &lt;h3 id=&#34;continuous-integration-ci&#34;&gt;Continuous Integration (CI)&lt;/h3&gt;
@@ -255,9 +3176,9 @@
     
     <item>
       <title>Пост по неделе 11-17 марта 2026 года</title>
-      <link>http://localhost:1313/blog/week-summary/</link>
+      <link>https://example.com/blog/week-summary/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/week-summary/</guid>
+      <guid>https://example.com/blog/week-summary/</guid>
       <description>&lt;h2 id=&#34;что-было-на-этой-неделе&#34;&gt;Что было на этой неделе&lt;/h2&gt;
 &lt;p&gt;На этой неделе я работала над своим индивидуальным проектом по операционным системам.&lt;/p&gt;
 &lt;h3 id=&#34;основные-события&#34;&gt;Основные события:&lt;/h3&gt;
@@ -283,9 +3204,9 @@
     
     <item>
       <title>⚡️ Turn Jupyter Notebooks into Blog Posts</title>
-      <link>http://localhost:1313/blog/notebook-onboarding/</link>
+      <link>https://example.com/blog/notebook-onboarding/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/notebook-onboarding/</guid>
+      <guid>https://example.com/blog/notebook-onboarding/</guid>
       <description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 
@@ -369,7 +3290,7 @@
       &lt;p class=&#34;hb-notebook-title&#34;&gt;Launch Readiness Analysis&lt;/p&gt;
         &lt;p class=&#34;hb-notebook-subtitle&#34;&gt;Python · Kernel: Python 3 · nbformat 4.5 · 6 cells&lt;/p&gt;
     &lt;/div&gt;
-      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;http://localhost:1313/blog/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
+      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;https://example.com/blog/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
         &lt;svg class=&#34;w-4 h-4&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3&#34;/&gt;&lt;/svg&gt;
         &lt;span&gt;Download notebook&lt;/span&gt;
       &lt;/a&gt;
@@ -589,9 +3510,9 @@ Done!
     
     <item>
       <title>Example Talk: Recent Work</title>
-      <link>http://localhost:1313/slides/example/</link>
+      <link>https://example.com/slides/example/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/example/</guid>
+      <guid>https://example.com/slides/example/</guid>
       <description>&lt;!-- no-branding --&gt;
 &lt;h1 id=&#34;example-talk&#34;&gt;Example Talk&lt;/h1&gt;
 &lt;h3 id=&#34;dr-alex-johnson--meta-ai&#34;&gt;Dr. Alex Johnson · Meta AI&lt;/h3&gt;
@@ -1034,9 +3955,9 @@ Thank you for your attention! Feel free to reach out with questions or contribut
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/blog/get-started/</link>
+      <link>https://example.com/blog/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/get-started/</guid>
+      <guid>https://example.com/blog/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -1323,33 +4244,33 @@ Thank you for your attention! Feel free to reach out with questions or contribut
     
     <item>
       <title>Pandas</title>
-      <link>http://localhost:1313/projects/pandas/</link>
+      <link>https://example.com/projects/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pandas/</guid>
+      <guid>https://example.com/projects/pandas/</guid>
       <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PyTorch</title>
-      <link>http://localhost:1313/projects/pytorch/</link>
+      <link>https://example.com/projects/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pytorch/</guid>
+      <guid>https://example.com/projects/pytorch/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scikit-learn</title>
-      <link>http://localhost:1313/projects/scikit/</link>
+      <link>https://example.com/projects/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/scikit/</guid>
+      <guid>https://example.com/projects/scikit/</guid>
       <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:1313/blog/second-brain/</link>
+      <link>https://example.com/blog/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/second-brain/</guid>
+      <guid>https://example.com/blog/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -1533,9 +4454,9 @@ Thank you for your attention! Feel free to reach out with questions or contribut
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:1313/blog/data-visualization/</link>
+      <link>https://example.com/blog/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/data-visualization/</guid>
+      <guid>https://example.com/blog/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;embed-rich-content&#34;&gt;Embed Rich Content&lt;/h2&gt;
@@ -1800,9 +4721,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp 400w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_a2515a8519f2e06c.webp 600w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_6070a0ac5065dcdd.webp 800w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_8ee7b684023bdcd.webp 800w&#34;
+         srcset=&#34;https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp 400w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_a2515a8519f2e06c.webp 600w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_6070a0ac5065dcdd.webp 800w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_8ee7b684023bdcd.webp 800w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp&#34; 
+         src=&#34;https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;300&#34;
          loading=&#34;lazy&#34; 
@@ -1862,9 +4783,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp 400w, http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_c8dc855a23876ee0.webp 600w, http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_e954403c57038f5.webp 600w&#34;
+         srcset=&#34;https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp 400w, https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_c8dc855a23876ee0.webp 600w, https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_e954403c57038f5.webp 600w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp&#34; 
+         src=&#34;https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;267&#34;
          loading=&#34;lazy&#34; 
@@ -1904,7 +4825,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-396784251&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-689123457&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -1922,7 +4843,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-396784251&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-689123457&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2105,7 +5026,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-f6d402d3e0ef4f7871a71f74ddcbf5cc&#34;
-    href=&#34;http://localhost:1313/&#34;
+    href=&#34;https://example.com/&#34;
     
     
     
@@ -2190,7 +5111,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-73171eb1b49c461e90dab01f45a3397d&#34;
-    href=&#34;http://localhost:1313/data/results.csv&#34;
+    href=&#34;https://example.com/data/results.csv&#34;
     
     
     
@@ -2313,9 +5234,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:1313/blog/teach-courses/</link>
+      <link>https://example.com/blog/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/teach-courses/</guid>
+      <guid>https://example.com/blog/teach-courses/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -2343,10 +5264,10 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;http://localhost:1313/authors/me/&#34;&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;
+    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2019).
-  &lt;a href=&#34;http://localhost:1313/publications/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
+  &lt;a href=&#34;https://example.com/publications/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
   
 
   
@@ -2469,7 +5390,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125&#34;/&gt;&lt;/svg&gt;
         Dataset
       &lt;/a&gt;
@@ -2498,7 +5419,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0&#34;/&gt;&lt;/svg&gt;
         Poster
       &lt;/a&gt;
@@ -2527,7 +5448,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
         Source Document
       &lt;/a&gt;
@@ -2646,7 +5567,7 @@ Crash --&gt; [*]
   
 
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    &lt;span &gt;&lt;a href=&#34;http://localhost:1313/authors/me/&#34;&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
+    &lt;span &gt;&lt;a href=&#34;https://example.com/authors/me/&#34;&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
           &lt;button
             @mouseenter=&#34;tooltip = true&#34;
             @mouseleave=&#34;tooltip = false&#34;
@@ -2675,7 +5596,7 @@ Crash --&gt; [*]
             Equal contribution
             &lt;div class=&#34;absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700&#34;&gt;&lt;/div&gt;
           &lt;/div&gt;
-        &lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;http://localhost:1313/authors/robert-ford/&#34;&gt;Robert Ford&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
+        &lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://example.com/authors/robert-ford/&#34;&gt;Robert Ford&lt;/a&gt;&lt;/span&gt;&lt;span class=&#34;relative inline-block ml-1&#34; x-data=&#34;{ tooltip: false }&#34;&gt;
           &lt;button
             @mouseenter=&#34;tooltip = true&#34;
             @mouseleave=&#34;tooltip = false&#34;
@@ -2707,7 +5628,7 @@ Crash --&gt; [*]
         &lt;/span&gt;
   &lt;/span&gt;
   (2013).
-  &lt;a href=&#34;http://localhost:1313/publications/conference-paper/&#34; class=&#34;underline&#34;&gt;An example conference paper&lt;/a&gt;.
+  &lt;a href=&#34;https://example.com/publications/conference-paper/&#34; class=&#34;underline&#34;&gt;An example conference paper&lt;/a&gt;.
   In &lt;em&gt;ICW&lt;/em&gt;.
   
 
@@ -2747,7 +5668,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
         PDF
       &lt;/a&gt;
@@ -2916,7 +5837,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/publications/conference-paper/conference-paper.pdf&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/publications/conference-paper/conference-paper.pdf&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
         PDF
       &lt;/a&gt;
@@ -3030,7 +5951,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/blog/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://example.com/blog/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -3089,9 +6010,9 @@ data.head()
     
     <item>
       <title>Embed Media</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/media/</link>
+      <link>https://example.com/courses/hugo-blox/guide/formatting/media/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/media/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/formatting/media/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -3255,17 +6176,17 @@ data.head()
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://example.com/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://example.com/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>http://localhost:1313/blog/project-management/</link>
+      <link>https://example.com/blog/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/project-management/</guid>
+      <guid>https://example.com/blog/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -3338,9 +6259,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>http://localhost:1313/publications/preprint/</link>
+      <link>https://example.com/publications/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/preprint/</guid>
+      <guid>https://example.com/publications/preprint/</guid>
       <description>&lt;p&gt;This work is driven by the results in my 
  on LLMs.&lt;/p&gt;
 
@@ -3398,9 +6319,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>Create Beautiful Presentations with Markdown</title>
-      <link>http://localhost:1313/events/example/</link>
+      <link>https://example.com/events/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/events/example/</guid>
+      <guid>https://example.com/events/example/</guid>
       <description>&lt;h2 id=&#34;-why-markdown-slides&#34;&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
 
 
@@ -3885,7 +6806,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7519dfcc27cf03dd985a63a0b9a6155b&#34;
-    href=&#34;http://localhost:1313/slides/example/&#34;
+    href=&#34;https://example.com/slides/example/&#34;
     target=&#34;_blank&#34;
     rel=&#34;noopener&#34;
     
@@ -4401,9 +7322,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>An example journal article</title>
-      <link>http://localhost:1313/publications/journal-article/</link>
+      <link>https://example.com/publications/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/journal-article/</guid>
+      <guid>https://example.com/publications/journal-article/</guid>
       <description>
 
 
@@ -4507,9 +7428,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>An example conference paper</title>
-      <link>http://localhost:1313/publications/conference-paper/</link>
+      <link>https://example.com/publications/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/conference-paper/</guid>
+      <guid>https://example.com/publications/conference-paper/</guid>
       <description>
 
 
@@ -4613,9 +7534,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>Buttons</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/button/</link>
+      <link>https://example.com/courses/hugo-blox/guide/formatting/button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/button/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/formatting/button/</guid>
       <description>&lt;p&gt;A modern, customizable button shortcode with gradient styling, icons, and smart link handling.&lt;/p&gt;
 &lt;h2 id=&#34;basic-usage&#34;&gt;Basic Usage&lt;/h2&gt;
 
@@ -4624,7 +7545,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-351ac412531c23e422b81c6422c17da5&#34;
-    href=&#34;http://localhost:1313/contact&#34;
+    href=&#34;https://example.com/contact&#34;
     
     
     
@@ -5152,7 +8073,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-center&#34;&gt;
   &lt;a
     id=&#34;button-62059f8d62052633590d3f60ec092595&#34;
-    href=&#34;http://localhost:1313/signup&#34;
+    href=&#34;https://example.com/signup&#34;
     
     
     
@@ -5214,7 +8135,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-72ec86801f391f16b84b269ade9d2995&#34;
-    href=&#34;http://localhost:1313/files/document.pdf&#34;
+    href=&#34;https://example.com/files/document.pdf&#34;
     
     
     
@@ -5333,9 +8254,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>Callouts</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/callout/</link>
+      <link>https://example.com/courses/hugo-blox/guide/formatting/callout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/callout/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/formatting/callout/</guid>
       <description>&lt;p&gt;Hugo Blox supports GitHub and Obsidian-style Markdown callouts for maximum compatibility and content portability.&lt;/p&gt;
 &lt;p&gt;Callouts are a useful feature to draw attention to important or related content such as notes, hints, or warnings in your articles.&lt;/p&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
@@ -6200,9 +9121,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>Cards</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/cards/</link>
+      <link>https://example.com/courses/hugo-blox/guide/formatting/cards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/cards/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/formatting/cards/</guid>
       <description>&lt;p&gt;A Hugo extension to create cards. Cards can be shown as links or as plain text.&lt;/p&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
@@ -6263,9 +9184,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>Internationalization (i18n)</title>
-      <link>http://localhost:1313/courses/hugo-blox/reference/i18n/</link>
+      <link>https://example.com/courses/hugo-blox/reference/i18n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/reference/i18n/</guid>
+      <guid>https://example.com/courses/hugo-blox/reference/i18n/</guid>
       <description>&lt;p&gt;Hugo Blox enables you to easily edit the interface text as well as translating your site into multiple languages using Hugo&amp;rsquo;s 
  feature.&lt;/p&gt;
 &lt;p&gt;View the full docs at 
@@ -6274,9 +9195,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>Spoilers</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/toggle/</link>
+      <link>https://example.com/courses/hugo-blox/guide/formatting/toggle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/toggle/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/formatting/toggle/</guid>
       <description>&lt;p&gt;A Hugo shortcode to toggle collapsible content.&lt;/p&gt;
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
@@ -6300,9 +9221,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>Steps</title>
-      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/steps/</link>
+      <link>https://example.com/courses/hugo-blox/guide/formatting/steps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/steps/</guid>
+      <guid>https://example.com/courses/hugo-blox/guide/formatting/steps/</guid>
       <description>&lt;p&gt;Display a series of steps, such as for a tutorial.&lt;/p&gt;
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;

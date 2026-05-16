@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Личное | </title>
-    <link>http://localhost:1313/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</link>
-      <atom:link href="http://localhost:1313/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</link>
+      <atom:link href="https://example.com/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/index.xml" rel="self" type="application/rss+xml" />
     <description>Личное</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_da05098ef60dc2e7.png</url>
+      <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
       <title>Личное</title>
-      <link>http://localhost:1313/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</link>
+      <link>https://example.com/tags/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</link>
     </image>
     
     <item>
       <title>Контрольная по дискретной математике и посол Уганды</title>
-      <link>http://localhost:1313/blog/week-2-reflection/</link>
+      <link>https://example.com/blog/week-2-reflection/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/week-2-reflection/</guid>
+      <guid>https://example.com/blog/week-2-reflection/</guid>
       <description>&lt;h2 id=&#34;учебные-достижения&#34;&gt;Учебные достижения&lt;/h2&gt;
 &lt;p&gt;Неделя выдалась продуктивной в академическом плане.&lt;/p&gt;
 &lt;p&gt;Во-первых, я &lt;strong&gt;сдала контрольную по дискретной математике&lt;/strong&gt;. Этот предмет требует внимательности и логического мышления. Готовились мы вместе с другом, обсуждали сложные темы и помогали друг другу разобраться в материале. Надеюсь, наши усилия оправдались, и мы справились достойно.&lt;/p&gt;
@@ -33,9 +33,9 @@
     
     <item>
       <title>Пост по неделе 11-17 марта 2026 года</title>
-      <link>http://localhost:1313/blog/week-summary/</link>
+      <link>https://example.com/blog/week-summary/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/week-summary/</guid>
+      <guid>https://example.com/blog/week-summary/</guid>
       <description>&lt;h2 id=&#34;что-было-на-этой-неделе&#34;&gt;Что было на этой неделе&lt;/h2&gt;
 &lt;p&gt;На этой неделе я работала над своим индивидуальным проектом по операционным системам.&lt;/p&gt;
 &lt;h3 id=&#34;основные-события&#34;&gt;Основные события:&lt;/h3&gt;
