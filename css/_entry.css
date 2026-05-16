@@ -2664,6 +2664,9 @@
   .pb-4 {
     padding-bottom: calc(var(--spacing) * 4);
   }
+  .pb-5 {
+    padding-bottom: calc(var(--spacing) * 5);
+  }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
   }
@@ -2706,6 +2709,9 @@
   }
   .align-middle {
     vertical-align: middle;
+  }
+  .align-text-top {
+    vertical-align: text-top;
   }
   .font-mono {
     font-family: var(--font-mono);
@@ -3681,6 +3687,11 @@
       }
     }
   }
+  .focus\:z-20 {
+    &:focus {
+      z-index: 20;
+    }
+  }
   .focus\:border-transparent {
     &:focus {
       border-color: transparent;
@@ -4538,6 +4549,11 @@
   .lg\:pb-0 {
     @media (width >= 64rem) {
       padding-bottom: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:pb-8 {
+    @media (width >= 64rem) {
+      padding-bottom: calc(var(--spacing) * 8);
     }
   }
   .lg\:text-2xl {
