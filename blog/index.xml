@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog |</title><link>https://example.com/blog/</link><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url><title>Blog</title><link>https://example.com/blog/</link></image><item><title>Какой язык программирования выбрать новичку? Сравнение популярных языков</title><link>https://example.com/blog/languages/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/languages/</guid><description>&lt;h2 id="зачем-вообще-выбирать-язык"&gt;Зачем вообще выбирать язык?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog |</title><link>https://1032253642.github.io/new-repository/blog/</link><atom:link href="https://1032253642.github.io/new-repository/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://1032253642.github.io/new-repository/media/icon_hu_da05098ef60dc2e7.png</url><title>Blog</title><link>https://1032253642.github.io/new-repository/blog/</link></image><item><title>Какой язык программирования выбрать новичку? Сравнение популярных языков</title><link>https://1032253642.github.io/new-repository/blog/languages/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/languages/</guid><description>&lt;h2 id="зачем-вообще-выбирать-язык"&gt;Зачем вообще выбирать язык?&lt;/h2&gt;
 &lt;p&gt;Перед каждым начинающим программистом встаёт вопрос: &lt;strong&gt;с какого языка начать?&lt;/strong&gt; Ответ зависит от целей, интересов и того, чем хочется заниматься в будущем.&lt;/p&gt;
 &lt;p&gt;Не существует «лучшего языка» на все случаи жизни. Каждый язык был создан для решения определённых задач, и у каждого есть свои сильные и слабые стороны.&lt;/p&gt;
 &lt;h2 id="основные-парадигмы-программирования"&gt;Основные парадигмы программирования&lt;/h2&gt;
@@ -137,7 +137,7 @@
 &lt;p&gt;&lt;strong&gt;Выбор языка зависит от ваших целей.&lt;/strong&gt; Если хотите быстро увидеть результат и заниматься данными или автоматизацией — выбирайте &lt;strong&gt;Python&lt;/strong&gt;. Если вас привлекает веб и хочется видеть живой UI — &lt;strong&gt;JavaScript&lt;/strong&gt;. Если мечтаете о разработке под Android или сложных корпоративных системах — &lt;strong&gt;Java&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Главное — не зацикливаться на выборе. &lt;strong&gt;Настоящее обучение начинается тогда, когда вы пишете реальный код.&lt;/strong&gt; Первым языком вполне может стать что угодно — концепции программирования переходят из языка в язык.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Этот пост написан в рамках изучения курса по информатике и посвящён теории языков программирования, их классификации и сравнению.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Контрольная по дискретной математике и настольные игры с друзьями</title><link>https://example.com/blog/summary5/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/summary5/</guid><description>&lt;h2 id="что-было-сделано-за-неделю"&gt;Что было сделано за неделю&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Этот пост написан в рамках изучения курса по информатике и посвящён теории языков программирования, их классификации и сравнению.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Контрольная по дискретной математике и настольные игры с друзьями</title><link>https://1032253642.github.io/new-repository/blog/summary5/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/summary5/</guid><description>&lt;h2 id="что-было-сделано-за-неделю"&gt;Что было сделано за неделю&lt;/h2&gt;
 &lt;h3 id="контрольная-работа-по-дискретной-математике"&gt;Контрольная работа по дискретной математике&lt;/h3&gt;
 &lt;p&gt;Эта неделя началась с серьёзного испытания — контрольной работы по дискретной математике. Темы были непростые: теория графов, булевы функции, комбинаторика. Готовилась несколько дней, перечитывала лекции, решала примеры, разбирала задачи с однокурсниками.&lt;/p&gt;
 &lt;p&gt;Сама контрольная заняла почти три пары. Были моменты, когда я зависала на заданиях и думала, что не успею. Но в итоге всё решила, сдала работу и вышла из аудитории с чувством глубокого облегчения.&lt;/p&gt;
@@ -155,7 +155,7 @@
 &lt;h2 id="планы"&gt;Планы&lt;/h2&gt;
 &lt;p&gt;На следующей неделе нужно будет доделать отчёты по курсу Stepik (осталось всё красиво оформить и выложить на сайт). Также планирую начать готовиться к экзаменам, которые уже совсем близко.&lt;/p&gt;
 &lt;p&gt;Но теперь я знаю: чтобы продуктивно работать, нужно иногда отдыхать по-настоящему — с друзьями, настолками и без зазрения совести.&lt;/p&gt;
-&lt;p&gt;Неделя получилась напряжённой, но очень хорошей. Я и математику сдала, и друзей повидала — что ещё нужно для счастья?&lt;/p&gt;</description></item><item><title>Прохождение курса «Введение в Linux» на Stepik</title><link>https://example.com/blog/post_stepik/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/post_stepik/</guid><description>&lt;details&gt;
+&lt;p&gt;Неделя получилась напряжённой, но очень хорошей. Я и математику сдала, и друзей повидала — что ещё нужно для счастья?&lt;/p&gt;</description></item><item><title>Прохождение курса «Введение в Linux» на Stepik</title><link>https://1032253642.github.io/new-repository/blog/post_stepik/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/post_stepik/</guid><description>&lt;details&gt;
 &lt;summary&gt;📖 Оглавление&lt;/summary&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -227,9 +227,9 @@
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image1_hu_7e57fa0110d695c5.webp 320w, https://example.com/blog/post_stepik/image/image1_hu_3b1610eeceed0dc7.webp 480w, https://example.com/blog/post_stepik/image/image1_hu_2c6355ba7e1b16cd.webp 742w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image1_hu_7e57fa0110d695c5.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image1_hu_3b1610eeceed0dc7.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image1_hu_2c6355ba7e1b16cd.webp 742w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image1_hu_7e57fa0110d695c5.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image1_hu_7e57fa0110d695c5.webp"
 width="742"
 height="455"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -241,9 +241,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image2_hu_77052756d9a814cf.webp 320w, https://example.com/blog/post_stepik/image/image2_hu_88cee20b1317b04e.webp 480w, https://example.com/blog/post_stepik/image/image2_hu_76384b4bf211fe0c.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image2_hu_77052756d9a814cf.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image2_hu_88cee20b1317b04e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image2_hu_76384b4bf211fe0c.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image2_hu_77052756d9a814cf.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image2_hu_77052756d9a814cf.webp"
 width="760"
 height="365"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -256,9 +256,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image3_hu_dd82d979da324940.webp 320w, https://example.com/blog/post_stepik/image/image3_hu_dc467b0e675e5f87.webp 480w, https://example.com/blog/post_stepik/image/image3_hu_2ff37d16ea82083a.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image3_hu_dd82d979da324940.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image3_hu_dc467b0e675e5f87.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image3_hu_2ff37d16ea82083a.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image3_hu_dd82d979da324940.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image3_hu_dd82d979da324940.webp"
 width="760"
 height="387"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -270,9 +270,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image4_hu_acb8c4a6b3e243af.webp 320w, https://example.com/blog/post_stepik/image/image4_hu_2b85e6babc4994e7.webp 480w, https://example.com/blog/post_stepik/image/image4_hu_e6c9c1bd2aa71a59.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image4_hu_acb8c4a6b3e243af.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image4_hu_2b85e6babc4994e7.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image4_hu_e6c9c1bd2aa71a59.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image4_hu_acb8c4a6b3e243af.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image4_hu_acb8c4a6b3e243af.webp"
 width="760"
 height="383"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -284,9 +284,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image5_hu_55e5faebe3c4240a.webp 320w, https://example.com/blog/post_stepik/image/image5_hu_6d621c0bf65bc138.webp 480w, https://example.com/blog/post_stepik/image/image5_hu_b8cbd269ce33754b.webp 747w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image5_hu_55e5faebe3c4240a.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image5_hu_6d621c0bf65bc138.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image5_hu_b8cbd269ce33754b.webp 747w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image5_hu_55e5faebe3c4240a.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image5_hu_55e5faebe3c4240a.webp"
 width="747"
 height="328"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -299,9 +299,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image6_hu_b4d0b42be1ede523.webp 320w, https://example.com/blog/post_stepik/image/image6_hu_ea66ef1c5582ff77.webp 480w, https://example.com/blog/post_stepik/image/image6_hu_5bc2a1e76ad58a1.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image6_hu_b4d0b42be1ede523.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image6_hu_ea66ef1c5582ff77.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image6_hu_5bc2a1e76ad58a1.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image6_hu_b4d0b42be1ede523.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image6_hu_b4d0b42be1ede523.webp"
 width="760"
 height="115"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -313,9 +313,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image7_hu_79cad94bec9b7d5a.webp 320w, https://example.com/blog/post_stepik/image/image7_hu_947b9f5dacbda7bd.webp 480w, https://example.com/blog/post_stepik/image/image7_hu_44b81d6acab1bed0.webp 737w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image7_hu_79cad94bec9b7d5a.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image7_hu_947b9f5dacbda7bd.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image7_hu_44b81d6acab1bed0.webp 737w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image7_hu_79cad94bec9b7d5a.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image7_hu_79cad94bec9b7d5a.webp"
 width="737"
 height="398"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -327,9 +327,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image8_hu_c02c64d1318642a3.webp 320w, https://example.com/blog/post_stepik/image/image8_hu_6c09838137289489.webp 480w, https://example.com/blog/post_stepik/image/image8_hu_f53326ff92a681d6.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image8_hu_c02c64d1318642a3.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image8_hu_6c09838137289489.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image8_hu_f53326ff92a681d6.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image8_hu_c02c64d1318642a3.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image8_hu_c02c64d1318642a3.webp"
 width="760"
 height="339"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -341,9 +341,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image9_hu_3f48d6dcd54cbc72.webp 320w, https://example.com/blog/post_stepik/image/image9_hu_7ff6f93ae94bb387.webp 480w, https://example.com/blog/post_stepik/image/image9_hu_7784efc9046cd5ac.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image9_hu_3f48d6dcd54cbc72.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image9_hu_7ff6f93ae94bb387.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image9_hu_7784efc9046cd5ac.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image9_hu_3f48d6dcd54cbc72.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image9_hu_3f48d6dcd54cbc72.webp"
 width="760"
 height="346"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -356,9 +356,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image10_hu_5ef7927fe1f8186a.webp 320w, https://example.com/blog/post_stepik/image/image10_hu_a09bbe95a8fbb194.webp 480w, https://example.com/blog/post_stepik/image/image10_hu_73191575cf389594.webp 725w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image10_hu_5ef7927fe1f8186a.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image10_hu_a09bbe95a8fbb194.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image10_hu_73191575cf389594.webp 725w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image10_hu_5ef7927fe1f8186a.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image10_hu_5ef7927fe1f8186a.webp"
 width="725"
 height="440"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -370,9 +370,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image11_hu_78a0c1ecf2e7add7.webp 320w, https://example.com/blog/post_stepik/image/image11_hu_f099b4226c683aa7.webp 480w, https://example.com/blog/post_stepik/image/image11_hu_2259e7629b058349.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image11_hu_78a0c1ecf2e7add7.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image11_hu_f099b4226c683aa7.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image11_hu_2259e7629b058349.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image11_hu_78a0c1ecf2e7add7.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image11_hu_78a0c1ecf2e7add7.webp"
 width="760"
 height="351"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -384,9 +384,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image12_hu_d4e290a4ac1b264f.webp 320w, https://example.com/blog/post_stepik/image/image12_hu_b2dee75ecbd3cdcc.webp 480w, https://example.com/blog/post_stepik/image/image12_hu_3f9fe087be76ce7.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image12_hu_d4e290a4ac1b264f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image12_hu_b2dee75ecbd3cdcc.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image12_hu_3f9fe087be76ce7.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image12_hu_d4e290a4ac1b264f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image12_hu_d4e290a4ac1b264f.webp"
 width="760"
 height="266"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -398,9 +398,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image13_hu_157ae0d1305a3279.webp 320w, https://example.com/blog/post_stepik/image/image13_hu_55884df5172bb88c.webp 480w, https://example.com/blog/post_stepik/image/image13_hu_b37026db00e55173.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image13_hu_157ae0d1305a3279.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image13_hu_55884df5172bb88c.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image13_hu_b37026db00e55173.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image13_hu_157ae0d1305a3279.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image13_hu_157ae0d1305a3279.webp"
 width="760"
 height="266"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -412,9 +412,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image14_hu_716739472db6c6d.webp 320w, https://example.com/blog/post_stepik/image/image14_hu_331ee5dbd9796502.webp 480w, https://example.com/blog/post_stepik/image/image14_hu_4785c8603b672634.webp 612w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image14_hu_716739472db6c6d.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image14_hu_331ee5dbd9796502.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image14_hu_4785c8603b672634.webp 612w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image14_hu_716739472db6c6d.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image14_hu_716739472db6c6d.webp"
 width="612"
 height="285"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -427,9 +427,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image15_hu_53099d14ea0d7a98.webp 320w, https://example.com/blog/post_stepik/image/image15_hu_ea87e03d78f1602b.webp 480w, https://example.com/blog/post_stepik/image/image15_hu_d597442641394fca.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image15_hu_53099d14ea0d7a98.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image15_hu_ea87e03d78f1602b.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image15_hu_d597442641394fca.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image15_hu_53099d14ea0d7a98.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image15_hu_53099d14ea0d7a98.webp"
 width="760"
 height="473"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -441,9 +441,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image16_hu_3c357eef9bdb357f.webp 320w, https://example.com/blog/post_stepik/image/image16_hu_905ddb5ebb49d5cf.webp 480w, https://example.com/blog/post_stepik/image/image16_hu_f249fc907309276a.webp 757w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image16_hu_3c357eef9bdb357f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image16_hu_905ddb5ebb49d5cf.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image16_hu_f249fc907309276a.webp 757w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image16_hu_3c357eef9bdb357f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image16_hu_3c357eef9bdb357f.webp"
 width="757"
 height="363"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -455,9 +455,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image17_hu_b2cf9816c1512fe8.webp 320w, https://example.com/blog/post_stepik/image/image17_hu_ff099c128a7ad31c.webp 480w, https://example.com/blog/post_stepik/image/image17_hu_23d118b71f9bd4bb.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image17_hu_b2cf9816c1512fe8.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image17_hu_ff099c128a7ad31c.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image17_hu_23d118b71f9bd4bb.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image17_hu_b2cf9816c1512fe8.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image17_hu_b2cf9816c1512fe8.webp"
 width="760"
 height="379"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -469,9 +469,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image18_hu_73fed512c77fbd82.webp 320w, https://example.com/blog/post_stepik/image/image18_hu_ebed13c236635b4e.webp 480w, https://example.com/blog/post_stepik/image/image18_hu_dbc3fbc674ded54.webp 720w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image18_hu_73fed512c77fbd82.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image18_hu_ebed13c236635b4e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image18_hu_dbc3fbc674ded54.webp 720w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image18_hu_73fed512c77fbd82.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image18_hu_73fed512c77fbd82.webp"
 width="720"
 height="382"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -484,9 +484,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image19_hu_75b4eed0185dc89f.webp 320w, https://example.com/blog/post_stepik/image/image19_hu_232885a259324a7f.webp 480w, https://example.com/blog/post_stepik/image/image19_hu_2bd97c1cf5b5ab5d.webp 757w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image19_hu_75b4eed0185dc89f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image19_hu_232885a259324a7f.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image19_hu_2bd97c1cf5b5ab5d.webp 757w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image19_hu_75b4eed0185dc89f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image19_hu_75b4eed0185dc89f.webp"
 width="757"
 height="455"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -498,9 +498,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image20_hu_27d1c6693b12da8f.webp 320w, https://example.com/blog/post_stepik/image/image20_hu_5719be36b22499bb.webp 480w, https://example.com/blog/post_stepik/image/image20_hu_96ae79510e5ee371.webp 755w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image20_hu_27d1c6693b12da8f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image20_hu_5719be36b22499bb.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image20_hu_96ae79510e5ee371.webp 755w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image20_hu_27d1c6693b12da8f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image20_hu_27d1c6693b12da8f.webp"
 width="755"
 height="532"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -513,9 +513,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image21_hu_689a6b88406dcc2b.webp 320w, https://example.com/blog/post_stepik/image/image21_hu_76c45783a3aff64f.webp 480w, https://example.com/blog/post_stepik/image/image21_hu_edd7f801c33c4327.webp 731w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image21_hu_689a6b88406dcc2b.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image21_hu_76c45783a3aff64f.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image21_hu_edd7f801c33c4327.webp 731w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image21_hu_689a6b88406dcc2b.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image21_hu_689a6b88406dcc2b.webp"
 width="731"
 height="467"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -527,9 +527,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image22_hu_86d347338e5acc92.webp 320w, https://example.com/blog/post_stepik/image/image22_hu_e5036d134f923c6c.webp 480w, https://example.com/blog/post_stepik/image/image22_hu_a63e25c88b0683c8.webp 756w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image22_hu_86d347338e5acc92.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image22_hu_e5036d134f923c6c.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image22_hu_a63e25c88b0683c8.webp 756w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image22_hu_86d347338e5acc92.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image22_hu_86d347338e5acc92.webp"
 width="756"
 height="373"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -541,9 +541,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image23_hu_6be6617180303245.webp 320w, https://example.com/blog/post_stepik/image/image23_hu_6830495b3440ca72.webp 480w, https://example.com/blog/post_stepik/image/image23_hu_4e42119c7a170308.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image23_hu_6be6617180303245.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image23_hu_6830495b3440ca72.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image23_hu_4e42119c7a170308.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image23_hu_6be6617180303245.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image23_hu_6be6617180303245.webp"
 width="760"
 height="267"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -556,9 +556,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image24_hu_4f3a10f1eac8f5fd.webp 320w, https://example.com/blog/post_stepik/image/image24_hu_f2af86e6f0058d7f.webp 480w, https://example.com/blog/post_stepik/image/image24_hu_b8defbb932d653c4.webp 713w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image24_hu_4f3a10f1eac8f5fd.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image24_hu_f2af86e6f0058d7f.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image24_hu_b8defbb932d653c4.webp 713w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image24_hu_4f3a10f1eac8f5fd.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image24_hu_4f3a10f1eac8f5fd.webp"
 width="713"
 height="407"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -570,9 +570,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image25_hu_6ad722c24a81bdc3.webp 320w, https://example.com/blog/post_stepik/image/image25_hu_9fd78107206608f6.webp 480w, https://example.com/blog/post_stepik/image/image25_hu_fb0308bbdfbd4ee2.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image25_hu_6ad722c24a81bdc3.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image25_hu_9fd78107206608f6.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image25_hu_fb0308bbdfbd4ee2.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image25_hu_6ad722c24a81bdc3.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image25_hu_6ad722c24a81bdc3.webp"
 width="760"
 height="286"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -584,9 +584,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image26_hu_a21825a3b5df3fe8.webp 320w, https://example.com/blog/post_stepik/image/image26_hu_1936c2d9f2816cb4.webp 480w, https://example.com/blog/post_stepik/image/image26_hu_33003690bc382867.webp 725w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image26_hu_a21825a3b5df3fe8.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image26_hu_1936c2d9f2816cb4.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image26_hu_33003690bc382867.webp 725w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image26_hu_a21825a3b5df3fe8.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image26_hu_a21825a3b5df3fe8.webp"
 width="725"
 height="357"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -599,9 +599,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image27_hu_b61bf15dbced898a.webp 320w, https://example.com/blog/post_stepik/image/image27_hu_4a0fabbf51c4c067.webp 480w, https://example.com/blog/post_stepik/image/image27_hu_5c3cd93e720224a0.webp 737w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image27_hu_b61bf15dbced898a.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image27_hu_4a0fabbf51c4c067.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image27_hu_5c3cd93e720224a0.webp 737w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image27_hu_b61bf15dbced898a.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image27_hu_b61bf15dbced898a.webp"
 width="737"
 height="338"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -613,9 +613,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image28_hu_62e8ff910fb12995.webp 320w, https://example.com/blog/post_stepik/image/image28_hu_3c1365293595e9f5.webp 480w, https://example.com/blog/post_stepik/image/image28_hu_a8fce59d00a86f75.webp 750w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image28_hu_62e8ff910fb12995.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image28_hu_3c1365293595e9f5.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image28_hu_a8fce59d00a86f75.webp 750w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image28_hu_62e8ff910fb12995.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image28_hu_62e8ff910fb12995.webp"
 width="750"
 height="251"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -627,9 +627,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image29_hu_b2c5249276b84616.webp 320w, https://example.com/blog/post_stepik/image/image29_hu_8192fbf153d58228.webp 480w, https://example.com/blog/post_stepik/image/image29_hu_a42540ffd470a417.webp 733w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image29_hu_b2c5249276b84616.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image29_hu_8192fbf153d58228.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image29_hu_a42540ffd470a417.webp 733w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image29_hu_b2c5249276b84616.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image29_hu_b2c5249276b84616.webp"
 width="733"
 height="331"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -644,9 +644,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image30_hu_f671997f3f049608.webp 320w, https://example.com/blog/post_stepik/image/image30_hu_bf93bf88166b19a7.webp 480w, https://example.com/blog/post_stepik/image/image30_hu_fed35b7ddd074bd0.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image30_hu_f671997f3f049608.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image30_hu_bf93bf88166b19a7.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image30_hu_fed35b7ddd074bd0.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image30_hu_f671997f3f049608.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image30_hu_f671997f3f049608.webp"
 width="760"
 height="331"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -658,9 +658,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image31_hu_ea0804c5b283da2d.webp 320w, https://example.com/blog/post_stepik/image/image31_hu_2e20953d077895e6.webp 480w, https://example.com/blog/post_stepik/image/image31_hu_d90dff23c6a5c9d5.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image31_hu_ea0804c5b283da2d.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image31_hu_2e20953d077895e6.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image31_hu_d90dff23c6a5c9d5.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image31_hu_ea0804c5b283da2d.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image31_hu_ea0804c5b283da2d.webp"
 width="760"
 height="337"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -673,9 +673,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image32_hu_9dae216558be9637.webp 320w, https://example.com/blog/post_stepik/image/image32_hu_5ef91a4bce1f82db.webp 480w, https://example.com/blog/post_stepik/image/image32_hu_f684e6872a0dda8e.webp 710w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image32_hu_9dae216558be9637.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image32_hu_5ef91a4bce1f82db.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image32_hu_f684e6872a0dda8e.webp 710w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image32_hu_9dae216558be9637.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image32_hu_9dae216558be9637.webp"
 width="710"
 height="352"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -687,9 +687,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image33_hu_eee506cd432cb558.webp 320w, https://example.com/blog/post_stepik/image/image33_hu_2eabcca002ef2173.webp 480w, https://example.com/blog/post_stepik/image/image33_hu_8e702bae36a3a959.webp 737w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image33_hu_eee506cd432cb558.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image33_hu_2eabcca002ef2173.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image33_hu_8e702bae36a3a959.webp 737w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image33_hu_eee506cd432cb558.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image33_hu_eee506cd432cb558.webp"
 width="737"
 height="437"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -701,9 +701,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image34_hu_ac2781d5bd2c77bd.webp 320w, https://example.com/blog/post_stepik/image/image34_hu_d632ddc3a04a32a4.webp 480w, https://example.com/blog/post_stepik/image/image34_hu_cd55eba5836eaeac.webp 626w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image34_hu_ac2781d5bd2c77bd.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image34_hu_d632ddc3a04a32a4.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image34_hu_cd55eba5836eaeac.webp 626w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image34_hu_ac2781d5bd2c77bd.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image34_hu_ac2781d5bd2c77bd.webp"
 width="626"
 height="273"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -716,9 +716,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image35_hu_7e088b31edaa65ba.webp 320w, https://example.com/blog/post_stepik/image/image35_hu_bd086a37d627277d.webp 480w, https://example.com/blog/post_stepik/image/image35_hu_31c080bdd5c4d77c.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image35_hu_7e088b31edaa65ba.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image35_hu_bd086a37d627277d.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image35_hu_31c080bdd5c4d77c.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image35_hu_7e088b31edaa65ba.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image35_hu_7e088b31edaa65ba.webp"
 width="760"
 height="223"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -730,9 +730,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image36_hu_4a1b99c3af430833.webp 320w, https://example.com/blog/post_stepik/image/image36_hu_922a540aae428f7.webp 480w, https://example.com/blog/post_stepik/image/image36_hu_39bd602f63c34119.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image36_hu_4a1b99c3af430833.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image36_hu_922a540aae428f7.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image36_hu_39bd602f63c34119.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image36_hu_4a1b99c3af430833.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image36_hu_4a1b99c3af430833.webp"
 width="760"
 height="280"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -744,9 +744,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image37_hu_791d748aa4309f45.webp 320w, https://example.com/blog/post_stepik/image/image37_hu_b3d93d3880139c4c.webp 480w, https://example.com/blog/post_stepik/image/image37_hu_17b5b90385e49863.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image37_hu_791d748aa4309f45.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image37_hu_b3d93d3880139c4c.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image37_hu_17b5b90385e49863.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image37_hu_791d748aa4309f45.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image37_hu_791d748aa4309f45.webp"
 width="760"
 height="201"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -758,9 +758,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image38_hu_a61d13f4200efce2.webp 320w, https://example.com/blog/post_stepik/image/image38_hu_9a073cd3c0808636.webp 480w, https://example.com/blog/post_stepik/image/image38_hu_ed4e5ad383f4af7.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image38_hu_a61d13f4200efce2.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image38_hu_9a073cd3c0808636.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image38_hu_ed4e5ad383f4af7.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image38_hu_a61d13f4200efce2.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image38_hu_a61d13f4200efce2.webp"
 width="760"
 height="134"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -773,9 +773,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image39_hu_8a93a3d7efb97797.webp 320w, https://example.com/blog/post_stepik/image/image39_hu_82f3c20f54c2593b.webp 480w, https://example.com/blog/post_stepik/image/image39_hu_55739a601165d4e0.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image39_hu_8a93a3d7efb97797.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image39_hu_82f3c20f54c2593b.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image39_hu_55739a601165d4e0.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image39_hu_8a93a3d7efb97797.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image39_hu_8a93a3d7efb97797.webp"
 width="760"
 height="360"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -787,9 +787,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image40_hu_5402db7a9d379d7f.webp 320w, https://example.com/blog/post_stepik/image/image40_hu_73f82c03e6bc3eeb.webp 480w, https://example.com/blog/post_stepik/image/image40_hu_d26e48d349e54321.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image40_hu_5402db7a9d379d7f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image40_hu_73f82c03e6bc3eeb.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image40_hu_d26e48d349e54321.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image40_hu_5402db7a9d379d7f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image40_hu_5402db7a9d379d7f.webp"
 width="760"
 height="260"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -801,9 +801,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image41_hu_6d37dc0b020f0be9.webp 320w, https://example.com/blog/post_stepik/image/image41_hu_30c62a1cdf09ec1d.webp 480w, https://example.com/blog/post_stepik/image/image41_hu_77eb6da15d475e7.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image41_hu_6d37dc0b020f0be9.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image41_hu_30c62a1cdf09ec1d.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image41_hu_77eb6da15d475e7.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image41_hu_6d37dc0b020f0be9.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image41_hu_6d37dc0b020f0be9.webp"
 width="760"
 height="280"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -815,9 +815,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image42_hu_87a65f06b1fc7d45.webp 320w, https://example.com/blog/post_stepik/image/image42_hu_3c4560a63e2a106.webp 480w, https://example.com/blog/post_stepik/image/image42_hu_cf73195558e5cb01.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image42_hu_87a65f06b1fc7d45.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image42_hu_3c4560a63e2a106.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image42_hu_cf73195558e5cb01.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image42_hu_87a65f06b1fc7d45.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image42_hu_87a65f06b1fc7d45.webp"
 width="760"
 height="226"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -830,9 +830,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image43_hu_ef2237b9ad6f55ab.webp 320w, https://example.com/blog/post_stepik/image/image43_hu_f6685697d85bca2f.webp 480w, https://example.com/blog/post_stepik/image/image43_hu_1fb8843acc8463ed.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image43_hu_ef2237b9ad6f55ab.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image43_hu_f6685697d85bca2f.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image43_hu_1fb8843acc8463ed.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image43_hu_ef2237b9ad6f55ab.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image43_hu_ef2237b9ad6f55ab.webp"
 width="760"
 height="212"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -844,9 +844,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image44_hu_8edf65c0c485c3dd.webp 320w, https://example.com/blog/post_stepik/image/image44_hu_e045e7df4565de14.webp 480w, https://example.com/blog/post_stepik/image/image44_hu_9f762cb5e38fb4bf.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image44_hu_8edf65c0c485c3dd.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image44_hu_e045e7df4565de14.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image44_hu_9f762cb5e38fb4bf.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image44_hu_8edf65c0c485c3dd.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image44_hu_8edf65c0c485c3dd.webp"
 width="760"
 height="194"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -858,9 +858,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image45_hu_34ba15ebefba599c.webp 320w, https://example.com/blog/post_stepik/image/image45_hu_a1b90fe6d92b07ae.webp 480w, https://example.com/blog/post_stepik/image/image45_hu_f06112fa3586d315.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image45_hu_34ba15ebefba599c.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image45_hu_a1b90fe6d92b07ae.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image45_hu_f06112fa3586d315.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image45_hu_34ba15ebefba599c.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image45_hu_34ba15ebefba599c.webp"
 width="760"
 height="209"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -872,9 +872,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image46_hu_12883b8f8b0e7c10.webp 320w, https://example.com/blog/post_stepik/image/image46_hu_141342c2f001dae9.webp 480w, https://example.com/blog/post_stepik/image/image46_hu_49c0726e6b664462.webp 530w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image46_hu_12883b8f8b0e7c10.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image46_hu_141342c2f001dae9.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image46_hu_49c0726e6b664462.webp 530w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image46_hu_12883b8f8b0e7c10.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image46_hu_12883b8f8b0e7c10.webp"
 width="530"
 height="168"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -886,9 +886,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image47_hu_a9f855085f70ac75.webp 320w, https://example.com/blog/post_stepik/image/image47_hu_64919e4cd4e5033e.webp 480w, https://example.com/blog/post_stepik/image/image47_hu_2c471b82257ec28c.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image47_hu_a9f855085f70ac75.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image47_hu_64919e4cd4e5033e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image47_hu_2c471b82257ec28c.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image47_hu_a9f855085f70ac75.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image47_hu_a9f855085f70ac75.webp"
 width="760"
 height="295"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -901,9 +901,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image48_hu_1f62b8d3096db3bc.webp 320w, https://example.com/blog/post_stepik/image/image48_hu_14c930f593b1466e.webp 480w, https://example.com/blog/post_stepik/image/image48_hu_5b2947810db53373.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image48_hu_1f62b8d3096db3bc.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image48_hu_14c930f593b1466e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image48_hu_5b2947810db53373.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image48_hu_1f62b8d3096db3bc.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image48_hu_1f62b8d3096db3bc.webp"
 width="760"
 height="244"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -915,9 +915,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image49_hu_4e06dfc9031f2360.webp 320w, https://example.com/blog/post_stepik/image/image49_hu_e86ad20120567b48.webp 480w, https://example.com/blog/post_stepik/image/image49_hu_98485ef29f8d7755.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image49_hu_4e06dfc9031f2360.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image49_hu_e86ad20120567b48.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image49_hu_98485ef29f8d7755.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image49_hu_4e06dfc9031f2360.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image49_hu_4e06dfc9031f2360.webp"
 width="760"
 height="212"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -929,9 +929,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image50_hu_8153c14c3c29ae3e.webp 320w, https://example.com/blog/post_stepik/image/image50_hu_e320cab76f33e448.webp 480w, https://example.com/blog/post_stepik/image/image50_hu_831cb61eca75c0a9.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image50_hu_8153c14c3c29ae3e.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image50_hu_e320cab76f33e448.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image50_hu_831cb61eca75c0a9.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image50_hu_8153c14c3c29ae3e.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image50_hu_8153c14c3c29ae3e.webp"
 width="760"
 height="272"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -943,9 +943,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image51_hu_8109a093d8ae22c3.webp 320w, https://example.com/blog/post_stepik/image/image51_hu_bdc1be1a43b08def.webp 480w, https://example.com/blog/post_stepik/image/image51_hu_344cc2d893f23c63.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image51_hu_8109a093d8ae22c3.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image51_hu_bdc1be1a43b08def.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image51_hu_344cc2d893f23c63.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image51_hu_8109a093d8ae22c3.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image51_hu_8109a093d8ae22c3.webp"
 width="760"
 height="225"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -957,9 +957,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image52_hu_81209fad61a67527.webp 320w, https://example.com/blog/post_stepik/image/image52_hu_ecd0b7f81b01fda1.webp 480w, https://example.com/blog/post_stepik/image/image52_hu_28802f95319b3af5.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image52_hu_81209fad61a67527.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image52_hu_ecd0b7f81b01fda1.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image52_hu_28802f95319b3af5.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image52_hu_81209fad61a67527.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image52_hu_81209fad61a67527.webp"
 width="760"
 height="276"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -971,9 +971,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image53_hu_e75a402d1fa673f4.webp 320w, https://example.com/blog/post_stepik/image/image53_hu_2521ea0882bb88cd.webp 480w, https://example.com/blog/post_stepik/image/image53_hu_a6b8e83182b4a71c.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image53_hu_e75a402d1fa673f4.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image53_hu_2521ea0882bb88cd.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image53_hu_a6b8e83182b4a71c.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image53_hu_e75a402d1fa673f4.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image53_hu_e75a402d1fa673f4.webp"
 width="760"
 height="304"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -988,9 +988,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image54_hu_1f8332ecb696b6c9.webp 320w, https://example.com/blog/post_stepik/image/image54_hu_bcc9df58e5cf56dc.webp 480w, https://example.com/blog/post_stepik/image/image54_hu_9f9562f707426231.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image54_hu_1f8332ecb696b6c9.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image54_hu_bcc9df58e5cf56dc.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image54_hu_9f9562f707426231.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image54_hu_1f8332ecb696b6c9.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image54_hu_1f8332ecb696b6c9.webp"
 width="760"
 height="299"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1002,9 +1002,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image55_hu_f64966449e289c6f.webp 320w, https://example.com/blog/post_stepik/image/image55_hu_8cf0e62395cb3a8b.webp 480w, https://example.com/blog/post_stepik/image/image55_hu_882dac22d08cd347.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image55_hu_f64966449e289c6f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image55_hu_8cf0e62395cb3a8b.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image55_hu_882dac22d08cd347.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image55_hu_f64966449e289c6f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image55_hu_f64966449e289c6f.webp"
 width="760"
 height="256"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1016,9 +1016,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image56_hu_d08e47ad5ae99866.webp 320w, https://example.com/blog/post_stepik/image/image56_hu_dd0667f6842d7bf5.webp 480w, https://example.com/blog/post_stepik/image/image56_hu_db9fc2e3d79f23a4.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image56_hu_d08e47ad5ae99866.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image56_hu_dd0667f6842d7bf5.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image56_hu_db9fc2e3d79f23a4.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image56_hu_d08e47ad5ae99866.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image56_hu_d08e47ad5ae99866.webp"
 width="760"
 height="249"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1030,9 +1030,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image57_hu_33929168b968c950.webp 320w, https://example.com/blog/post_stepik/image/image57_hu_e02d1f746b51024e.webp 480w, https://example.com/blog/post_stepik/image/image57_hu_29c8fe060eedd509.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image57_hu_33929168b968c950.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image57_hu_e02d1f746b51024e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image57_hu_29c8fe060eedd509.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image57_hu_33929168b968c950.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image57_hu_33929168b968c950.webp"
 width="760"
 height="252"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1044,9 +1044,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image58_hu_fe12a8d98b68c9de.webp 320w, https://example.com/blog/post_stepik/image/image58_hu_be6ef73c179d38ba.webp 480w, https://example.com/blog/post_stepik/image/image58_hu_81fa7df03a65e556.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image58_hu_fe12a8d98b68c9de.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image58_hu_be6ef73c179d38ba.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image58_hu_81fa7df03a65e556.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image58_hu_fe12a8d98b68c9de.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image58_hu_fe12a8d98b68c9de.webp"
 width="760"
 height="238"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1059,9 +1059,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image59_hu_35467902776ed8e3.webp 320w, https://example.com/blog/post_stepik/image/image59_hu_4435345ba8061e87.webp 480w, https://example.com/blog/post_stepik/image/image59_hu_90b390ba725f209c.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image59_hu_35467902776ed8e3.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image59_hu_4435345ba8061e87.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image59_hu_90b390ba725f209c.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image59_hu_35467902776ed8e3.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image59_hu_35467902776ed8e3.webp"
 width="760"
 height="307"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1073,9 +1073,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image60_hu_47446a5296c2c80e.webp 320w, https://example.com/blog/post_stepik/image/image60_hu_8d04201d136f56db.webp 480w, https://example.com/blog/post_stepik/image/image60_hu_d8f33cc8d564d870.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image60_hu_47446a5296c2c80e.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image60_hu_8d04201d136f56db.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image60_hu_d8f33cc8d564d870.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image60_hu_47446a5296c2c80e.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image60_hu_47446a5296c2c80e.webp"
 width="760"
 height="355"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1087,9 +1087,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image61_hu_7ecab34e215276cf.webp 320w, https://example.com/blog/post_stepik/image/image61_hu_17c8a51ddadace52.webp 480w, https://example.com/blog/post_stepik/image/image61_hu_5adf4a401144a92d.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image61_hu_7ecab34e215276cf.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image61_hu_17c8a51ddadace52.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image61_hu_5adf4a401144a92d.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image61_hu_7ecab34e215276cf.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image61_hu_7ecab34e215276cf.webp"
 width="760"
 height="426"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1101,9 +1101,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image62_hu_6c11880020222ff2.webp 320w, https://example.com/blog/post_stepik/image/image62_hu_44d9f40ec28597e7.webp 480w, https://example.com/blog/post_stepik/image/image62_hu_e74f0c0806fd9240.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image62_hu_6c11880020222ff2.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image62_hu_44d9f40ec28597e7.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image62_hu_e74f0c0806fd9240.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image62_hu_6c11880020222ff2.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image62_hu_6c11880020222ff2.webp"
 width="760"
 height="467"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1115,9 +1115,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image63_hu_474c589463086f4e.webp 320w, https://example.com/blog/post_stepik/image/image63_hu_7e6b99fa99c1d009.webp 480w, https://example.com/blog/post_stepik/image/image63_hu_98271430a3efba5b.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image63_hu_474c589463086f4e.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image63_hu_7e6b99fa99c1d009.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image63_hu_98271430a3efba5b.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image63_hu_474c589463086f4e.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image63_hu_474c589463086f4e.webp"
 width="760"
 height="258"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1129,9 +1129,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image64_hu_e781e243750a3b1b.webp 320w, https://example.com/blog/post_stepik/image/image64_hu_30abb2f0cf13e7a9.webp 480w, https://example.com/blog/post_stepik/image/image64_hu_698ea02c6e664982.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image64_hu_e781e243750a3b1b.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image64_hu_30abb2f0cf13e7a9.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image64_hu_698ea02c6e664982.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image64_hu_e781e243750a3b1b.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image64_hu_e781e243750a3b1b.webp"
 width="760"
 height="272"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1143,9 +1143,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image65_hu_11584bdde331c1a4.webp 320w, https://example.com/blog/post_stepik/image/image65_hu_aedabdb99feaf1ad.webp 480w, https://example.com/blog/post_stepik/image/image65_hu_27d4b6e5936dce71.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image65_hu_11584bdde331c1a4.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image65_hu_aedabdb99feaf1ad.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image65_hu_27d4b6e5936dce71.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image65_hu_11584bdde331c1a4.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image65_hu_11584bdde331c1a4.webp"
 width="760"
 height="254"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1157,9 +1157,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image66_hu_37391a59de0547a7.webp 320w, https://example.com/blog/post_stepik/image/image66_hu_bdfa1432820e43a5.webp 480w, https://example.com/blog/post_stepik/image/image66_hu_876f54718796e380.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image66_hu_37391a59de0547a7.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image66_hu_bdfa1432820e43a5.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image66_hu_876f54718796e380.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image66_hu_37391a59de0547a7.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image66_hu_37391a59de0547a7.webp"
 width="760"
 height="480"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1171,9 +1171,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image67_hu_9841966b7fa247c2.webp 320w, https://example.com/blog/post_stepik/image/image67_hu_4235563e5d11142e.webp 480w, https://example.com/blog/post_stepik/image/image67_hu_aaeed63e4118c758.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image67_hu_9841966b7fa247c2.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image67_hu_4235563e5d11142e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image67_hu_aaeed63e4118c758.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image67_hu_9841966b7fa247c2.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image67_hu_9841966b7fa247c2.webp"
 width="760"
 height="499"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1185,9 +1185,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image68_hu_443b09bcb555134b.webp 320w, https://example.com/blog/post_stepik/image/image68_hu_342171a804a63cac.webp 480w, https://example.com/blog/post_stepik/image/image68_hu_9d403a8be97de6cb.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image68_hu_443b09bcb555134b.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image68_hu_342171a804a63cac.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image68_hu_9d403a8be97de6cb.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image68_hu_443b09bcb555134b.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image68_hu_443b09bcb555134b.webp"
 width="760"
 height="231"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1199,9 +1199,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image69_hu_6b8cefb748b30daa.webp 320w, https://example.com/blog/post_stepik/image/image69_hu_49c5e2000d809ebf.webp 480w, https://example.com/blog/post_stepik/image/image69_hu_1b2704307f014922.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image69_hu_6b8cefb748b30daa.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image69_hu_49c5e2000d809ebf.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image69_hu_1b2704307f014922.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image69_hu_6b8cefb748b30daa.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image69_hu_6b8cefb748b30daa.webp"
 width="760"
 height="396"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1213,9 +1213,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image70_hu_35b8482115909a97.webp 320w, https://example.com/blog/post_stepik/image/image70_hu_524bd2e56cd31915.webp 480w, https://example.com/blog/post_stepik/image/image70_hu_93b03e389a9cb057.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image70_hu_35b8482115909a97.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image70_hu_524bd2e56cd31915.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image70_hu_93b03e389a9cb057.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image70_hu_35b8482115909a97.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image70_hu_35b8482115909a97.webp"
 width="760"
 height="354"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1228,9 +1228,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image71_hu_97068856fb467b2f.webp 320w, https://example.com/blog/post_stepik/image/image71_hu_6fd73d54765661f0.webp 480w, https://example.com/blog/post_stepik/image/image71_hu_eaf047850052d382.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image71_hu_97068856fb467b2f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image71_hu_6fd73d54765661f0.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image71_hu_eaf047850052d382.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image71_hu_97068856fb467b2f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image71_hu_97068856fb467b2f.webp"
 width="760"
 height="369"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1242,9 +1242,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image72_hu_ff90524042ad3768.webp 320w, https://example.com/blog/post_stepik/image/image72_hu_e137d4ce35235897.webp 402w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image72_hu_ff90524042ad3768.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image72_hu_e137d4ce35235897.webp 402w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image72_hu_ff90524042ad3768.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image72_hu_ff90524042ad3768.webp"
 width="402"
 height="531"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1256,9 +1256,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image73_hu_2560f6e82c2d06dd.webp 320w, https://example.com/blog/post_stepik/image/image73_hu_35899aea60e5da92.webp 480w, https://example.com/blog/post_stepik/image/image73_hu_7560cfe92b61d652.webp 645w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image73_hu_2560f6e82c2d06dd.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image73_hu_35899aea60e5da92.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image73_hu_7560cfe92b61d652.webp 645w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image73_hu_2560f6e82c2d06dd.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image73_hu_2560f6e82c2d06dd.webp"
 width="645"
 height="532"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1271,9 +1271,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image74_hu_c0b600a53dd0d856.webp 320w, https://example.com/blog/post_stepik/image/image74_hu_3a03a416d756995b.webp 480w, https://example.com/blog/post_stepik/image/image74_hu_22cb4af02809374d.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image74_hu_c0b600a53dd0d856.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image74_hu_3a03a416d756995b.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image74_hu_22cb4af02809374d.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image74_hu_c0b600a53dd0d856.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image74_hu_c0b600a53dd0d856.webp"
 width="760"
 height="334"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1285,9 +1285,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image75_hu_d01d0a013eb2fa72.webp 320w, https://example.com/blog/post_stepik/image/image75_hu_6d1e13e862b0f13e.webp 480w, https://example.com/blog/post_stepik/image/image75_hu_b291777c28ff0b1f.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image75_hu_d01d0a013eb2fa72.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image75_hu_6d1e13e862b0f13e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image75_hu_b291777c28ff0b1f.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image75_hu_d01d0a013eb2fa72.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image75_hu_d01d0a013eb2fa72.webp"
 width="760"
 height="309"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1299,9 +1299,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image76_hu_42601278b0d083d1.webp 320w, https://example.com/blog/post_stepik/image/image76_hu_97e128dbd652ac15.webp 480w, https://example.com/blog/post_stepik/image/image76_hu_d7d32474c9abe2fe.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image76_hu_42601278b0d083d1.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image76_hu_97e128dbd652ac15.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image76_hu_d7d32474c9abe2fe.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image76_hu_42601278b0d083d1.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image76_hu_42601278b0d083d1.webp"
 width="760"
 height="448"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1314,9 +1314,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image77_hu_5046d7fc1dd0571f.webp 320w, https://example.com/blog/post_stepik/image/image77_hu_14199ba03eb5cff5.webp 480w, https://example.com/blog/post_stepik/image/image77_hu_12083cf443af56a2.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image77_hu_5046d7fc1dd0571f.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image77_hu_14199ba03eb5cff5.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image77_hu_12083cf443af56a2.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image77_hu_5046d7fc1dd0571f.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image77_hu_5046d7fc1dd0571f.webp"
 width="760"
 height="364"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1328,9 +1328,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image78_hu_c0147272b500a187.webp 320w, https://example.com/blog/post_stepik/image/image78_hu_871f534d3ef59970.webp 480w, https://example.com/blog/post_stepik/image/image78_hu_15d084b015468d04.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image78_hu_c0147272b500a187.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image78_hu_871f534d3ef59970.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image78_hu_15d084b015468d04.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image78_hu_c0147272b500a187.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image78_hu_c0147272b500a187.webp"
 width="760"
 height="337"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1342,9 +1342,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image79_hu_9866912e5edf577c.webp 320w, https://example.com/blog/post_stepik/image/image79_hu_32a6fe8e3fcfa10b.webp 480w, https://example.com/blog/post_stepik/image/image79_hu_b1285f7c0f27ddea.webp 647w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image79_hu_9866912e5edf577c.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image79_hu_32a6fe8e3fcfa10b.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image79_hu_b1285f7c0f27ddea.webp 647w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image79_hu_9866912e5edf577c.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image79_hu_9866912e5edf577c.webp"
 width="647"
 height="156"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1357,9 +1357,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image80_hu_f822093fbc23d07.webp 320w, https://example.com/blog/post_stepik/image/image80_hu_ad0047ff891d32e4.webp 480w, https://example.com/blog/post_stepik/image/image80_hu_bc47ab38c9d306d0.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image80_hu_f822093fbc23d07.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image80_hu_ad0047ff891d32e4.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image80_hu_bc47ab38c9d306d0.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image80_hu_f822093fbc23d07.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image80_hu_f822093fbc23d07.webp"
 width="760"
 height="230"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1371,9 +1371,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image81_hu_c460a15353763f05.webp 320w, https://example.com/blog/post_stepik/image/image81_hu_2cfbf564b333d454.webp 480w, https://example.com/blog/post_stepik/image/image81_hu_2ba3a2d2998719de.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image81_hu_c460a15353763f05.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image81_hu_2cfbf564b333d454.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image81_hu_2ba3a2d2998719de.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image81_hu_c460a15353763f05.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image81_hu_c460a15353763f05.webp"
 width="760"
 height="223"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1385,9 +1385,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image82_hu_2fead09f133a5b1c.webp 320w, https://example.com/blog/post_stepik/image/image82_hu_52c5a11a63ec4e.webp 480w, https://example.com/blog/post_stepik/image/image82_hu_be96f615f59aa091.webp 605w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image82_hu_2fead09f133a5b1c.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image82_hu_52c5a11a63ec4e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image82_hu_be96f615f59aa091.webp 605w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image82_hu_2fead09f133a5b1c.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image82_hu_2fead09f133a5b1c.webp"
 width="605"
 height="152"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1400,9 +1400,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image83_hu_51c03ad85af0fd97.webp 320w, https://example.com/blog/post_stepik/image/image83_hu_dcb3fe16e3432783.webp 480w, https://example.com/blog/post_stepik/image/image83_hu_62d92435203ad7cd.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image83_hu_51c03ad85af0fd97.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image83_hu_dcb3fe16e3432783.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image83_hu_62d92435203ad7cd.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image83_hu_51c03ad85af0fd97.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image83_hu_51c03ad85af0fd97.webp"
 width="760"
 height="229"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1414,9 +1414,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image84_hu_db99e73f2b002b13.webp 320w, https://example.com/blog/post_stepik/image/image84_hu_caf8314c8e61f2b4.webp 480w, https://example.com/blog/post_stepik/image/image84_hu_b8de928b062ae49a.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image84_hu_db99e73f2b002b13.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image84_hu_caf8314c8e61f2b4.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image84_hu_b8de928b062ae49a.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image84_hu_db99e73f2b002b13.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image84_hu_db99e73f2b002b13.webp"
 width="760"
 height="230"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1428,9 +1428,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image85_hu_51659718afe3a29d.webp 320w, https://example.com/blog/post_stepik/image/image85_hu_fb8834f19278d07c.webp 480w, https://example.com/blog/post_stepik/image/image85_hu_cb231d68986acf68.webp 661w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image85_hu_51659718afe3a29d.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image85_hu_fb8834f19278d07c.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image85_hu_cb231d68986acf68.webp 661w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image85_hu_51659718afe3a29d.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image85_hu_51659718afe3a29d.webp"
 width="661"
 height="167"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1442,9 +1442,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image86_hu_6a20ea0477aa3181.webp 320w, https://example.com/blog/post_stepik/image/image86_hu_4a2c98caf280f8f6.webp 480w, https://example.com/blog/post_stepik/image/image86_hu_8bcd7b0e682c1206.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image86_hu_6a20ea0477aa3181.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image86_hu_4a2c98caf280f8f6.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image86_hu_8bcd7b0e682c1206.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image86_hu_6a20ea0477aa3181.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image86_hu_6a20ea0477aa3181.webp"
 width="760"
 height="67"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1456,9 +1456,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image87_hu_3747a549b4928ee3.webp 320w, https://example.com/blog/post_stepik/image/image87_hu_a2f57ec0a698eb15.webp 453w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image87_hu_3747a549b4928ee3.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image87_hu_a2f57ec0a698eb15.webp 453w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image87_hu_3747a549b4928ee3.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image87_hu_3747a549b4928ee3.webp"
 width="453"
 height="216"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1471,9 +1471,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image88_hu_2e80b466dd018f9d.webp 320w, https://example.com/blog/post_stepik/image/image88_hu_137b637dfe0a5a45.webp 480w, https://example.com/blog/post_stepik/image/image88_hu_63fde27ebeda9ed4.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image88_hu_2e80b466dd018f9d.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image88_hu_137b637dfe0a5a45.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image88_hu_63fde27ebeda9ed4.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image88_hu_2e80b466dd018f9d.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image88_hu_2e80b466dd018f9d.webp"
 width="760"
 height="385"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1485,9 +1485,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image89_hu_b96e04d2936459d7.webp 320w, https://example.com/blog/post_stepik/image/image89_hu_f0169e4580c508b2.webp 480w, https://example.com/blog/post_stepik/image/image89_hu_eccb72fbf429d43d.webp 488w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image89_hu_b96e04d2936459d7.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image89_hu_f0169e4580c508b2.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image89_hu_eccb72fbf429d43d.webp 488w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image89_hu_b96e04d2936459d7.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image89_hu_b96e04d2936459d7.webp"
 width="488"
 height="317"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1499,9 +1499,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image90_hu_2e25f06dc659e586.webp 320w, https://example.com/blog/post_stepik/image/image90_hu_e4d5d5d7cfb8b960.webp 480w, https://example.com/blog/post_stepik/image/image90_hu_278a7e1c987021d8.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image90_hu_2e25f06dc659e586.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image90_hu_e4d5d5d7cfb8b960.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image90_hu_278a7e1c987021d8.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image90_hu_2e25f06dc659e586.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image90_hu_2e25f06dc659e586.webp"
 width="760"
 height="379"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1513,9 +1513,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image91_hu_140ea3ffc7bbae13.webp 320w, https://example.com/blog/post_stepik/image/image91_hu_6d5372467da364dd.webp 480w, https://example.com/blog/post_stepik/image/image91_hu_4e449923ec06e3f9.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image91_hu_140ea3ffc7bbae13.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image91_hu_6d5372467da364dd.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image91_hu_4e449923ec06e3f9.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image91_hu_140ea3ffc7bbae13.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image91_hu_140ea3ffc7bbae13.webp"
 width="760"
 height="271"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1527,9 +1527,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image92_hu_895413fdbc574275.webp 320w, https://example.com/blog/post_stepik/image/image92_hu_2dfdcd65d70e2e8e.webp 480w, https://example.com/blog/post_stepik/image/image92_hu_ee3096857af66f0.webp 760w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image92_hu_895413fdbc574275.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image92_hu_2dfdcd65d70e2e8e.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image92_hu_ee3096857af66f0.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image92_hu_895413fdbc574275.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image92_hu_895413fdbc574275.webp"
 width="760"
 height="233"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1541,9 +1541,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt=""
-srcset="https://example.com/blog/post_stepik/image/image93_hu_15808c59645fcbcf.webp 320w, https://example.com/blog/post_stepik/image/image93_hu_d9acad6e1fa73278.webp 480w, https://example.com/blog/post_stepik/image/image93_hu_fe726b8a21bc5c1e.webp 632w"
+srcset="https://1032253642.github.io/new-repository/blog/post_stepik/image/image93_hu_15808c59645fcbcf.webp 320w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image93_hu_d9acad6e1fa73278.webp 480w, https://1032253642.github.io/new-repository/blog/post_stepik/image/image93_hu_fe726b8a21bc5c1e.webp 632w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://example.com/blog/post_stepik/image/image93_hu_15808c59645fcbcf.webp"
+src="https://1032253642.github.io/new-repository/blog/post_stepik/image/image93_hu_15808c59645fcbcf.webp"
 width="632"
 height="518"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -1565,7 +1565,7 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;li&gt;&lt;strong&gt;Gnuplot:&lt;/strong&gt; построение графиков, настройка осей, анимация&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Права доступа:&lt;/strong&gt; chmod, chown&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Курс завершён с максимальным результатом — 125 баллов из 125, получен сертификат с отличием.&lt;/p&gt;</description></item><item><title>Как работать с библиографией: советы и инструменты</title><link>https://example.com/blog/summary4/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/summary4/</guid><description>&lt;h2 id="почему-важно-правильно-оформлять-библиографию"&gt;Почему важно правильно оформлять библиографию&lt;/h2&gt;
+&lt;p&gt;Курс завершён с максимальным результатом — 125 баллов из 125, получен сертификат с отличием.&lt;/p&gt;</description></item><item><title>Как работать с библиографией: советы и инструменты</title><link>https://1032253642.github.io/new-repository/blog/summary4/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/summary4/</guid><description>&lt;h2 id="почему-важно-правильно-оформлять-библиографию"&gt;Почему важно правильно оформлять библиографию&lt;/h2&gt;
 &lt;p&gt;Каждый студент и исследователь сталкивался с ситуацией, когда список литературы занимает больше времени, чем сама работа. Ошибки в оформлении источников — одна из самых частых причин снижения оценки или возврата статьи рецензентом.&lt;/p&gt;
 &lt;p&gt;Хорошо оформленная библиография показывает:&lt;/p&gt;
 &lt;ul&gt;
@@ -1627,7 +1627,7 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 — соцсеть для учёных&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;А как вы организуете свои источники? Делитесь в комментариях или пишите мне!&lt;/em&gt; 📚&lt;/p&gt;</description></item><item><title>Четвёртый этап проекта: настройка научных ссылок на сайте</title><link>https://example.com/blog/summary3/</link><pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/summary3/</guid><description>&lt;h2 id="что-было-сделано-за-неделю"&gt;Что было сделано за неделю&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;А как вы организуете свои источники? Делитесь в комментариях или пишите мне!&lt;/em&gt; 📚&lt;/p&gt;</description></item><item><title>Четвёртый этап проекта: настройка научных ссылок на сайте</title><link>https://1032253642.github.io/new-repository/blog/summary3/</link><pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/summary3/</guid><description>&lt;h2 id="что-было-сделано-за-неделю"&gt;Что было сделано за неделю&lt;/h2&gt;
 &lt;h3 id="регистрация-на-ресурсах"&gt;Регистрация на ресурсах&lt;/h3&gt;
 &lt;p&gt;Согласно заданию четвёртого этапа, зарегистрировалась на всех нужных научных и библиометрических платформах:&lt;/p&gt;
 &lt;ul&gt;
@@ -1651,7 +1651,7 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;p&gt;Я просто бродила по мокрым тропинкам, вдыхала этот лесной аромат и ни о чём не думала. Это было как маленькое лекарство от усталости. Иногда так важно остановиться и просто побыть в тишине. 🍃&lt;/p&gt;
 &lt;h2 id="планы"&gt;Планы&lt;/h2&gt;
 &lt;p&gt;На следующей неделе — оформление отчёта по проекту и подготовка презентации. Также нужно написать ещё один пост на выбор по теме: оформление отчёта, создание презентаций или работа с библиографией.&lt;/p&gt;
-&lt;p&gt;Неделя была полезной — научилась работать с Hugo, YAML и кастомными иконками. А прогулка в лесу помогла восстановить силы для новых задач.&lt;/p&gt;</description></item><item><title>LaTeX: зачем программисту писать код вместо текста</title><link>https://example.com/blog/week-2-latex/</link><pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/week-2-latex/</guid><description>&lt;h2 id="первое-знакомство"&gt;Первое знакомство&lt;/h2&gt;
+&lt;p&gt;Неделя была полезной — научилась работать с Hugo, YAML и кастомными иконками. А прогулка в лесу помогла восстановить силы для новых задач.&lt;/p&gt;</description></item><item><title>LaTeX: зачем программисту писать код вместо текста</title><link>https://1032253642.github.io/new-repository/blog/week-2-latex/</link><pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/week-2-latex/</guid><description>&lt;h2 id="первое-знакомство"&gt;Первое знакомство&lt;/h2&gt;
 &lt;p&gt;Когда я впервые увидела LaTeX, он показался мне излишне сложным. Вместо того чтобы просто написать формулу, нужно было набирать странные команды вроде &lt;code&gt;\int_{0}^{\infty}&lt;/code&gt;. Но потом я поняла, что это вопрос привычки.&lt;/p&gt;
 &lt;h2 id="почему-latex"&gt;Почему LaTeX&lt;/h2&gt;
 &lt;p&gt;Для гуманитариев, наверное, лучше подойдёт Word. Но как только в тексте появляются формулы, ссылки на литературу, перекрёстные ссылки на главы — Word начинает «тормозить» и съезжать.&lt;/p&gt;
@@ -1668,7 +1668,7 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;h2 id="как-я-осваиваю"&gt;Как я осваиваю&lt;/h2&gt;
 &lt;p&gt;Пока я на начальном уровне: знаю, как оформить базовые формулы, вставить картинку, сделать ссылку на главу. Дальше планирую разобраться с более сложными конструкциями и подготовить шаблон для курсовой.&lt;/p&gt;
 &lt;h2 id="итог"&gt;Итог&lt;/h2&gt;
-&lt;p&gt;LaTeX — это как программирование: сначала сложно, потом привыкаешь, а затем уже не представляешь, как без него жить. Да, порог входа выше, чем у Word, но результат стоит усилий. Чистый код, красивая вёрстка и автоматизация рутины — то, что нужно будущему специалисту в области IT. К тому же знание LaTeX выделяет студента среди остальных и здорово помогает при подготовке курсовых и статей. Так что продолжаю осваивать и советую всем, кто связан с наукой или техникой.&lt;/p&gt;</description></item><item><title>Контрольная по дискретной математике и посол Уганды</title><link>https://example.com/blog/week-2-reflection/</link><pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/week-2-reflection/</guid><description>&lt;h2 id="учебные-достижения"&gt;Учебные достижения&lt;/h2&gt;
+&lt;p&gt;LaTeX — это как программирование: сначала сложно, потом привыкаешь, а затем уже не представляешь, как без него жить. Да, порог входа выше, чем у Word, но результат стоит усилий. Чистый код, красивая вёрстка и автоматизация рутины — то, что нужно будущему специалисту в области IT. К тому же знание LaTeX выделяет студента среди остальных и здорово помогает при подготовке курсовых и статей. Так что продолжаю осваивать и советую всем, кто связан с наукой или техникой.&lt;/p&gt;</description></item><item><title>Контрольная по дискретной математике и посол Уганды</title><link>https://1032253642.github.io/new-repository/blog/week-2-reflection/</link><pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/week-2-reflection/</guid><description>&lt;h2 id="учебные-достижения"&gt;Учебные достижения&lt;/h2&gt;
 &lt;p&gt;Неделя выдалась продуктивной в академическом плане.&lt;/p&gt;
 &lt;p&gt;Во-первых, я &lt;strong&gt;сдала контрольную по дискретной математике&lt;/strong&gt;. Этот предмет требует внимательности и логического мышления. Готовились мы вместе с другом, обсуждали сложные темы и помогали друг другу разобраться в материале. Надеюсь, наши усилия оправдались, и мы справились достойно.&lt;/p&gt;
 &lt;p&gt;Во-вторых, я &lt;strong&gt;написала контрольную по английскому языку&lt;/strong&gt;. Тема была непростой, но подготовка дала свои результаты. Особое внимание уделяла грамматике и письменной части.&lt;/p&gt;
@@ -1678,7 +1678,7 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;p&gt;Я узнала, что суахили не только язык повседневного общения, но и важный элемент культурной идентичности. Было удивительно слышать, как слова суахили вплетаются в музыку, литературу и даже дипломатию. Посол произнёс несколько фраз на суахили, и это звучало очень мелодично.&lt;/p&gt;
 &lt;h2 id="планы"&gt;Планы&lt;/h2&gt;
 &lt;p&gt;На следующей неделе планирую разобрать ошибки (если они будут) и готовиться к новым темам. Также жду новые культурные мероприятия в РУДН — это отличный способ отвлечься от учёбы и получить новый опыт.&lt;/p&gt;
-&lt;p&gt;Неделя была напряжённой, но результативной.&lt;/p&gt;</description></item><item><title>Что такое CI/CD</title><link>https://example.com/blog/ci-cd/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/ci-cd/</guid><description>&lt;h2 id="что-такое-cicd"&gt;Что такое CI/CD?&lt;/h2&gt;
+&lt;p&gt;Неделя была напряжённой, но результативной.&lt;/p&gt;</description></item><item><title>Что такое CI/CD</title><link>https://1032253642.github.io/new-repository/blog/ci-cd/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/ci-cd/</guid><description>&lt;h2 id="что-такое-cicd"&gt;Что такое CI/CD?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;CI/CD&lt;/strong&gt; — это методология разработки программного обеспечения, которая объединяет практики непрерывной интеграции (Continuous Integration) и непрерывного развертывания (Continuous Delivery/Deployment).&lt;/p&gt;
 &lt;h3 id="continuous-integration-ci"&gt;Continuous Integration (CI)&lt;/h3&gt;
 &lt;p&gt;Это практика, при которой разработчики часто сливают свои изменения в центральный репозиторий. После каждого слияния автоматически запускаются сборка и тесты.&lt;/p&gt;
@@ -1709,7 +1709,7 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;li&gt;Я пушаю изменения в репозиторий&lt;/li&gt;
 &lt;li&gt;GitHub Actions запускает сборку&lt;/li&gt;
 &lt;li&gt;Сайт обновляется на GitHub Pages&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Пост по неделе 11-17 марта 2026 года</title><link>https://example.com/blog/week-summary/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/week-summary/</guid><description>&lt;h2 id="что-было-на-этой-неделе"&gt;Что было на этой неделе&lt;/h2&gt;
+&lt;/ol&gt;</description></item><item><title>Пост по неделе 11-17 марта 2026 года</title><link>https://1032253642.github.io/new-repository/blog/week-summary/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/week-summary/</guid><description>&lt;h2 id="что-было-на-этой-неделе"&gt;Что было на этой неделе&lt;/h2&gt;
 &lt;p&gt;На этой неделе я работала над своим индивидуальным проектом по операционным системам.&lt;/p&gt;
 &lt;h3 id="основные-события"&gt;Основные события:&lt;/h3&gt;
 &lt;ol&gt;
@@ -1728,7 +1728,7 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;/ol&gt;
 &lt;h3 id="планы-на-следующую-неделю"&gt;Планы на следующую неделю&lt;/h3&gt;
 &lt;p&gt;Продолжить работу над сайтом, добавить больше контента.&lt;/p&gt;
-&lt;p&gt;До новых встреч!&lt;/p&gt;</description></item><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://example.com/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://example.com/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
+&lt;p&gt;До новых встреч!&lt;/p&gt;</description></item><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://1032253642.github.io/new-repository/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 &lt;details class="print:hidden xl:hidden" open&gt;
 &lt;summary&gt;Table of Contents&lt;/summary&gt;
@@ -1769,7 +1769,7 @@ data-callout-metadata=""&gt;
 &lt;p class="hb-notebook-title"&gt;Launch Readiness Analysis&lt;/p&gt;
 &lt;p class="hb-notebook-subtitle"&gt;Python · Kernel: Python 3 · nbformat 4.5 · 6 cells&lt;/p&gt;
 &lt;/div&gt;
-&lt;a class="hb-notebook-download" href="https://example.com/blog/notebook-onboarding/hugoblox-onboarding.ipynb" download&gt;
+&lt;a class="hb-notebook-download" href="https://1032253642.github.io/new-repository/blog/notebook-onboarding/hugoblox-onboarding.ipynb" download&gt;
 &lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/&gt;&lt;/svg&gt;
 &lt;span&gt;Download notebook&lt;/span&gt;
 &lt;/a&gt;
@@ -1942,7 +1942,7 @@ data-callout-metadata=""&gt;
 or check the
 .&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Happy researching! 🚀&lt;/p&gt;</description></item><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>https://example.com/blog/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/blog/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+&lt;p&gt;Happy researching! 🚀&lt;/p&gt;</description></item><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>https://1032253642.github.io/new-repository/blog/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 &lt;details class="print:hidden xl:hidden" open&gt;
 &lt;summary&gt;Table of Contents&lt;/summary&gt;
 &lt;div class="text-sm"&gt;
@@ -2082,7 +2082,7 @@ for your site. Themes are fully customizable.&lt;/p&gt;
 &lt;p&gt;Copyright 2016-present
 .&lt;/p&gt;
 &lt;p&gt;Released under the
-license.&lt;/p&gt;</description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>https://example.com/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/blog/second-brain/</guid><description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
+license.&lt;/p&gt;</description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>https://1032253642.github.io/new-repository/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/second-brain/</guid><description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
 &lt;p&gt;Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p&gt;
@@ -2181,7 +2181,7 @@ data-callout-metadata=""&gt;
 &lt;div class="callout-body"&gt;&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://example.com/blog/data-visualization/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/blog/data-visualization/</guid><description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://1032253642.github.io/new-repository/blog/data-visualization/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/data-visualization/</guid><description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id="embed-rich-content"&gt;Embed Rich Content&lt;/h2&gt;
 &lt;p&gt;HuggingFace Model&lt;/p&gt;
@@ -2358,9 +2358,9 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 &lt;div class="p-6 space-y-4"&gt;
 &lt;div class="mb-4 overflow-hidden rounded-lg"&gt;
 &lt;img class="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105"
-srcset="https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp 400w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_a2515a8519f2e06c.webp 600w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_6070a0ac5065dcdd.webp 800w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_8ee7b684023bdcd.webp 800w"
+srcset="https://1032253642.github.io/new-repository/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp 400w, https://1032253642.github.io/new-repository/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_a2515a8519f2e06c.webp 600w, https://1032253642.github.io/new-repository/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_6070a0ac5065dcdd.webp 800w, https://1032253642.github.io/new-repository/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_8ee7b684023bdcd.webp 800w"
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-src="https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp"
+src="https://1032253642.github.io/new-repository/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7c46951a400bfafd.webp"
 width="400"
 height="300"
 loading="lazy"
@@ -2404,9 +2404,9 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 &lt;div class="p-6 space-y-4"&gt;
 &lt;div class="mb-4 overflow-hidden rounded-lg"&gt;
 &lt;img class="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105"
-srcset="https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp 400w, https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_c8dc855a23876ee0.webp 600w, https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_e954403c57038f5.webp 600w"
+srcset="https://1032253642.github.io/new-repository/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp 400w, https://1032253642.github.io/new-repository/photo-1551288049-bebda4e38f71_10164962980614054447_hu_c8dc855a23876ee0.webp 600w, https://1032253642.github.io/new-repository/photo-1551288049-bebda4e38f71_10164962980614054447_hu_e954403c57038f5.webp 600w"
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-src="https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp"
+src="https://1032253642.github.io/new-repository/photo-1551288049-bebda4e38f71_10164962980614054447_hu_57b09d239a98fa3e.webp"
 width="400"
 height="267"
 loading="lazy"
@@ -2437,7 +2437,7 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-638295714" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-873496521" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -2453,7 +2453,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-638295714', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-873496521', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -2586,7 +2586,7 @@ Crash --&gt; [*]
 &lt;div class="text-left"&gt;
 &lt;a
 id="button-f6d402d3e0ef4f7871a71f74ddcbf5cc"
-href="https://example.com/"
+href="https://1032253642.github.io/new-repository/"
 class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 active:from-primary-700 active:to-primary-800 text-white shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98] focus:ring-primary-500/50 px-4 py-2 text-base rounded-lg"
 role="button"
 aria-label="Contact Us"
@@ -2630,7 +2630,7 @@ aria-label="View Dashboard"
 &lt;div class="text-left"&gt;
 &lt;a
 id="button-73171eb1b49c461e90dab01f45a3397d"
-href="https://example.com/data/results.csv"
+href="https://1032253642.github.io/new-repository/data/results.csv"
 class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-white dark:bg-zinc-900 border-2 border-primary-500 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-950/50 hover:border-primary-600 active:bg-primary-100 dark:active:bg-primary-950 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 focus:ring-primary-500/50 px-4 py-2 text-base rounded-lg"
 role="button"
 aria-label="Download Data"
@@ -2697,7 +2697,7 @@ aria-label="Open in Colab"
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go-html-template" data-lang="go-html-template"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;url&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://jupyter.org/&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;new_tab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;style&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;secondary&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rounded&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;full&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;align&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;center&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;Try Jupyter&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;/&lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;url&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://colab.research.google.com/&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;new_tab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;style&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;primary&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rounded&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;full&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;align&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;center&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;icon&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;rocket-launch&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;Open in Colab&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;/&lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>https://example.com/blog/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/blog/teach-courses/</guid><description>&lt;p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>https://1032253642.github.io/new-repository/blog/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/teach-courses/</guid><description>&lt;p&gt;
 is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -2706,10 +2706,10 @@ is designed to give technical content creators a seamless experience. You can fo
 &lt;div class="pub-list-item view-citation" style="margin-bottom: 1rem"&gt;
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true"&gt;&lt;/i&gt;
 &lt;span class="article-metadata li-cite-author"&gt;
-&lt;span &gt;&lt;a href="https://example.com/authors/me/"&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;
+&lt;span &gt;&lt;a href="https://1032253642.github.io/new-repository/authors/me/"&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;
 &lt;/span&gt;
 (2019).
-&lt;a href="https://example.com/publications/preprint/" class="underline"&gt;An example preprint / working paper&lt;/a&gt;.
+&lt;a href="https://1032253642.github.io/new-repository/publications/preprint/" class="underline"&gt;An example preprint / working paper&lt;/a&gt;.
 &lt;div class="flex flex-wrap space-x-3"&gt;
 &lt;a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/abs/1512.04133v1" target="_blank" rel="noopener"&gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
@@ -2723,15 +2723,15 @@ Code
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"/&gt;&lt;/svg&gt;
 Slides
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://example.com/#" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://1032253642.github.io/new-repository/#" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/&gt;&lt;/svg&gt;
 Dataset
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://example.com/#" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://1032253642.github.io/new-repository/#" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/&gt;&lt;/svg&gt;
 Poster
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://example.com/#" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://1032253642.github.io/new-repository/#" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
 Source Document
 &lt;/a&gt;
@@ -2753,7 +2753,7 @@ Preprint
 &lt;div class="pub-list-item view-citation" style="margin-bottom: 1rem"&gt;
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true"&gt;&lt;/i&gt;
 &lt;span class="article-metadata li-cite-author"&gt;
-&lt;span &gt;&lt;a href="https://example.com/authors/me/"&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;&lt;span class="relative inline-block ml-1" x-data="{ tooltip: false }"&gt;
+&lt;span &gt;&lt;a href="https://1032253642.github.io/new-repository/authors/me/"&gt;Анна Пашутина&lt;/a&gt;&lt;/span&gt;&lt;span class="relative inline-block ml-1" x-data="{ tooltip: false }"&gt;
 &lt;button
 @mouseenter="tooltip = true"
 @mouseleave="tooltip = false"
@@ -2782,7 +2782,7 @@ x-cloak
 Equal contribution
 &lt;div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/span&gt;, &lt;span &gt;&lt;a href="https://example.com/authors/robert-ford/"&gt;Robert Ford&lt;/a&gt;&lt;/span&gt;&lt;span class="relative inline-block ml-1" x-data="{ tooltip: false }"&gt;
+&lt;/span&gt;, &lt;span &gt;&lt;a href="https://1032253642.github.io/new-repository/authors/robert-ford/"&gt;Robert Ford&lt;/a&gt;&lt;/span&gt;&lt;span class="relative inline-block ml-1" x-data="{ tooltip: false }"&gt;
 &lt;button
 @mouseenter="tooltip = true"
 @mouseleave="tooltip = false"
@@ -2814,10 +2814,10 @@ Equal contribution
 &lt;/span&gt;
 &lt;/span&gt;
 (2013).
-&lt;a href="https://example.com/publications/conference-paper/" class="underline"&gt;An example conference paper&lt;/a&gt;.
+&lt;a href="https://1032253642.github.io/new-repository/publications/conference-paper/" class="underline"&gt;An example conference paper&lt;/a&gt;.
 In &lt;em&gt;ICW&lt;/em&gt;.
 &lt;div class="flex flex-wrap space-x-3"&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://example.com/" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://1032253642.github.io/new-repository/" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
 PDF
 &lt;/a&gt;
@@ -2841,11 +2841,11 @@ Source Document
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/&gt;&lt;/svg&gt;
 Video
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://example.com/publications/conference-paper/conference-paper.pdf" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://1032253642.github.io/new-repository/publications/conference-paper/conference-paper.pdf" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
 PDF
 &lt;/a&gt;
-&lt;button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publications/conference-paper/cite.bib"&gt;
+&lt;button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/new-repository/publications/conference-paper/cite.bib"&gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/&gt;&lt;/svg&gt;
 &lt;span&gt;Cite&lt;/span&gt;
 &lt;/button&gt;
@@ -2877,7 +2877,7 @@ DOI
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Try it out:&lt;/p&gt;
 &lt;audio controls &gt;
-&lt;source src="https://example.com/blog/teach-courses/ambient-piano.mp3" type="audio/mpeg"&gt;
+&lt;source src="https://1032253642.github.io/new-repository/blog/teach-courses/ambient-piano.mp3" type="audio/mpeg"&gt;
 &lt;/audio&gt;
 &lt;h2 id="test-students"&gt;Test students&lt;/h2&gt;
 &lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
@@ -2929,7 +2929,7 @@ data.head()
 &lt;span class="inline-block pr-1"&gt;
 &lt;span style="height: 1em; transform: translateY(0.1em);"&gt;python&lt;/span&gt;
 &lt;/span&gt; Python&lt;/p&gt;
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>✅ Manage your projects</title><link>https://example.com/blog/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/blog/project-management/</guid><description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>✅ Manage your projects</title><link>https://1032253642.github.io/new-repository/blog/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://1032253642.github.io/new-repository/blog/project-management/</guid><description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id="ideation"&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
 &lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
