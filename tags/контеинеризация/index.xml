@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Контейнеризация |</title><link>https://example.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B8%D0%BD%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link><atom:link href="https://example.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B8%D0%BD%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><description>Контейнеризация</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url><title>Контейнеризация</title><link>https://example.com/tags/%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B8%D0%BD%D0%B5%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link></image><item><title>Прохождение внешнего курса. Часть 3: Сети, логи и контейнеризация</title><link>https://example.com/projects/selectel-linux-part3/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://example.com/projects/selectel-linux-part3/</guid><description>&lt;details&gt;
+&lt;summary&gt;📖 Оглавление&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;br&gt;
+&lt;h2 id="модуль-8-настройка-сети-и-ssh"&gt;Модуль 8: Настройка сети и SSH&lt;/h2&gt;
+&lt;h3 id="задания-по-теме-основы-сетевой-конфигурации-в-linux"&gt;Задания по теме «Основы сетевой конфигурации в Linux»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Настройка статического IP на тестовом сервере вручную&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo ip a add 192.168.122.2/24 dev enp0s3&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Добавление IP"
+srcset="https://example.com/projects/selectel-linux-part3/image/image1_hu_e12aaa8583fece46.webp 320w, https://example.com/projects/selectel-linux-part3/image/image1_hu_cbd2b19641963999.webp 480w, https://example.com/projects/selectel-linux-part3/image/image1_hu_ad7483a08275a2e6.webp 642w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image1_hu_e12aaa8583fece46.webp"
+width="642"
+height="102"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;ip a add&lt;/code&gt; добавляет указанный IP-адрес к сетевому интерфейсу.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Прописывание конфигурации в файле /etc/network/interfaces&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo nano /etc/network/interfaces&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Файл interfaces"
+srcset="https://example.com/projects/selectel-linux-part3/image/image2_hu_ea2f2ad95a5c4e3e.webp 320w, https://example.com/projects/selectel-linux-part3/image/image2_hu_4c69a6faec39d904.webp 326w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image2_hu_ea2f2ad95a5c4e3e.webp"
+width="326"
+height="113"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; в файле задаются параметры статической конфигурации для интерфейса &lt;code&gt;enp0s3&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Проверка доступности внешних ресурсов через ping&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ping selectel.ru&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="ping selectel.ru"
+srcset="https://example.com/projects/selectel-linux-part3/image/image3_hu_ad3f36de1fb9dd99.webp 320w, https://example.com/projects/selectel-linux-part3/image/image3_hu_cad776b62e1e32fc.webp 480w, https://example.com/projects/selectel-linux-part3/image/image3_hu_c5fed08631d69f5b.webp 538w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image3_hu_ad3f36de1fb9dd99.webp"
+width="538"
+height="102"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;ping&lt;/code&gt; отправляет ICMP-пакеты на указанный хост.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №4. Удаление текущего IP-адреса с интерфейса&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo ip a del 192.168.122.2/24 dev enp0s3&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Удаление IP"
+srcset="https://example.com/projects/selectel-linux-part3/image/image4_hu_e7e22596f060d886.webp 320w, https://example.com/projects/selectel-linux-part3/image/image4_hu_349eacd60f3914d9.webp 480w, https://example.com/projects/selectel-linux-part3/image/image4_hu_1790bb2f6f2a114a.webp 572w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image4_hu_e7e22596f060d886.webp"
+width="572"
+height="62"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;ip a del&lt;/code&gt; удаляет указанный IP-адрес с сетевого интерфейса.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-основы-сетевой-конфигурации-в-linux"&gt;Тест по теме «Основы сетевой конфигурации в Linux»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какой командой можно назначить IP-адрес вручную?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;ip a add 192.168.122.2/24 dev eth0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image5_hu_adbfbc6e33f934be.webp 320w, https://example.com/projects/selectel-linux-part3/image/image5_hu_d4f75e2ade4ada3d.webp 480w, https://example.com/projects/selectel-linux-part3/image/image5_hu_2c7dd23fc543e6d8.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image5_hu_adbfbc6e33f934be.webp"
+width="760"
+height="348"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Что делает директива auto eth0 в /etc/network/interfaces?&lt;/strong&gt;
+Правильный ответ: Поднимает интерфейс автоматически при загрузке системы.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image6_hu_2616f264832a6ccb.webp 320w, https://example.com/projects/selectel-linux-part3/image/image6_hu_782061bc4382f61e.webp 480w, https://example.com/projects/selectel-linux-part3/image/image6_hu_9f26db91ce6f6844.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image6_hu_2616f264832a6ccb.webp"
+width="760"
+height="356"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Какая команда используется для удаления IP с интерфейса?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;ip a del 192.168.122.2/24 dev eth0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image7_hu_b810aa38a515ffd0.webp 320w, https://example.com/projects/selectel-linux-part3/image/image7_hu_c0e2102e9f14a9e1.webp 480w, https://example.com/projects/selectel-linux-part3/image/image7_hu_c890f039e27d9e67.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image7_hu_b810aa38a515ffd0.webp"
+width="760"
+height="353"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Что произойдет при перезагрузке, если IP-адрес был задан только через ip?&lt;/strong&gt;
+Правильный ответ: IP-адрес исчезнет.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image8_hu_16444b5dd2c337a8.webp 320w, https://example.com/projects/selectel-linux-part3/image/image8_hu_fcdbf222bf3ed045.webp 480w, https://example.com/projects/selectel-linux-part3/image/image8_hu_d7ff1451ae6fc617.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image8_hu_16444b5dd2c337a8.webp"
+width="760"
+height="352"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 5. Где задается шлюз по умолчанию в конфигурации интерфейса?&lt;/strong&gt;
+Правильный ответ: В поле gateway в /etc/network/interfaces.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 5"
+srcset="https://example.com/projects/selectel-linux-part3/image/image9_hu_4b3be1c5c95981b3.webp 320w, https://example.com/projects/selectel-linux-part3/image/image9_hu_31f8a112ee99c3ef.webp 480w, https://example.com/projects/selectel-linux-part3/image/image9_hu_166146a4137f3cd3.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image9_hu_4b3be1c5c95981b3.webp"
+width="760"
+height="340"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-базовая-диагностика-сети"&gt;Задания по теме «Базовая диагностика сети»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Запуск веб-сервера на 80 порту и проверка его работы&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo dnf install nginx -y
+sudo systemctl start nginx
+ss -tulnp | grep :80&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Установка nginx"
+srcset="https://example.com/projects/selectel-linux-part3/image/image10_hu_144aff314fb42b37.webp 320w, https://example.com/projects/selectel-linux-part3/image/image10_hu_9007f37cc863e07f.webp 452w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image10_hu_144aff314fb42b37.webp"
+width="452"
+height="97"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Проверка порта 80"
+srcset="https://example.com/projects/selectel-linux-part3/image/image11_hu_988d8385dad49d1b.webp 320w, https://example.com/projects/selectel-linux-part3/image/image11_hu_3642557365586723.webp 392w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image11_hu_988d8385dad49d1b.webp"
+width="392"
+height="100"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;ss -tulnp&lt;/code&gt; показывает все открытые порты и процессы, которые их слушают.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Использование утилиты dig для получения IP-адресов&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;dig vk.com&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="dig vk.com"
+srcset="https://example.com/projects/selectel-linux-part3/image/image12_hu_b2481c6d66292c8a.webp 320w, https://example.com/projects/selectel-linux-part3/image/image12_hu_35a8d615e69b5315.webp 480w, https://example.com/projects/selectel-linux-part3/image/image12_hu_47ee362967ead358.webp 482w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image12_hu_b2481c6d66292c8a.webp"
+width="482"
+height="48"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;dig&lt;/code&gt; выполняет DNS-запрос и отображает информацию о домене.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Проверка, слушает ли SSH-порт на сервере&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ss -tulnp | grep sshd&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Проверка sshd"
+srcset="https://example.com/projects/selectel-linux-part3/image/image13_hu_f3be1a62d93cd2b9.webp 320w, https://example.com/projects/selectel-linux-part3/image/image13_hu_9220087b4a9a7f39.webp 480w, https://example.com/projects/selectel-linux-part3/image/image13_hu_da55153d9c27ea34.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image13_hu_f3be1a62d93cd2b9.webp"
+width="760"
+height="343"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; если вывод пуст, значит, SSH-сервер не запущен или слушает другой порт.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-базовая-диагностика-сети"&gt;Тест по теме «Базовая диагностика сети»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какая команда показывает открытые TCP-порты и процессы, которые их слушают?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;ss -tulnp&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image14_hu_de8961c0a868217d.webp 320w, https://example.com/projects/selectel-linux-part3/image/image14_hu_6ad62b5c83acfb6f.webp 480w, https://example.com/projects/selectel-linux-part3/image/image14_hu_f9d9688f8339a44b.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image14_hu_de8961c0a868217d.webp"
+width="760"
+height="343"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Какой флаг в ss включает отображение номеров портов и PID/имен процессов?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;-p&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image15_hu_8ff48939c297162c.webp 320w, https://example.com/projects/selectel-linux-part3/image/image15_hu_e04c5bb7516d6768.webp 480w, https://example.com/projects/selectel-linux-part3/image/image15_hu_3c004a8ac365209e.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image15_hu_8ff48939c297162c.webp"
+width="760"
+height="344"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Что делает команда dig?&lt;/strong&gt;
+Правильный ответ: Выполняет DNS-запрос и отображает IP-адреса.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image16_hu_55fe5b1d8e3deff3.webp 320w, https://example.com/projects/selectel-linux-part3/image/image16_hu_f1d0973881b3e4da.webp 480w, https://example.com/projects/selectel-linux-part3/image/image16_hu_4b550b549b4bb48.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image16_hu_55fe5b1d8e3deff3.webp"
+width="760"
+height="373"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Какая команда может использоваться для проверки подключения к удаленному TCP-порту без передачи данных?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;nc -vz&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image17_hu_855f7600c2b18433.webp 320w, https://example.com/projects/selectel-linux-part3/image/image17_hu_cf012d8474ffc826.webp 480w, https://example.com/projects/selectel-linux-part3/image/image17_hu_b02c362c0d9287ed.webp 513w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image17_hu_855f7600c2b18433.webp"
+width="513"
+height="41"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-настройка-ssh-доступа-и-его-защита"&gt;Задания по теме «Настройка SSH-доступа и его защита»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Изменение порта SSH и запрет входа по паролю&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo vim /etc/ssh/sshd_config&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Редактирование sshd_config"
+srcset="https://example.com/projects/selectel-linux-part3/image/image18_hu_15570c62cdd28cae.webp 320w, https://example.com/projects/selectel-linux-part3/image/image18_hu_2f61634d0bfee880.webp 442w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image18_hu_15570c62cdd28cae.webp"
+width="442"
+height="51"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; в файле необходимо изменить параметр &lt;code&gt;Port&lt;/code&gt; и установить &lt;code&gt;PasswordAuthentication no&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Настройка подключения по ключу&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ssh-keygen -t ed25519&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Генерация ключа"
+srcset="https://example.com/projects/selectel-linux-part3/image/image19_hu_465ebb77861f1613.webp 320w, https://example.com/projects/selectel-linux-part3/image/image19_hu_27a48eb9d2181609.webp 480w, https://example.com/projects/selectel-linux-part3/image/image19_hu_5f85d351924f55fa.webp 578w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image19_hu_465ebb77861f1613.webp"
+width="578"
+height="72"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда создаёт пару ключей для аутентификации по ключу.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Разрешение SSH-доступа только для определённых пользователей&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo vim /etc/ssh/sshd_config&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Добавление AllowUsers"
+srcset="https://example.com/projects/selectel-linux-part3/image/image20_hu_24ff8067c4a866ea.webp 320w, https://example.com/projects/selectel-linux-part3/image/image20_hu_4bb47f9d36ae1358.webp 480w, https://example.com/projects/selectel-linux-part3/image/image20_hu_d51681d2f9036102.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image20_hu_24ff8067c4a866ea.webp"
+width="760"
+height="344"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; в файле добавляется строка &lt;code&gt;AllowUsers trex&lt;/code&gt; и выполняется перезапуск службы.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-настройка-ssh-доступа-и-его-защита"&gt;Тест по теме «Настройка SSH-доступа и его защита»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какой порт использует SSH по умолчанию?&lt;/strong&gt;
+Правильный ответ: 22.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image21_hu_65be5faf64115b67.webp 320w, https://example.com/projects/selectel-linux-part3/image/image21_hu_d6b250a48b595d7c.webp 480w, https://example.com/projects/selectel-linux-part3/image/image21_hu_f635ca99ce0b56cc.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image21_hu_65be5faf64115b67.webp"
+width="760"
+height="343"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Где находится основной конфигурационный файл демона SSH-сервера?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;/etc/ssh/sshd_config&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image22_hu_157e035eb5d77764.webp 320w, https://example.com/projects/selectel-linux-part3/image/image22_hu_b91f4cc31bd07024.webp 480w, https://example.com/projects/selectel-linux-part3/image/image22_hu_72b76865b245e805.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image22_hu_157e035eb5d77764.webp"
+width="760"
+height="352"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Какой командой можно временно остановить службу SSH (systemd)?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;systemctl stop ssh&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image23_hu_aae3ea413bc4234e.webp 320w, https://example.com/projects/selectel-linux-part3/image/image23_hu_442b36c0c523c2e9.webp 480w, https://example.com/projects/selectel-linux-part3/image/image23_hu_d82631a80e6510ee.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image23_hu_aae3ea413bc4234e.webp"
+width="760"
+height="346"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Какой файл публичного ключа нужно добавить на сервер для авторизации по ключу?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;id_rsa.pub&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image24_hu_424e7cb01a092bc9.webp 320w, https://example.com/projects/selectel-linux-part3/image/image24_hu_bfb88977a66f5f4d.webp 480w, https://example.com/projects/selectel-linux-part3/image/image24_hu_86b081bff51f67f4.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image24_hu_424e7cb01a092bc9.webp"
+width="760"
+height="352"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 5. Какой параметр в sshd_config отключает вход пользователя root по SSH?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;PermitRootLogin no&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 5"
+srcset="https://example.com/projects/selectel-linux-part3/image/image25_hu_e251598b1861becd.webp 320w, https://example.com/projects/selectel-linux-part3/image/image25_hu_b1f89bbad9013b7e.webp 375w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image25_hu_e251598b1861becd.webp"
+width="375"
+height="27"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-повышение-безопасности-сетевого-взаимодействия"&gt;Задания по теме «Повышение безопасности сетевого взаимодействия»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Настройка UFW для ограничения доступа только для SSH&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ufw deny ssh&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Блокировка SSH"
+srcset="https://example.com/projects/selectel-linux-part3/image/image26_hu_11ffe66c7e598b71.webp 320w, https://example.com/projects/selectel-linux-part3/image/image26_hu_6a181d228bdecb63.webp 480w, https://example.com/projects/selectel-linux-part3/image/image26_hu_823e013b14b18e2.webp 700w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image26_hu_11ffe66c7e598b71.webp"
+width="700"
+height="31"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;ufw deny ssh&lt;/code&gt; запрещает входящие подключения по SSH.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Настройка UFW для доступа по SSH только из локальной сети&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ufw allow from 192.168.122.0/24 to any port 22 proto tcp&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Разрешение SSH из подсети"
+srcset="https://example.com/projects/selectel-linux-part3/image/image27_hu_7adda78c772daa86.webp 320w, https://example.com/projects/selectel-linux-part3/image/image27_hu_f90345ce794ea56.webp 480w, https://example.com/projects/selectel-linux-part3/image/image27_hu_71d1b4d1a2164c8c.webp 511w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image27_hu_7adda78c772daa86.webp"
+width="511"
+height="120"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда разрешает подключения к порту 22 только с указанной подсети.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Создание jail в fail2ban для блокировки после трёх запросов к nginx&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[Definition]
+failregex = ^&lt;HOST&gt; -.&lt;em&gt;&amp;quot;(GET|POST).&lt;/em&gt;&amp;quot; 200
+ignoreregex =&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="image/image28.png" alt="Фильтр fail2ban" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; фильтр ищет в логах nginx строки с успешными запросами и блокирует IP после 3 попыток.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-повышение-безопасности-сетевого-взаимодействия"&gt;Тест по теме «Повышение безопасности сетевого взаимодействия»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какой командой включить (activate) файрвол UFW?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;ufw enable&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image29_hu_e75e6d2005d743d9.webp 320w, https://example.com/projects/selectel-linux-part3/image/image29_hu_8c99c2029e54df39.webp 480w, https://example.com/projects/selectel-linux-part3/image/image29_hu_36f3a0f93d343ea0.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image29_hu_e75e6d2005d743d9.webp"
+width="760"
+height="360"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. В каком файле fail2ban хранит свои jail-конфигурации по умолчанию?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;/etc/fail2ban/jail.conf&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image30_hu_8edd562185b2d04b.webp 320w, https://example.com/projects/selectel-linux-part3/image/image30_hu_212140ad2f009c6.webp 480w, https://example.com/projects/selectel-linux-part3/image/image30_hu_63c0068087d305d3.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image30_hu_8edd562185b2d04b.webp"
+width="760"
+height="397"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Какой флаг UFW позволяет указать конкретный номер правила для удаления?&lt;/strong&gt;
+Правильный ответ: нет правильного ответа.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="image/image31.png" alt="Вопрос 3" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Какой параметр в jail-файле fail2ban задает время блокировки IP в секундах?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;bantime&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image32_hu_cd65f095caea456a.webp 320w, https://example.com/projects/selectel-linux-part3/image/image32_hu_13621267d2e0d507.webp 480w, https://example.com/projects/selectel-linux-part3/image/image32_hu_8c9240cc04fd7a12.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image32_hu_cd65f095caea456a.webp"
+width="760"
+height="376"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 5. Какая команда добавит в UFW разрешение на SSH (порт 22) только с подсети 192.168.1.0/24?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;ufw allow from 192.168.1.0/24 to any port 22&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 5"
+srcset="https://example.com/projects/selectel-linux-part3/image/image33_hu_78b36bed8edf39ce.webp 320w, https://example.com/projects/selectel-linux-part3/image/image33_hu_811243228f77fa1a.webp 388w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image33_hu_78b36bed8edf39ce.webp"
+width="388"
+height="62"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="модуль-9-управление-пакетами"&gt;Модуль 9: Управление пакетами&lt;/h2&gt;
+&lt;h3 id="задания-по-теме-что-такое-пакеты-и-как-они-устроены"&gt;Задания по теме «Что такое пакеты и как они устроены»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Поиск и установка утилиты htop&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo apt update
+sudo apt install htop&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Обновление списка пакетов"
+srcset="https://example.com/projects/selectel-linux-part3/image/image34_hu_51c2d28f6029ed1a.webp 320w, https://example.com/projects/selectel-linux-part3/image/image34_hu_61b32b1504cffc0.webp 421w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image34_hu_51c2d28f6029ed1a.webp"
+width="421"
+height="45"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Установка htop"
+srcset="https://example.com/projects/selectel-linux-part3/image/image35_hu_86bca2a3560d1ed4.webp 320w, https://example.com/projects/selectel-linux-part3/image/image35_hu_e302056cdd750b9f.webp 480w, https://example.com/projects/selectel-linux-part3/image/image35_hu_b17a952789723a08.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image35_hu_86bca2a3560d1ed4.webp"
+width="760"
+height="373"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;apt install&lt;/code&gt; устанавливает указанный пакет.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Удаление htop и установка заново с полной очисткой&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo apt purge htop
+sudo apt autoremove &amp;ndash;purge
+sudo apt install htop&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Удаление htop"
+srcset="https://example.com/projects/selectel-linux-part3/image/image36_hu_b71a5bb623a0cfe7.webp 320w, https://example.com/projects/selectel-linux-part3/image/image36_hu_440c6493f57e5322.webp 480w, https://example.com/projects/selectel-linux-part3/image/image36_hu_4850d1c4ac9a96b8.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image36_hu_b71a5bb623a0cfe7.webp"
+width="760"
+height="370"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;purge&lt;/code&gt; удаляет пакет вместе с конфигурационными файлами.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-что-такое-пакеты-и-как-они-устроены"&gt;Тест по теме «Что такое пакеты и как они устроены»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Если нужно удалить пакет и его зависимости, оставив только конфигурационные файлы, какую команду будете использовать?&lt;/strong&gt;
+Правильный ответ: autoremove.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image37_hu_b92bbd27c7e4e7b.webp 320w, https://example.com/projects/selectel-linux-part3/image/image37_hu_a629027fb1fe2392.webp 480w, https://example.com/projects/selectel-linux-part3/image/image37_hu_55cbe25f17a5e9a2.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image37_hu_b92bbd27c7e4e7b.webp"
+width="760"
+height="354"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Какую команду нужно использовать, чтобы удалить пакет и конфигурационные файлы, но оставить зависимости?&lt;/strong&gt;
+Правильный ответ: purge.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image38_hu_a3148977ed361707.webp 320w, https://example.com/projects/selectel-linux-part3/image/image38_hu_9762fc85aa5d285b.webp 435w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image38_hu_a3148977ed361707.webp"
+width="435"
+height="63"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Какую команду нужно выполнять регулярно?&lt;/strong&gt;
+Правильный ответ: apt update.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image39_hu_cb40d1f04d2f973c.webp 320w, https://example.com/projects/selectel-linux-part3/image/image39_hu_1d891e005e4c7b48.webp 480w, https://example.com/projects/selectel-linux-part3/image/image39_hu_4a2e643a6ab54ac8.webp 627w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image39_hu_cb40d1f04d2f973c.webp"
+width="627"
+height="76"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-обновление-системы-и-безопасность"&gt;Задания по теме «Обновление системы и безопасность»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Полное обновление системы&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo apt update
+sudo apt upgrade&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Полное обновление системы"
+srcset="https://example.com/projects/selectel-linux-part3/image/image40_hu_2edb4501d9581f88.webp 320w, https://example.com/projects/selectel-linux-part3/image/image40_hu_b1d44f1627164785.webp 480w, https://example.com/projects/selectel-linux-part3/image/image40_hu_b6b99a3a3291f132.webp 650w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image40_hu_2edb4501d9581f88.webp"
+width="650"
+height="141"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;apt upgrade&lt;/code&gt; устанавливает новые версии пакетов.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Настройка автоматической установки обновлений безопасности&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo apt install unattended-upgrades
+sudo dpkg-reconfigure unattended-upgrades&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Установка unattended-upgrades"
+srcset="https://example.com/projects/selectel-linux-part3/image/image41_hu_1b582218fca4068a.webp 320w, https://example.com/projects/selectel-linux-part3/image/image41_hu_e072a7d3d6b494af.webp 480w, https://example.com/projects/selectel-linux-part3/image/image41_hu_1cde0ea3c720e1db.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image41_hu_1b582218fca4068a.webp"
+width="760"
+height="345"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; пакет &lt;code&gt;unattended-upgrades&lt;/code&gt; позволяет настроить автоматическую установку обновлений.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Удаление устаревших и неиспользуемых зависимостей&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo apt autoremove -y&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Удаление зависимостей"
+srcset="https://example.com/projects/selectel-linux-part3/image/image42_hu_dc6a784c0e7dcbb8.webp 320w, https://example.com/projects/selectel-linux-part3/image/image42_hu_bb8b8da15eb5c54f.webp 480w, https://example.com/projects/selectel-linux-part3/image/image42_hu_774eea581813dab1.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image42_hu_dc6a784c0e7dcbb8.webp"
+width="760"
+height="341"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;apt autoremove&lt;/code&gt; удаляет ненужные зависимости.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-обновление-системы-и-безопасность"&gt;Тест по теме «Обновление системы и безопасность»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. С помощью какого пакета можно настроить автоматическое обновление системы?&lt;/strong&gt;
+Правильный ответ: unattended-upgrades.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image43_hu_7ef1c9745b54257d.webp 320w, https://example.com/projects/selectel-linux-part3/image/image43_hu_c5c4b9a4c6477011.webp 480w, https://example.com/projects/selectel-linux-part3/image/image43_hu_76ce7e0c00f587e2.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image43_hu_7ef1c9745b54257d.webp"
+width="760"
+height="371"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Какую команду нужно использовать для установки новых версий пакетов?&lt;/strong&gt;
+Правильный ответ: upgrade.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image44_hu_1d4f4bb3bb21c792.webp 320w, https://example.com/projects/selectel-linux-part3/image/image44_hu_43e5c3e302c7eef8.webp 480w, https://example.com/projects/selectel-linux-part3/image/image44_hu_42ccad4c644b1574.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image44_hu_1d4f4bb3bb21c792.webp"
+width="760"
+height="284"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. С помощью какой команды можно выполнить полное обновление системы с моментальным удалением ненужных по мнению apt пакетов?&lt;/strong&gt;
+Правильный ответ: full-upgrade.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image45_hu_747cdafefdc08d2d.webp 320w, https://example.com/projects/selectel-linux-part3/image/image45_hu_872a41acb18fdac1.webp 480w, https://example.com/projects/selectel-linux-part3/image/image45_hu_6efe38c863c2b67.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image45_hu_747cdafefdc08d2d.webp"
+width="760"
+height="362"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-работа-с-зависимостями-и-решение-конфликтов"&gt;Задания по теме «Работа с зависимостями и решение конфликтов»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Установка недостающих зависимостей&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo apt &amp;ndash;fix-broken install&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Исправление зависимостей"
+srcset="https://example.com/projects/selectel-linux-part3/image/image46_hu_cc392a0ac3e078e.webp 320w, https://example.com/projects/selectel-linux-part3/image/image46_hu_682b928aabf23d46.webp 480w, https://example.com/projects/selectel-linux-part3/image/image46_hu_f8e040cd68b4374b.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image46_hu_cc392a0ac3e078e.webp"
+width="760"
+height="289"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда пытается исправить разорванные зависимости, устанавливая недостающие пакеты.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-работа-с-зависимостями-и-решение-конфликтов"&gt;Тест по теме «Работа с зависимостями и решение конфликтов»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какую команду нужно использовать, чтобы система попробовала установить недостающие зависимости?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;--fix-broken install&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image47_hu_619c2531e730a44a.webp 320w, https://example.com/projects/selectel-linux-part3/image/image47_hu_ce6feb21c06dc62b.webp 480w, https://example.com/projects/selectel-linux-part3/image/image47_hu_d7009c694bb531f1.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image47_hu_619c2531e730a44a.webp"
+width="760"
+height="70"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Что случится, если вы удалите какой-то пакет, от которого зависимы другие пакеты?&lt;/strong&gt;
+Правильный ответ: Разрыв зависимостей.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image48_hu_58cd1bd92b1b4ad1.webp 320w, https://example.com/projects/selectel-linux-part3/image/image48_hu_ea1f0f8f5d9d748c.webp 480w, https://example.com/projects/selectel-linux-part3/image/image48_hu_14b34f2a758d8adb.webp 666w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image48_hu_58cd1bd92b1b4ad1.webp"
+width="666"
+height="62"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Что нужно применить в выводе, чтобы найти информацию по конкретному пакету?&lt;/strong&gt;
+Правильный ответ: grep.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image49_hu_b59d91a33677c5dd.webp 320w, https://example.com/projects/selectel-linux-part3/image/image49_hu_f5c9c39a5cf9051b.webp 480w, https://example.com/projects/selectel-linux-part3/image/image49_hu_15897610e46dc6ab.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image49_hu_b59d91a33677c5dd.webp"
+width="760"
+height="300"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-работа-с-локальными-deb-пакетами-и-сторонними-источниками"&gt;Задания по теме «Работа с локальными .deb-пакетами и сторонними источниками»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Установка пакета вручную через dpkg&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;wget
+sudo dpkg -i htop_3.0.5-7+b1_amd64.deb&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Скачивание пакета"
+srcset="https://example.com/projects/selectel-linux-part3/image/image50_hu_f272e4829dcd27ef.webp 320w, https://example.com/projects/selectel-linux-part3/image/image50_hu_c2c09031c68cc84f.webp 480w, https://example.com/projects/selectel-linux-part3/image/image50_hu_665c0a9f47de130d.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image50_hu_f272e4829dcd27ef.webp"
+width="760"
+height="288"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;dpkg -i&lt;/code&gt; устанавливает локальный &lt;code&gt;.deb&lt;/code&gt;-пакет.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Анализ зависимостей пакета&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;dpkg -I htop_3.0.5-7+b1_amd64.deb | grep Depends&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Анализ зависимостей"
+srcset="https://example.com/projects/selectel-linux-part3/image/image51_hu_7b68a5f4a156accf.webp 320w, https://example.com/projects/selectel-linux-part3/image/image51_hu_40b3d79ae5cf6f95.webp 480w, https://example.com/projects/selectel-linux-part3/image/image51_hu_d44d553d70dbcd9a.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image51_hu_7b68a5f4a156accf.webp"
+width="760"
+height="287"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;dpkg -I&lt;/code&gt; показывает информацию о пакете.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-работа-с-локальными-deb-пакетами-и-сторонними-источниками"&gt;Тест по теме «Работа с локальными .deb-пакетами и сторонними источниками»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какой вариант установки .deb-файлов рекомендован?&lt;/strong&gt;
+Правильный ответ: apt.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image52_hu_4790653b2fdfbc4f.webp 320w, https://example.com/projects/selectel-linux-part3/image/image52_hu_ef444e0cdd297462.webp 405w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image52_hu_4790653b2fdfbc4f.webp"
+width="405"
+height="28"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Через что apt проверяет подлинность пакетов?&lt;/strong&gt;
+Правильный ответ: GPG-подпись.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image53_hu_b4fdf478de0c7924.webp 320w, https://example.com/projects/selectel-linux-part3/image/image53_hu_f16bf507825e6660.webp 480w, https://example.com/projects/selectel-linux-part3/image/image53_hu_43d3ec02f35c0162.webp 526w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image53_hu_b4fdf478de0c7924.webp"
+width="526"
+height="113"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Что лучше сделать, если в репозитории SelectOS нет нужного пакета?&lt;/strong&gt;
+Правильный ответ: Создать тикет через панель управления.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image54_hu_bdd9f87663ce99b0.webp 320w, https://example.com/projects/selectel-linux-part3/image/image54_hu_2a0eee6d9db6d4ee.webp 480w, https://example.com/projects/selectel-linux-part3/image/image54_hu_fd10331fc4fceeef.webp 527w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image54_hu_bdd9f87663ce99b0.webp"
+width="527"
+height="37"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="модуль-10-управление-логами"&gt;Модуль 10: Управление логами&lt;/h2&gt;
+&lt;h3 id="задания-по-теме-знакомство-с-логами"&gt;Задания по теме «Знакомство с логами»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Просмотр основного системного журнала и журнала аутентификации&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;less /var/log/syslog&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Просмотр syslog"
+srcset="https://example.com/projects/selectel-linux-part3/image/image55_hu_e6197df9e9f23c76.webp 320w, https://example.com/projects/selectel-linux-part3/image/image55_hu_9554b0e5ada99b29.webp 480w, https://example.com/projects/selectel-linux-part3/image/image55_hu_97382048d535a44c.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image55_hu_e6197df9e9f23c76.webp"
+width="760"
+height="32"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;less&lt;/code&gt; открывает файл в режиме постраничного просмотра.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Вывод последних 20 записей из бинарного системного журнала&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;journalctl -n 20&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="journalctl -n 20"
+srcset="https://example.com/projects/selectel-linux-part3/image/image56_hu_ab4d97e52fb6db39.webp 320w, https://example.com/projects/selectel-linux-part3/image/image56_hu_80a8a943bc6eb86e.webp 480w, https://example.com/projects/selectel-linux-part3/image/image56_hu_d25451f674d9b143.webp 508w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image56_hu_ab4d97e52fb6db39.webp"
+width="508"
+height="27"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда выводит последние 20 записей из системного журнала.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Проверка наличия и расположения файла журнала ошибок Nginx&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ls -l /var/log/nginx/error.log&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Проверка error.log"
+srcset="https://example.com/projects/selectel-linux-part3/image/image57_hu_847be5d572c0893d.webp 320w, https://example.com/projects/selectel-linux-part3/image/image57_hu_270b8ab88232a05f.webp 480w, https://example.com/projects/selectel-linux-part3/image/image57_hu_2a0dbd81e3f3bef6.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image57_hu_847be5d572c0893d.webp"
+width="760"
+height="375"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда выводит информацию о файле, если он существует.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №4. Анализ строки из файла /var/log/auth.log&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jun 26 14:32:10 server sshd: Accepted password for user from 192.168.1.15 port 12345 ssh2&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Строка из auth.log"
+srcset="https://example.com/projects/selectel-linux-part3/image/image58_hu_7130b504d798e7ce.webp 320w, https://example.com/projects/selectel-linux-part3/image/image58_hu_866a7434243eaa7b.webp 480w, https://example.com/projects/selectel-linux-part3/image/image58_hu_45ed8a09272e3bbf.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image58_hu_7130b504d798e7ce.webp"
+width="760"
+height="406"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; временная метка — &lt;code&gt;Jun 26 14:32:10&lt;/code&gt;, сервис — &lt;code&gt;sshd&lt;/code&gt;, событие — успешный вход.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №5. Фильтрация записей по службе cron&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;journalctl -u cron.service&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="journalctl -u cron.service"
+srcset="https://example.com/projects/selectel-linux-part3/image/image59_hu_8455d769a49ea828.webp 320w, https://example.com/projects/selectel-linux-part3/image/image59_hu_bfa6ccea7a23ea59.webp 480w, https://example.com/projects/selectel-linux-part3/image/image59_hu_8055c70668a60c29.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image59_hu_8455d769a49ea828.webp"
+width="760"
+height="348"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-u&lt;/code&gt; ограничивает вывод журнала только записями службы cron.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-знакомство-с-логами"&gt;Тест по теме «Знакомство с логами»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какие три ключевые задачи системного администратора решаются с помощью анализа логов?&lt;/strong&gt;
+Правильный ответ: Диагностика сбоев, расследование инцидентов безопасности, аудит производительности.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image60_hu_e98a9a3c38e93fab.webp 320w, https://example.com/projects/selectel-linux-part3/image/image60_hu_37219b6a79220800.webp 480w, https://example.com/projects/selectel-linux-part3/image/image60_hu_4fdf5ec5d1db1fae.webp 508w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image60_hu_e98a9a3c38e93fab.webp"
+width="508"
+height="72"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Какой первый шаг для диагностики ошибки «502 Bad Gateway»?&lt;/strong&gt;
+Правильный ответ: Изучить файл журнала ошибок веб-сервера.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image61_hu_409b900d5152ae3.webp 320w, https://example.com/projects/selectel-linux-part3/image/image61_hu_fb2c24b58db8874e.webp 480w, https://example.com/projects/selectel-linux-part3/image/image61_hu_e2036033a39c8d57.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image61_hu_409b900d5152ae3.webp"
+width="760"
+height="55"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Где в современной Linux-системе хранятся системные журналы?&lt;/strong&gt;
+Правильный ответ: В текстовых файлах в /var/log/ и в бинарном журнале systemd.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image62_hu_4e7f8b5c41dfd3df.webp 320w, https://example.com/projects/selectel-linux-part3/image/image62_hu_9eaef7e4e0a8aa3e.webp 450w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image62_hu_4e7f8b5c41dfd3df.webp"
+width="450"
+height="77"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-система-логирования-в-linux"&gt;Задания по теме «Система логирования в Linux»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Проверка статуса служб rsyslog и systemd-journald&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;systemctl status rsyslog.service&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Статус rsyslog"
+srcset="https://example.com/projects/selectel-linux-part3/image/image63_hu_3dd4c92d4a9582e8.webp 320w, https://example.com/projects/selectel-linux-part3/image/image63_hu_2d26d9db49cdec2b.webp 480w, https://example.com/projects/selectel-linux-part3/image/image63_hu_ad08c55c4b013507.webp 663w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image63_hu_3dd4c92d4a9582e8.webp"
+width="663"
+height="77"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда показывает текущее состояние службы rsyslog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Генерация тестового сообщения через logger&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;logger &amp;ldquo;Это мое тестовое сообщение для проверки двойного логирования&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Генерация сообщения"
+srcset="https://example.com/projects/selectel-linux-part3/image/image64_hu_7e97df11b566c847.webp 320w, https://example.com/projects/selectel-linux-part3/image/image64_hu_d9d303d64f5fad4b.webp 480w, https://example.com/projects/selectel-linux-part3/image/image64_hu_9886e092a61a2dd6.webp 732w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image64_hu_7e97df11b566c847.webp"
+width="732"
+height="62"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; утилита &lt;code&gt;logger&lt;/code&gt; отправляет сообщение в системный журнал.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Фильтрация событий по уровню важности error&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;journalctl -p err&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Фильтрация по err"
+srcset="https://example.com/projects/selectel-linux-part3/image/image65_hu_70a8cb26f4f321ac.webp 320w, https://example.com/projects/selectel-linux-part3/image/image65_hu_bea44bbc160c6456.webp 480w, https://example.com/projects/selectel-linux-part3/image/image65_hu_98b9619b02bd6170.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image65_hu_70a8cb26f4f321ac.webp"
+width="760"
+height="382"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-p err&lt;/code&gt; фильтрует журнал по уровню важности.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №4. Поиск строки в конфигурации rsyslog&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;lsquo;auth.log&amp;rsquo; /etc/rsyslog.d/50-default.conf&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Поиск в конфигурации rsyslog"
+srcset="https://example.com/projects/selectel-linux-part3/image/image66_hu_baa4e215c250292.webp 320w, https://example.com/projects/selectel-linux-part3/image/image66_hu_959980ad82c965db.webp 480w, https://example.com/projects/selectel-linux-part3/image/image66_hu_61bd7949580a97c3.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image66_hu_baa4e215c250292.webp"
+width="760"
+height="388"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда ищет в конфигурационном файле строки, содержащие &lt;code&gt;auth.log&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №5. Отправка сообщения с уровнем warning&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;logger -p user.warn &amp;ldquo;Это специальное тестовое предупреждение&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Отправка warning"
+srcset="https://example.com/projects/selectel-linux-part3/image/image67_hu_b244ec5a0907cbf0.webp 320w, https://example.com/projects/selectel-linux-part3/image/image67_hu_2d410bbd6a65b55a.webp 480w, https://example.com/projects/selectel-linux-part3/image/image67_hu_e53c6158a8c86ffe.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image67_hu_b244ec5a0907cbf0.webp"
+width="760"
+height="346"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-p user.warn&lt;/code&gt; указывает категорию и уровень важности.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-система-логирования-в-linux"&gt;Тест по теме «Система логирования в Linux»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Каково типичное взаимодействие между systemd-journald и rsyslog?&lt;/strong&gt;
+Правильный ответ: systemd-journald собирает все сообщения и перенаправляет их в rsyslog.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image68_hu_716a6ab2b85f05c1.webp 320w, https://example.com/projects/selectel-linux-part3/image/image68_hu_d3af44229f618748.webp 480w, https://example.com/projects/selectel-linux-part3/image/image68_hu_cddebb695352ef5b.webp 585w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image68_hu_716a6ab2b85f05c1.webp"
+width="585"
+height="22"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Какой уровень важности будет присвоен событию «служба не смогла запуститься»?&lt;/strong&gt;
+Правильный ответ: error.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image69_hu_602e8479bac60baf.webp 320w, https://example.com/projects/selectel-linux-part3/image/image69_hu_79b71ec5b2e45da2.webp 480w, https://example.com/projects/selectel-linux-part3/image/image69_hu_63090e449e9e1ff6.webp 721w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image69_hu_602e8479bac60baf.webp"
+width="721"
+height="20"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Каково назначение «категории» (facility) в syslog?&lt;/strong&gt;
+Правильный ответ: Указывать на источник сообщения для маршрутизации.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image70_hu_3aec59add6cf610a.webp 320w, https://example.com/projects/selectel-linux-part3/image/image70_hu_c062ec6862df4093.webp 480w, https://example.com/projects/selectel-linux-part3/image/image70_hu_6e58518579c3649d.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image70_hu_3aec59add6cf610a.webp"
+width="760"
+height="20"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-поиск-и-фильтрация-логов-под-конкретные-задачи"&gt;Задания по теме «Поиск и фильтрация логов под конкретные задачи»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Поиск неудачных попыток входа по паролю&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep -i &amp;ldquo;Failed password&amp;rdquo; /var/log/auth.log&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Поиск Failed password"
+srcset="https://example.com/projects/selectel-linux-part3/image/image71_hu_aee10cbdb84fdf56.webp 320w, https://example.com/projects/selectel-linux-part3/image/image71_hu_95af999f95fad910.webp 480w, https://example.com/projects/selectel-linux-part3/image/image71_hu_232b893f8e37f71d.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image71_hu_aee10cbdb84fdf56.webp"
+width="760"
+height="24"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-i&lt;/code&gt; делает поиск регистронезависимым.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Извлечение IP-адресов из успешных SSH-подключений&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;ldquo;Accepted password&amp;rdquo; /var/log/auth.log | awk &amp;lsquo;{print $11}&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Извлечение IP"
+srcset="https://example.com/projects/selectel-linux-part3/image/image72_hu_51d902e3f6740d96.webp 320w, https://example.com/projects/selectel-linux-part3/image/image72_hu_c7b8c7454d224eba.webp 480w, https://example.com/projects/selectel-linux-part3/image/image72_hu_15dfa22ad31885f9.webp 512w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image72_hu_51d902e3f6740d96.webp"
+width="512"
+height="98"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; &lt;code&gt;awk&lt;/code&gt; извлекает 11-е поле — IP-адрес клиента.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Список уникальных IP-адресов с неудачными попытками входа&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;ldquo;Failed password&amp;rdquo; /var/log/auth.log | awk &amp;lsquo;{print $11}&amp;rsquo; | sort | uniq&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Уникальные IP"
+srcset="https://example.com/projects/selectel-linux-part3/image/image73_hu_9758db7cbd564777.webp 320w, https://example.com/projects/selectel-linux-part3/image/image73_hu_fa0c23175c8475f1.webp 480w, https://example.com/projects/selectel-linux-part3/image/image73_hu_51d2b10c1dffac72.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image73_hu_9758db7cbd564777.webp"
+width="760"
+height="390"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; &lt;code&gt;sort&lt;/code&gt; сортирует, а &lt;code&gt;uniq&lt;/code&gt; удаляет дубликаты.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №4. Топ-5 IP-адресов по количеству успешных входов&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;ldquo;Accepted password&amp;rdquo; /var/log/auth.log | awk &amp;lsquo;{print $11}&amp;rsquo; | sort | uniq -c | sort -nr | head -n 5&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Топ-5 IP"
+srcset="https://example.com/projects/selectel-linux-part3/image/image74_hu_c7e9009a64096660.webp 320w, https://example.com/projects/selectel-linux-part3/image/image74_hu_501a8f594d3440b3.webp 480w, https://example.com/projects/selectel-linux-part3/image/image74_hu_129e4857d5ddea15.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image74_hu_c7e9009a64096660.webp"
+width="760"
+height="351"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; конвейер подсчитывает количество вхождений и выводит топ-5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №5. Просмотр журналов за последние 15 минут&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;journalctl &amp;ndash;since &amp;ldquo;15 min ago&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Журналы за 15 минут"
+srcset="https://example.com/projects/selectel-linux-part3/image/image75_hu_b990f496abb51fd5.webp 320w, https://example.com/projects/selectel-linux-part3/image/image75_hu_ec9fbebf47393bfc.webp 480w, https://example.com/projects/selectel-linux-part3/image/image75_hu_4125d91eed3c521e.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image75_hu_b990f496abb51fd5.webp"
+width="760"
+height="397"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;--since&lt;/code&gt; ограничивает вывод журнала записями за последние 15 минут.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-поиск-и-фильтрация-логов-под-конкретные-задачи"&gt;Тест по теме «Поиск и фильтрация логов под конкретные задачи»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какой конвейер команд правильно подсчитает количество вхождений каждого уникального IP-адреса?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;sort ip_list.txt | uniq -c&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image76_hu_d557d66f3da1a916.webp 320w, https://example.com/projects/selectel-linux-part3/image/image76_hu_3b4eadd813970ca2.webp 480w, https://example.com/projects/selectel-linux-part3/image/image76_hu_7eea5b2d5a806b29.webp 577w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image76_hu_d557d66f3da1a916.webp"
+width="577"
+height="27"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Что означает конструкция $3 в команде awk '{print $3}&amp;rsquo;?&lt;/strong&gt;
+Правильный ответ: Вывести третье поле (столбец) каждой строки.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image77_hu_b203fab4164a9d64.webp 320w, https://example.com/projects/selectel-linux-part3/image/image77_hu_89f6a5f1d74838c8.webp 480w, https://example.com/projects/selectel-linux-part3/image/image77_hu_16a18508103e5c6.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image77_hu_b203fab4164a9d64.webp"
+width="760"
+height="23"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Какая команда исключит строки, где упоминается healthcheck?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;grep &amp;quot;error&amp;quot; /var/log/syslog | grep -v &amp;quot;healthcheck&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image78_hu_a124e77b75ec005b.webp 320w, https://example.com/projects/selectel-linux-part3/image/image78_hu_49fde8f1eb574f7.webp 480w, https://example.com/projects/selectel-linux-part3/image/image78_hu_db1ff34ee2afd9e2.webp 691w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image78_hu_a124e77b75ec005b.webp"
+width="691"
+height="26"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-расследование-инцидентов-по-логам"&gt;Задания по теме «Расследование инцидентов по логам»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Поиск попыток входа от несуществующих пользователей&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;ldquo;Invalid user&amp;rdquo; /var/log/auth.log&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Поиск Invalid user"
+srcset="https://example.com/projects/selectel-linux-part3/image/image79_hu_e042747fca55d45.webp 320w, https://example.com/projects/selectel-linux-part3/image/image79_hu_f0e91b1bfaa2aabe.webp 480w, https://example.com/projects/selectel-linux-part3/image/image79_hu_c45ca97b648fd7b1.webp 707w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image79_hu_e042747fca55d45.webp"
+width="707"
+height="40"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда находит строки с сообщениями о попытках входа от несуществующих пользователей.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Определение IP-адреса с наибольшим количеством неудачных попыток&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;ldquo;Failed password&amp;rdquo; /var/log/auth.log | awk &amp;lsquo;{print $11}&amp;rsquo; | sort | uniq -c | sort -nr | head -n 1&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Активный IP"
+srcset="https://example.com/projects/selectel-linux-part3/image/image80_hu_46089f46629c6fcf.webp 320w, https://example.com/projects/selectel-linux-part3/image/image80_hu_5c1b24f02d6ec8fb.webp 480w, https://example.com/projects/selectel-linux-part3/image/image80_hu_731184f4457a6d4a.webp 657w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image80_hu_46089f46629c6fcf.webp"
+width="657"
+height="32"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; конвейер выводит IP-адрес с максимальным количеством неудач.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Сохранение всех записей по подозрительному IP в отдельный файл&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;ldquo;1.2.3.4&amp;rdquo; /var/log/auth.log &amp;gt; incident_report.log&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Сохранение отчёта"
+srcset="https://example.com/projects/selectel-linux-part3/image/image81_hu_3fbb7e92f762041c.webp 320w, https://example.com/projects/selectel-linux-part3/image/image81_hu_86b7e8d482958f3f.webp 480w, https://example.com/projects/selectel-linux-part3/image/image81_hu_e8c2aab7ede13d69.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image81_hu_3fbb7e92f762041c.webp"
+width="760"
+height="381"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда сохраняет все строки с указанным IP в отдельный файл.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №4. Расчёт контрольной суммы SHA256 для файла&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sha256sum incident_report.log&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Контрольная сумма"
+srcset="https://example.com/projects/selectel-linux-part3/image/image82_hu_dd93dd4eb2938a3c.webp 320w, https://example.com/projects/selectel-linux-part3/image/image82_hu_6055620a8e333de1.webp 480w, https://example.com/projects/selectel-linux-part3/image/image82_hu_79d0e3e5f0fffdc9.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image82_hu_dd93dd4eb2938a3c.webp"
+width="760"
+height="378"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда вычисляет хеш SHA256 для файла.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №5. Проверка команд, выполненных через sudo текущим пользователем&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;grep &amp;ldquo;sudo:&amp;rdquo; /var/log/auth.log | grep &amp;ldquo;USER=$(whoami)&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Проверка sudo"
+srcset="https://example.com/projects/selectel-linux-part3/image/image83_hu_69e3ef311b5013a3.webp 320w, https://example.com/projects/selectel-linux-part3/image/image83_hu_6b10bdddc4bede28.webp 480w, https://example.com/projects/selectel-linux-part3/image/image83_hu_bbb6e8af9dba8bde.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image83_hu_69e3ef311b5013a3.webp"
+width="760"
+height="404"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда ищет записи о командах sudo, выполненных текущим пользователем.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-расследование-инцидентов-по-логам"&gt;Тест по теме «Расследование инцидентов по логам»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какой тип активности означает сотни попыток входа с одного IP-адреса?&lt;/strong&gt;
+Правильный ответ: Автоматизированная атака по подбору пароля (brute-force).&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image84_hu_c3107123d14a7ad6.webp 320w, https://example.com/projects/selectel-linux-part3/image/image84_hu_1942f2dc52d9b619.webp 431w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image84_hu_c3107123d14a7ad6.webp"
+width="431"
+height="22"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Какой шаг критически важен для обеспечения целостности доказательств?&lt;/strong&gt;
+Правильный ответ: Рассчитать и сохранить криптографическую контрольную сумму (хеш).&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image85_hu_3fc702f30f4e4b33.webp 320w, https://example.com/projects/selectel-linux-part3/image/image85_hu_5f1e9604b1895f55.webp 480w, https://example.com/projects/selectel-linux-part3/image/image85_hu_fffabd5e2017990f.webp 483w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image85_hu_3fc702f30f4e4b33.webp"
+width="483"
+height="40"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Какой шаблон в логах релевантен для поиска команд с повышенными привилегиями?&lt;/strong&gt;
+Правильный ответ: Поиск записей, содержащих sudo:.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image86_hu_79cf339e818fdd18.webp 320w, https://example.com/projects/selectel-linux-part3/image/image86_hu_dd1ca2cfddc7dc67.webp 480w, https://example.com/projects/selectel-linux-part3/image/image86_hu_44fd99776e116ac2.webp 541w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image86_hu_79cf339e818fdd18.webp"
+width="541"
+height="43"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-управление-жизненным-циклом-логов-и-ротация"&gt;Задания по теме «Управление жизненным циклом логов и ротация»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Изучение существующей конфигурации logrotate для apt&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;cat /etc/logrotate.d/apt&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Конфигурация logrotate для apt"
+srcset="https://example.com/projects/selectel-linux-part3/image/image87_hu_689a7891e8b3e06.webp 320w, https://example.com/projects/selectel-linux-part3/image/image87_hu_6f9094bbf0434d96.webp 480w, https://example.com/projects/selectel-linux-part3/image/image87_hu_cb49170282497109.webp 718w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image87_hu_689a7891e8b3e06.webp"
+width="718"
+height="33"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда выводит содержимое файла конфигурации logrotate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Создание собственного конфигурационного файла для testapp&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo touch /var/log/testapp.log
+sudo nano /etc/logrotate.d/testapp&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Создание testapp.log"
+srcset="https://example.com/projects/selectel-linux-part3/image/image88_hu_467103515cef7bfe.webp 320w, https://example.com/projects/selectel-linux-part3/image/image88_hu_e644e95abae99d35.webp 480w, https://example.com/projects/selectel-linux-part3/image/image88_hu_d3a7bcc6fe85adb.webp 520w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image88_hu_467103515cef7bfe.webp"
+width="520"
+height="30"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; создаём файл и прописываем параметры ротации.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №3. Проверка конфигурации logrotate в режиме отладки&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;logrotate -d /etc/logrotate.d/testapp&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Отладочный запуск logrotate"
+srcset="https://example.com/projects/selectel-linux-part3/image/image89_hu_a5480818653db837.webp 320w, https://example.com/projects/selectel-linux-part3/image/image89_hu_ab6b21caee7b22ff.webp 480w, https://example.com/projects/selectel-linux-part3/image/image89_hu_7a16f8cad190fa00.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image89_hu_a5480818653db837.webp"
+width="760"
+height="320"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-d&lt;/code&gt; показывает, что logrotate сделал бы, но не выполняет действий.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №4. Принудительный запуск ротации и проверка результата&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo logrotate -f /etc/logrotate.d/testapp&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Принудительная ротация"
+srcset="https://example.com/projects/selectel-linux-part3/image/image90_hu_132febd7fab1a9c1.webp 320w, https://example.com/projects/selectel-linux-part3/image/image90_hu_c23252d5885bfa22.webp 480w, https://example.com/projects/selectel-linux-part3/image/image90_hu_cb115713e142f67b.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image90_hu_132febd7fab1a9c1.webp"
+width="760"
+height="376"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-f&lt;/code&gt; принудительно запускает ротацию.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №5. Строка конфигурации rsyslog для пересылки логов на удалённый сервер&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;.&lt;/em&gt; @@logs.example.com:514&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Строка конфигурации rsyslog"
+srcset="https://example.com/projects/selectel-linux-part3/image/image91_hu_b69b0c7ff69ba9c3.webp 320w, https://example.com/projects/selectel-linux-part3/image/image91_hu_b092b26ce6ffd2d3.webp 480w, https://example.com/projects/selectel-linux-part3/image/image91_hu_41e2bf2daa0929a1.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image91_hu_b69b0c7ff69ba9c3.webp"
+width="760"
+height="408"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; строка пересылает все сообщения на удалённый сервер по TCP.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-управление-жизненным-циклом-логов-и-ротация"&gt;Тест по теме «Управление жизненным циклом логов и ротация»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какую основную и наиболее насущную проблему решает утилита logrotate?&lt;/strong&gt;
+Правильный ответ: Предотвращение исчерпания свободного места на диске.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image92_hu_6e0583b8458cfdf4.webp 320w, https://example.com/projects/selectel-linux-part3/image/image92_hu_af693a5da31268ff.webp 395w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image92_hu_6e0583b8458cfdf4.webp"
+width="395"
+height="61"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Какое ключевое преимущество в области безопасности дает отправка логов на удаленный сервер?&lt;/strong&gt;
+Правильный ответ: Злоумышленник не сможет скрыть свои следы, удалив локальные логи.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image93_hu_3474ffba2e34addc.webp 320w, https://example.com/projects/selectel-linux-part3/image/image93_hu_b98a647ed2c263bd.webp 480w, https://example.com/projects/selectel-linux-part3/image/image93_hu_c3c44a289468d98f.webp 492w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image93_hu_3474ffba2e34addc.webp"
+width="492"
+height="55"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Какая система лучше всего подходит для Kubernetes с фильтрацией по меткам?&lt;/strong&gt;
+Правильный ответ: Grafana Loki.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image94_hu_ff33f6aa45d6472.webp 320w, https://example.com/projects/selectel-linux-part3/image/image94_hu_5ac699b87714b869.webp 480w, https://example.com/projects/selectel-linux-part3/image/image94_hu_f8d0ca5c627173c3.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image94_hu_ff33f6aa45d6472.webp"
+width="760"
+height="337"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="модуль-11-контейнеризация"&gt;Модуль 11: Контейнеризация&lt;/h2&gt;
+&lt;h3 id="задания-по-теме-контейнеризация-как-подход"&gt;Задания по теме «Контейнеризация как подход»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Установка Podman и проверка установки&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;sudo apt update
+sudo apt install podman&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Обновление списка пакетов"
+srcset="https://example.com/projects/selectel-linux-part3/image/image95_hu_972cb7f264b223b8.webp 320w, https://example.com/projects/selectel-linux-part3/image/image95_hu_360f4968f17f9d0.webp 480w, https://example.com/projects/selectel-linux-part3/image/image95_hu_a286aea5678de9e.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image95_hu_972cb7f264b223b8.webp"
+width="760"
+height="346"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; команда &lt;code&gt;apt install podman&lt;/code&gt; устанавливает утилиту Podman.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Запуск контейнера&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;podman run -it &amp;ndash;rm alpine sh&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Запуск контейнера Alpine"
+srcset="https://example.com/projects/selectel-linux-part3/image/image96_hu_554a2dd8d9931837.webp 320w, https://example.com/projects/selectel-linux-part3/image/image96_hu_4ecfc19769f6abb5.webp 480w, https://example.com/projects/selectel-linux-part3/image/image96_hu_e0d45dd64fb744b9.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image96_hu_554a2dd8d9931837.webp"
+width="760"
+height="346"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;--rm&lt;/code&gt; автоматически удаляет контейнер после выхода.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-контейнеризация-как-подход"&gt;Тест по теме «Контейнеризация как подход»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какая команда позволяет проверить конфигурацию Podman?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;podman info&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image97_hu_75d245d4adb4c564.webp 320w, https://example.com/projects/selectel-linux-part3/image/image97_hu_907892cc566bbfa2.webp 480w, https://example.com/projects/selectel-linux-part3/image/image97_hu_36e35fb93b0cd2fd.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image97_hu_75d245d4adb4c564.webp"
+width="760"
+height="339"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Чем Podman отличается от Docker?&lt;/strong&gt;
+Правильный ответ: Не требует фонового демона.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image98_hu_5eb4ae26f35e76fd.webp 320w, https://example.com/projects/selectel-linux-part3/image/image98_hu_dc07aef11d974ef4.webp 480w, https://example.com/projects/selectel-linux-part3/image/image98_hu_5976f7d04014c8f5.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image98_hu_5eb4ae26f35e76fd.webp"
+width="760"
+height="341"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Что делает ключ &amp;ndash;rm в podman run?&lt;/strong&gt;
+Правильный ответ: Удаляет контейнер после завершения.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image99_hu_3e8949f172f2278.webp 320w, https://example.com/projects/selectel-linux-part3/image/image99_hu_a1838cb3019ee07d.webp 480w, https://example.com/projects/selectel-linux-part3/image/image99_hu_e4826eed63274898.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image99_hu_3e8949f172f2278.webp"
+width="760"
+height="63"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Почему Podman безопаснее для многопользовательских систем?&lt;/strong&gt;
+Правильный ответ: Поддерживает запуск без root и демона.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image100_hu_22849907066bd00b.webp 320w, https://example.com/projects/selectel-linux-part3/image/image100_hu_8528d14f4928e9cd.webp 480w, https://example.com/projects/selectel-linux-part3/image/image100_hu_481ffbc386137523.webp 516w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image100_hu_22849907066bd00b.webp"
+width="516"
+height="67"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 5. Какой компонент не нужен при работе с Podman?&lt;/strong&gt;
+Правильный ответ: Системный демон.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 5"
+srcset="https://example.com/projects/selectel-linux-part3/image/image101_hu_5c79b3246b59c2b9.webp 320w, https://example.com/projects/selectel-linux-part3/image/image101_hu_a8fc2201c0f2e8fa.webp 480w, https://example.com/projects/selectel-linux-part3/image/image101_hu_bca83bef95e9540c.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image101_hu_5c79b3246b59c2b9.webp"
+width="760"
+height="352"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-работа-с-контейнерами-в-podman"&gt;Задания по теме «Работа с контейнерами в Podman»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Запуск Nginx и проверка его работы&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;podman run -d &amp;ndash;name my-nginx -p 8080:80 docker.io/library/nginx&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Запуск Nginx"
+srcset="https://example.com/projects/selectel-linux-part3/image/image102_hu_e29bbc96baa82e65.webp 320w, https://example.com/projects/selectel-linux-part3/image/image102_hu_874a98c0841806d3.webp 480w, https://example.com/projects/selectel-linux-part3/image/image102_hu_c4612cfdb645cb66.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image102_hu_e29bbc96baa82e65.webp"
+width="760"
+height="346"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-p 8080:80&lt;/code&gt; пробрасывает порт 8080 на хосте на порт 80 внутри контейнера.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Развёртывание сайта в Nginx с использованием локальной папки&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;mkdir -p /home/user/site
+echo &amp;ldquo;&lt;h1&gt;Hello from Podman&lt;/h1&gt;&amp;rdquo; &amp;gt; /home/user/site/index.html
+podman run -d &amp;ndash;name my-nginx -p 8080:80 -v /home/user/site:/usr/share/nginx/html:ro docker.io/library/nginx&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Создание index.html"
+srcset="https://example.com/projects/selectel-linux-part3/image/image103_hu_a16cf14ff41e6b01.webp 320w, https://example.com/projects/selectel-linux-part3/image/image103_hu_439573997db7a196.webp 480w, https://example.com/projects/selectel-linux-part3/image/image103_hu_795ca531153c75ea.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image103_hu_a16cf14ff41e6b01.webp"
+width="760"
+height="350"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;-v&lt;/code&gt; монтирует локальную директорию в контейнер.&lt;/p&gt;
+&lt;h3 id="тест-по-теме-работа-с-контейнерами-в-podman"&gt;Тест по теме «Работа с контейнерами в Podman»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какая команда запускает контейнер с пробросом порта 8080 на 80?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;podman run -p 8080:80 nginx&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image104_hu_eb8694fc07c71d8b.webp 320w, https://example.com/projects/selectel-linux-part3/image/image104_hu_84f99eb80fabce29.webp 480w, https://example.com/projects/selectel-linux-part3/image/image104_hu_2fe32cdc77efa7e5.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image104_hu_eb8694fc07c71d8b.webp"
+width="760"
+height="351"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Что делает флаг -v при запуске контейнера?&lt;/strong&gt;
+Правильный ответ: Монтирует директорию с хоста внутрь контейнера.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image105_hu_ef64cc967ad1cc25.webp 320w, https://example.com/projects/selectel-linux-part3/image/image105_hu_f49e46c9ed7e49e2.webp 480w, https://example.com/projects/selectel-linux-part3/image/image105_hu_b83b14a13735f46f.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image105_hu_ef64cc967ad1cc25.webp"
+width="760"
+height="347"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Что произойдет при использовании флага -it?&lt;/strong&gt;
+Правильный ответ: Откроется shell внутри контейнера.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image106_hu_f5ae6cbbe8eb8716.webp 320w, https://example.com/projects/selectel-linux-part3/image/image106_hu_f368b270989e9084.webp 480w, https://example.com/projects/selectel-linux-part3/image/image106_hu_eb70eb192f97428a.webp 701w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image106_hu_f5ae6cbbe8eb8716.webp"
+width="701"
+height="42"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Как просмотреть все (включая остановленные) контейнеры?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;podman ps -a&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image107_hu_8fd07d580112bdce.webp 320w, https://example.com/projects/selectel-linux-part3/image/image107_hu_49b5f70ef308244e.webp 480w, https://example.com/projects/selectel-linux-part3/image/image107_hu_c6359b7cf4b477c4.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image107_hu_8fd07d580112bdce.webp"
+width="760"
+height="34"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 5. Что делает флаг &amp;ndash;rm при запуске контейнера?&lt;/strong&gt;
+Правильный ответ: Автоматически удаляет контейнер после завершения.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 5"
+srcset="https://example.com/projects/selectel-linux-part3/image/image108_hu_b1db03ea5dbd2d53.webp 320w, https://example.com/projects/selectel-linux-part3/image/image108_hu_51eb426a8f73d316.webp 480w, https://example.com/projects/selectel-linux-part3/image/image108_hu_2f89a5fa90e2c2b9.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image108_hu_b1db03ea5dbd2d53.webp"
+width="760"
+height="368"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="задания-по-теме-управление-ресурсами-контейнеров"&gt;Задания по теме «Управление ресурсами контейнеров»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Задание №1. Запуск контейнера Nginx с ограничением памяти&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;podman run -d &amp;ndash;memory=100m &amp;ndash;name nginx-limited nginx&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Запуск Nginx с лимитом памяти"
+srcset="https://example.com/projects/selectel-linux-part3/image/image109_hu_4fe93002b02c74b6.webp 320w, https://example.com/projects/selectel-linux-part3/image/image109_hu_294479df59bab89c.webp 480w, https://example.com/projects/selectel-linux-part3/image/image109_hu_cfac528018e2b7db.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image109_hu_4fe93002b02c74b6.webp"
+width="760"
+height="351"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; флаг &lt;code&gt;--memory=100m&lt;/code&gt; ограничивает потребление памяти до 100 МБ.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание №2. Исследование поведения контейнера при исчерпании памяти&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;podman run &amp;ndash;memory=100m &amp;ndash;name stress-test docker.io/progrium/stress &amp;ndash;vm 1 &amp;ndash;vm-bytes 150m &amp;ndash;vm-hang 0&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Запуск stress-теста"
+srcset="https://example.com/projects/selectel-linux-part3/image/image110_hu_ab0ed3cc1af00481.webp 320w, https://example.com/projects/selectel-linux-part3/image/image110_hu_2fd099a20ad063bc.webp 480w, https://example.com/projects/selectel-linux-part3/image/image110_hu_b2fa8ec4418612d2.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image110_hu_ab0ed3cc1af00481.webp"
+width="760"
+height="349"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пояснение:&lt;/strong&gt; утилита пытается выделить 150 МБ, но лимит — 100 МБ, поэтому процесс будет убит (OOM).&lt;/p&gt;
+&lt;h3 id="тест-по-теме-управление-ресурсами-контейнеров"&gt;Тест по теме «Управление ресурсами контейнеров»&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какая команда позволяет отслеживать использование ресурсов контейнера в реальном времени?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;podman stats&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image111_hu_cdf9c2d1b9b2ca71.webp 320w, https://example.com/projects/selectel-linux-part3/image/image111_hu_12655c5ecc488fd.webp 480w, https://example.com/projects/selectel-linux-part3/image/image111_hu_eff915a36857c530.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image111_hu_cdf9c2d1b9b2ca71.webp"
+width="760"
+height="351"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Что делает флаг -d при запуске контейнера?&lt;/strong&gt;
+Правильный ответ: Запускает контейнер в фоновом режиме.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image112_hu_b7150673e1cb4364.webp 320w, https://example.com/projects/selectel-linux-part3/image/image112_hu_8ff98a233d9624c3.webp 480w, https://example.com/projects/selectel-linux-part3/image/image112_hu_61ff148acec56533.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image112_hu_b7150673e1cb4364.webp"
+width="760"
+height="372"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Что делает команда systemctl daemon-reload?&lt;/strong&gt;
+Правильный ответ: Перечитывает unit-файлы.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image113_hu_d1f368a2f34ded55.webp 320w, https://example.com/projects/selectel-linux-part3/image/image113_hu_2fe029ee724d54c3.webp 480w, https://example.com/projects/selectel-linux-part3/image/image113_hu_7ec9a6a3d5873050.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image113_hu_d1f368a2f34ded55.webp"
+width="760"
+height="307"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Как просмотреть логи контейнера?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;journalctl -u имя.service&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image114_hu_adb93aa26cf10204.webp 320w, https://example.com/projects/selectel-linux-part3/image/image114_hu_7136a26520b77ee4.webp 480w, https://example.com/projects/selectel-linux-part3/image/image114_hu_b8ca10328fad58aa.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image114_hu_adb93aa26cf10204.webp"
+width="760"
+height="300"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 5. Что делает флаг &amp;ndash;memory=512m при запуске контейнера?&lt;/strong&gt;
+Правильный ответ: Устанавливает жесткое ограничение оперативной памяти для контейнера.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 5"
+srcset="https://example.com/projects/selectel-linux-part3/image/image115_hu_8e1eac0dedee70df.webp 320w, https://example.com/projects/selectel-linux-part3/image/image115_hu_e947b7f18f64f0aa.webp 480w, https://example.com/projects/selectel-linux-part3/image/image115_hu_bc8068ea4d17c3fd.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image115_hu_8e1eac0dedee70df.webp"
+width="760"
+height="302"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="финальный-тест"&gt;Финальный тест&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Результат тестирования:&lt;/strong&gt; 17 из 17 (тест пройден).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 1. Какие права доступа соответствуют числовому значению 754?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;rwxr-xr--&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 1"
+srcset="https://example.com/projects/selectel-linux-part3/image/image116_hu_e2511edd37ad2014.webp 320w, https://example.com/projects/selectel-linux-part3/image/image116_hu_2bac77dc128e2784.webp 480w, https://example.com/projects/selectel-linux-part3/image/image116_hu_ec1c27bcc6e9e9f8.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image116_hu_e2511edd37ad2014.webp"
+width="760"
+height="293"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 2. Что произойдет, если вы используете команду sudo для выполнения действий?&lt;/strong&gt;
+Правильный ответ: Будет зафиксировано, кто и когда выполнил команду.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 2"
+srcset="https://example.com/projects/selectel-linux-part3/image/image117_hu_8caef186c5b72ec6.webp 320w, https://example.com/projects/selectel-linux-part3/image/image117_hu_6ed73118342a429b.webp 480w, https://example.com/projects/selectel-linux-part3/image/image117_hu_62f4f4073c09adfb.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image117_hu_8caef186c5b72ec6.webp"
+width="760"
+height="294"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 3. Где хранятся основные лог-файлы в Linux?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;/var/log/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 3"
+srcset="https://example.com/projects/selectel-linux-part3/image/image118_hu_ed4bc6f3189ff1c0.webp 320w, https://example.com/projects/selectel-linux-part3/image/image118_hu_bcd63f8759f089df.webp 480w, https://example.com/projects/selectel-linux-part3/image/image118_hu_637ce7963c0a114a.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image118_hu_ed4bc6f3189ff1c0.webp"
+width="760"
+height="293"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 4. Какая команда выводит наиболее полную справочную информацию?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;man&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 4"
+srcset="https://example.com/projects/selectel-linux-part3/image/image119_hu_c7517473015f489c.webp 320w, https://example.com/projects/selectel-linux-part3/image/image119_hu_97903a6c302c9a1a.webp 480w, https://example.com/projects/selectel-linux-part3/image/image119_hu_87736bf16aabe315.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image119_hu_c7517473015f489c.webp"
+width="760"
+height="291"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 5. Что делает команда dig?&lt;/strong&gt;
+Правильный ответ: Выполняет DNS-запрос и отображает IP-адреса.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 5"
+srcset="https://example.com/projects/selectel-linux-part3/image/image120_hu_9680579f52b0a614.webp 320w, https://example.com/projects/selectel-linux-part3/image/image120_hu_9dfc34b399711775.webp 480w, https://example.com/projects/selectel-linux-part3/image/image120_hu_dd25959cf1b6af49.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image120_hu_9680579f52b0a614.webp"
+width="760"
+height="283"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 6. Какую роль выполняет /opt в структуре файловой системы?&lt;/strong&gt;
+Правильный ответ: Дополнительное ПО, которое не входит в стандартные репозитории.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 6"
+srcset="https://example.com/projects/selectel-linux-part3/image/image121_hu_afc81d0d9f97e6c5.webp 320w, https://example.com/projects/selectel-linux-part3/image/image121_hu_c080e0149095568b.webp 480w, https://example.com/projects/selectel-linux-part3/image/image121_hu_f9db5a285889cbc7.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image121_hu_afc81d0d9f97e6c5.webp"
+width="760"
+height="283"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 7. Какую команду нужно использовать для установки новых версий пакетов?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;upgrade&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 7"
+srcset="https://example.com/projects/selectel-linux-part3/image/image122_hu_d7c9b7f35b067cd2.webp 320w, https://example.com/projects/selectel-linux-part3/image/image122_hu_de68be6b71c2a6c2.webp 480w, https://example.com/projects/selectel-linux-part3/image/image122_hu_c28383c83cba9759.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image122_hu_d7c9b7f35b067cd2.webp"
+width="760"
+height="298"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 8. Какая из задач относится к ключевым обязанностям системного администратора?&lt;/strong&gt;
+Правильный ответ: Мониторинг состояния серверов.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 8"
+srcset="https://example.com/projects/selectel-linux-part3/image/image123_hu_c8def295bcb84f8b.webp 320w, https://example.com/projects/selectel-linux-part3/image/image123_hu_fba3d5018c561a48.webp 480w, https://example.com/projects/selectel-linux-part3/image/image123_hu_a3f6d46ee4c31618.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image123_hu_c8def295bcb84f8b.webp"
+width="760"
+height="313"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 9. Какую команду нужно выполнять регулярно?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;apt update&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 9"
+srcset="https://example.com/projects/selectel-linux-part3/image/image124_hu_3456d42adac70fb3.webp 320w, https://example.com/projects/selectel-linux-part3/image/image124_hu_622d02014946e902.webp 480w, https://example.com/projects/selectel-linux-part3/image/image124_hu_6967f02c912cf616.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image124_hu_3456d42adac70fb3.webp"
+width="760"
+height="297"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 10. Как добавить комментарий в скрипт?&lt;/strong&gt;
+Правильный ответ: Использовать &lt;code&gt;#&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 10"
+srcset="https://example.com/projects/selectel-linux-part3/image/image125_hu_801e5b523a31867c.webp 320w, https://example.com/projects/selectel-linux-part3/image/image125_hu_ac894f58d9a1db03.webp 480w, https://example.com/projects/selectel-linux-part3/image/image125_hu_109e00c237d9669.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image125_hu_801e5b523a31867c.webp"
+width="760"
+height="304"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 11. Какая команда позволяет просматривать данные из каталогов /proc или /dev, используя принципы работы с файлами?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;cat&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 11"
+srcset="https://example.com/projects/selectel-linux-part3/image/image126_hu_2d9ad37739413420.webp 320w, https://example.com/projects/selectel-linux-part3/image/image126_hu_8d89ad88de8dc20.webp 480w, https://example.com/projects/selectel-linux-part3/image/image126_hu_ed0fc1aaf53ed7f2.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image126_hu_2d9ad37739413420.webp"
+width="760"
+height="294"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 12. Какую команду надо ввести, чтобы посмотреть, какие права выданы файлам?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;ls -l&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 12"
+srcset="https://example.com/projects/selectel-linux-part3/image/image127_hu_d661cb0780ed9f21.webp 320w, https://example.com/projects/selectel-linux-part3/image/image127_hu_e2315a4c2340aa5e.webp 480w, https://example.com/projects/selectel-linux-part3/image/image127_hu_a2a72e6cca107d15.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image127_hu_d661cb0780ed9f21.webp"
+width="760"
+height="305"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 13. С помощью каких операторов можно указать тип изменения прав?&lt;/strong&gt;
+Правильный ответ: &lt;code&gt;+ - =&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 13"
+srcset="https://example.com/projects/selectel-linux-part3/image/image128_hu_52876b372731442.webp 320w, https://example.com/projects/selectel-linux-part3/image/image128_hu_bee71004841840c4.webp 480w, https://example.com/projects/selectel-linux-part3/image/image128_hu_1d13d1864778f25.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image128_hu_52876b372731442.webp"
+width="760"
+height="301"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 14. Что делает команда info?&lt;/strong&gt;
+Правильный ответ: Открывает справку в формате info для заданной команды.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 14"
+srcset="https://example.com/projects/selectel-linux-part3/image/image129_hu_d67fd7a148ce35f9.webp 320w, https://example.com/projects/selectel-linux-part3/image/image129_hu_f20fe210312fc549.webp 480w, https://example.com/projects/selectel-linux-part3/image/image129_hu_80b9216c6b4c3b46.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image129_hu_d67fd7a148ce35f9.webp"
+width="760"
+height="344"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вопрос 15. Какая из задач относится к ключевым обязанностям системного администратора?&lt;/strong&gt;
+Правильный ответ: Мониторинг состояния серверов.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Вопрос 15"
+srcset="https://example.com/projects/selectel-linux-part3/image/image130_hu_cb29943c6649bcde.webp 320w, https://example.com/projects/selectel-linux-part3/image/image130_hu_5b2dc97e28bb199f.webp 480w, https://example.com/projects/selectel-linux-part3/image/image130_hu_63a5f4bff4dca8be.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image130_hu_cb29943c6649bcde.webp"
+width="760"
+height="470"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Получен сертификат о прохождении курса на платформе Selectel.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="сертификат"&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Сертификат"
+srcset="https://example.com/projects/selectel-linux-part3/image/image131_hu_f296b64eebb767cd.webp 320w, https://example.com/projects/selectel-linux-part3/image/image131_hu_c1399492e1c62732.webp 480w, https://example.com/projects/selectel-linux-part3/image/image131_hu_e8abd50b3717d6c8.webp 597w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://example.com/projects/selectel-linux-part3/image/image131_hu_f296b64eebb767cd.webp"
+width="597"
+height="760"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/h2&gt;
+&lt;h2 id="итоги"&gt;Итоги&lt;/h2&gt;
+&lt;p&gt;В ходе прохождения Части 3 внешнего курса «Системный администратор Linux с нуля» были освоены:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;настройка сетевых интерфейсов, диагностика сети и защита SSH-доступа;&lt;/li&gt;
+&lt;li&gt;управление пакетами (установка, обновление, удаление, работа с зависимостями);&lt;/li&gt;
+&lt;li&gt;работа с логами (просмотр, фильтрация, анализ инцидентов, ротация);&lt;/li&gt;
+&lt;li&gt;контейнеризация с помощью Podman (запуск контейнеров, управление ресурсами);&lt;/li&gt;
+&lt;li&gt;обеспечение безопасности сетевого взаимодействия (UFW, fail2ban).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Все тесты и интерактивные задания Части 3 пройдены. Цель работы достигнута.&lt;/p&gt;</description></item></channel></rss>
